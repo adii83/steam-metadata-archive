@@ -85,7 +85,7 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     header = info.get("header_image")
     genres = ", ".join([g.get("description", "") for g in info.get("genres", [])])
 
-    # price
+    # PRICE
     price = info.get("price_overview")
     if price:
         init = price.get("initial", 0)
@@ -99,11 +99,24 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     else:
         disp, norm = "Free", 0
 
+    # SCREENSHOTS (API resmi)
+    ss_raw = info.get("screenshots") or []
+    screenshots = []
+    for s in ss_raw:
+        url = s.get("path_full") or s.get("path_thumbnail")
+        if not url:
+            continue
+        if url.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+            screenshots.append(url)
+
+    # BANGUN header_candidates (header.jpg + screenshot)
+    header_candidates = build_header_candidates(header, screenshots)
+
     return {
         "appid": appid,
         "title": info.get("name"),
         "header": header,
-        "header_candidates": build_header_candidates(appid, header),
+        "header_candidates": header_candidates,
         "genre": genres or None,
         "short_description": info.get("short_description"),
         "developers": info.get("developers", []),
@@ -114,22 +127,32 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     }
 
 
-def build_header_candidates(appid: int, header_api: Optional[str]):
-    base = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}"
-    c = []
-    if header_api:
-        c.append(header_api)
-    c.extend([
-        f"{base}/header.jpg",
-        f"{base}/header_alt_assets_0.jpg",
-        f"{base}/header_alt_assets_1.jpg",
-        f"{base}/header_alt_assets_2.jpg",
-    ])
-    out, seen = [], set()
-    for x in c:
-        if x not in seen:
-            seen.add(x)
-            out.append(x)
+def build_header_candidates(header_url: str, screenshots: List[str]):
+    """
+    Menggabungkan header.jpg + screenshot, tanpa duplikat,
+    screenshot max 6, dan hanya file gambar.
+    """
+    out = []
+    seen = set()
+
+    # 1. Masukkan header resmi dulu
+    if header_url:
+        out.append(header_url)
+        seen.add(header_url)
+
+    # 2. Masukkan screenshot
+    for url in screenshots:
+        if not url:
+            continue
+        low = url.lower()
+        if not low.endswith((".jpg", ".jpeg", ".png", ".webp")):
+            continue
+        if url not in seen:
+            seen.add(url)
+            out.append(url)
+        if len(out) >= 7:   # header + 6 screenshot
+            break
+
     return out
 
 

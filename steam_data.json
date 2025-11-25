@@ -5036,5 +5036,206 @@
     "price_normalized": 45999,
     "protection": null,
     "last_update": "2025-11-25T14:25:51.698964+00:00"
+  },
+  "7770": {
+    "appid": 7770,
+    "title": "X-COM: Enforcer",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7770/header.jpg?t=1571243874",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7770/header.jpg?t=1571243874",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7770/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7770/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7770/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "X-COM: Earth's top-secret eXtraterrestrial COMbat unit The Place: America - early 21st century The Mission: Eradicate the extraterrestrials Alien forces have invaded Earth and are terrorizing the population.",
+    "developers": [
+      "MicroProse Software, Inc"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 Sep, 2008",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:26:09.664627+00:00"
+  },
+  "7800": {
+    "appid": 7800,
+    "title": "Stubbs the Zombie in Rebel Without a Pulse",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7800/header.jpg?t=1680629661",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7800/header.jpg?t=1680629661",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7800/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7800/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7800/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Be the Zombie. Kick A** and Take Brains.",
+    "developers": [
+      "Aspyr"
+    ],
+    "publishers": [
+      "Aspyr"
+    ],
+    "release_date": "16 Mar, 2021",
+    "price_display": "Rp 165.999",
+    "price_normalized": 165999,
+    "protection": null,
+    "last_update": "2025-11-25T14:26:11.613590+00:00"
+  },
+  "7830": {
+    "appid": 7830,
+    "title": "Men of War™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7830/ef2cdf5c059824f29fb6426130037b29a5acf381/header.jpg?t=1757686664",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7830/ef2cdf5c059824f29fb6426130037b29a5acf381/header.jpg?t=1757686664",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7830/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7830/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7830/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Men of War is a stunning Real-Time Strategy game that takes place during the height of World War II. Intense battles span Europe and North Africa as gamers play as Soviet, Allied or German forces across 19 massive single-player missions.",
+    "developers": [
+      "Best Way",
+      "Digitalmindsoft"
+    ],
+    "publishers": [
+      "Fulqrum Publishing"
+    ],
+    "release_date": "6 May, 2009",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:26:13.621251+00:00"
+  },
+  "7840": {
+    "appid": 7840,
+    "title": "Death Track®: Resurrection",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7840/56f0916e2eade0cf47baedb565a72d3b08ed22d0/header.jpg?t=1759142575",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7840/56f0916e2eade0cf47baedb565a72d3b08ed22d0/header.jpg?t=1759142575",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7840/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7840/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7840/header_alt_assets_2.jpg"
+    ],
+    "genre": "Racing",
+    "short_description": "Do you have what it takes to Survive? Death Track: Resurrection is a racing/action title that takes players into a post-apocalyptic, not-too-distant future where traditional sports have been replaced by far more violent entertainment.",
+    "developers": [
+      "Sky Fallen"
+    ],
+    "publishers": [
+      "Fulqrum Publishing"
+    ],
+    "release_date": "6 May, 2009",
+    "price_display": "Rp 28.999",
+    "price_normalized": 28999,
+    "protection": null,
+    "last_update": "2025-11-25T14:26:15.565553+00:00"
+  },
+  "7860": {
+    "appid": 7860,
+    "title": "NecroVision",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7860/07ab80daa5255f780f35dcc45b179750d7f659c6/header.jpg?t=1759140744",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7860/07ab80daa5255f780f35dcc45b179750d7f659c6/header.jpg?t=1759140744",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7860/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7860/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7860/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "War is Hell. NecroVision is a first-person shooter that takes gamers across the frantic battlegrounds of World War I and into a dark underworld of vampires, demons and dark magic.",
+    "developers": [
+      "The Farm 51"
+    ],
+    "publishers": [
+      "Fulqrum Publishing"
+    ],
+    "release_date": "20 May, 2009",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:26:17.554108+00:00"
+  },
+  "7940": {
+    "appid": 7940,
+    "title": "Call of Duty® 4: Modern Warfare® (2007)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7940/header.jpg?t=1748043968",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7940/header.jpg?t=1748043968",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7940/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7940/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7940/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "The new action-thriller from the award-winning team at Infinity Ward, the creators of the Call of Duty® series, delivers the most intense and cinematic action experience ever. Call of Duty 4: Modern Warfare arms gamers with an arsenal of advanced and powerful modern day firepower and transports them to the most treacherous hotspots...",
+    "developers": [
+      "Infinity Ward"
+    ],
+    "publishers": [
+      "Activision"
+    ],
+    "release_date": "12 Nov, 2007",
+    "price_display": "Rp 299.000",
+    "price_normalized": 299000,
+    "protection": true,
+    "last_update": "2025-11-25T14:26:19.756331+00:00"
+  },
+  "8000": {
+    "appid": 8000,
+    "title": "Tomb Raider: Anniversary",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8000/header.jpg?t=1729009457",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8000/header.jpg?t=1729009457",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8000/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8000/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8000/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Adventure",
+    "short_description": "Tomb Raider: Anniversary retraces Lara Croft's original genre-defining adventure  globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced 'Tomb Raider: Legend' game engine, the graphics, technology and physics bring Lara's adventure and pursuit of a mystical artifact known only as the...",
+    "developers": [
+      "Crystal Dynamics"
+    ],
+    "publishers": [
+      "Crystal Dynamics"
+    ],
+    "release_date": "5 Jun, 2007",
+    "price_display": "Rp 97.000",
+    "price_normalized": 97000,
+    "protection": null,
+    "last_update": "2025-11-25T14:26:21.939188+00:00"
+  },
+  "8040": {
+    "appid": 8040,
+    "title": "Championship Manager 2007",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8040/header.jpg?t=1592490371",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8040/header.jpg?t=1592490371",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8040/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8040/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8040/header_alt_assets_2.jpg"
+    ],
+    "genre": "Sports",
+    "short_description": "The greatest football management sim returns... Think you can do better? It's your decisions that count: your budget, your buys, your formation, your tactics...your chance to prove it! Use your skills and knowledge to manage your club the way you feel it should be - now it's your turn.",
+    "developers": [
+      "Beautiful Game Studios"
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 54.000",
+    "price_normalized": 54000,
+    "protection": true,
+    "last_update": "2025-11-25T14:26:25.288542+00:00"
   }
 }
