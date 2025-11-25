@@ -19,6 +19,7 @@ SELF-DRIVING STEAM SCRAPER (LOCAL MODE)
 import asyncio
 import aiohttp
 import json
+import re
 import time
 import subprocess
 from pathlib import Path
@@ -99,24 +100,21 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     else:
         disp, norm = "Free", 0
 
-    # SCREENSHOTS (API resmi)
+    # --- FIRST TRY: screenshot dari API ---
     ss_raw = info.get("screenshots") or []
-    screenshots = []
+    screenshots_api = []
     for s in ss_raw:
         url = s.get("path_full") or s.get("path_thumbnail")
         if not url:
             continue
         if url.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
-            screenshots.append(url)
-
-    # BANGUN header_candidates (header.jpg + screenshot)
-    header_candidates = build_header_candidates(header, screenshots)
+            screenshots_api.append(url)
 
     return {
         "appid": appid,
         "title": info.get("name"),
         "header": header,
-        "header_candidates": header_candidates,
+        "screenshots_api": screenshots_api,
         "genre": genres or None,
         "short_description": info.get("short_description"),
         "developers": info.get("developers", []),
@@ -129,28 +127,22 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
 def build_header_candidates(header_url: str, screenshots: List[str]):
     """
-    Menggabungkan header.jpg + screenshot, tanpa duplikat,
-    screenshot max 6, dan hanya file gambar.
+    Header resmi + screenshot (API → fallback HTML).
+    Maksimal 7 entry: 1 header + 6 screenshot.
     """
     out = []
     seen = set()
 
-    # 1. Masukkan header resmi dulu
-    if header_url:
+    # always push header first
+    if header_url and header_url not in seen:
         out.append(header_url)
         seen.add(header_url)
 
-    # 2. Masukkan screenshot
     for url in screenshots:
-        if not url:
-            continue
-        low = url.lower()
-        if not low.endswith((".jpg", ".jpeg", ".png", ".webp")):
-            continue
         if url not in seen:
             seen.add(url)
             out.append(url)
-        if len(out) >= 7:   # header + 6 screenshot
+        if len(out) >= 7:
             break
 
     return out
@@ -232,6 +224,31 @@ async def fetch_text(session, url):
     return ""
 
 
+def extract_screenshots_from_html(html: str) -> List[str]:
+    """
+    Fallback screenshot extractor dari HTML Steam Store.
+    """
+    screenshots = []
+    try:
+        m = re.search(r'"screenshots":\s*(\[[^\]]+\])', html)
+        if not m:
+            return screenshots
+
+        arr = json.loads(m.group(1))
+
+        for ss in arr:
+            url = ss.get("path_full") or ss.get("path_original")
+            if not url:
+                continue
+            low = url.lower()
+            if low.endswith((".jpg", ".jpeg", ".png", ".webp")):
+                screenshots.append(url)
+    except:
+        return screenshots
+
+    return screenshots
+
+
 # ------------------------------
 # MAIN ENGINE
 # ------------------------------
@@ -279,6 +296,18 @@ async def main():
                 continue
 
             text = BeautifulSoup(html, "lxml").get_text(" ", strip=True)
+
+            # === FALLBACK SCREENSHOT ===
+            screenshots = base.get("screenshots_api", [])
+            if not screenshots:
+                screenshots = extract_screenshots_from_html(html)
+
+            # rebuild header_candidates from header + screenshots
+            base["header_candidates"] = build_header_candidates(
+                base.get("header"),
+                screenshots
+            )
+
             prot = detect_protection(base, text)
 
             full = dict(base)
