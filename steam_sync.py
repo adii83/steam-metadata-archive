@@ -20,6 +20,7 @@ import asyncio
 import aiohttp
 import json
 import time
+import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
@@ -42,6 +43,8 @@ HTML_URL = "https://store.steampowered.com/app/{appid}/"
 FETCH_DELAY = 1            # 1 detik
 BACKOFF_STEPS = [600, 1800, 3600]  # 10m → 30m → 1h
 MAX_ATTEMPTS = 3
+
+AUTO_PUSH_EVERY = 200
 
 UA = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -265,6 +268,10 @@ async def main():
             idx += 1
             save_progress(idx)
 
+            # === AUTO-PUSH SETIAP 200 APP ===
+            if idx % AUTO_PUSH_EVERY == 0:
+                git_autopush()
+
             backoff_stage = 0
             time.sleep(FETCH_DELAY)
 
@@ -277,6 +284,19 @@ async def fetch_all_mirror():
     async with aiohttp.ClientSession(headers={"User-Agent": UA[0]}) as sess:
         data = await fetch_json(sess, APPID_MIRROR)
     return data or []
+
+
+def git_autopush():
+    try:
+        print("[GIT] Auto-push triggered...")
+
+        subprocess.run(["git", "add", "steam_data.json", "progress.json"], check=True)
+        subprocess.run(["git", "commit", "-m", "Auto-update (batch 200 apps)"], check=True)
+        subprocess.run(["git", "push"], check=True)
+
+        print("[GIT] Auto-push success.")
+    except Exception as e:
+        print(f"[GIT] Auto-push failed: {e}")
 
 
 if __name__ == "__main__":
