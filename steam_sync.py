@@ -115,11 +115,15 @@ async def fetch_text(session: aiohttp.ClientSession, url: str) -> str:
 
 async def get_app_list_from_mirror() -> List[int]:
     """
-    Ambil daftar AppID dari GitHub:
-    https://github.com/jsnli/steamappidlist
+    Ambil daftar AppID dari mirror:
+    https://github.com/jsnli/steamappidlist/tree/master/data
 
-    steam_appid.json:
-      { "10": "Counter-Strike", "20": "TFC", ... }
+    Format:
+    [
+      {"appid": 10, "name": "..."},
+      {"appid": 20, "name": "..."},
+      ...
+    ]
     """
     headers = {
         "User-Agent": random.choice(USER_AGENTS),
@@ -130,15 +134,16 @@ async def get_app_list_from_mirror() -> List[int]:
     async with aiohttp.ClientSession(headers=headers, timeout=timeout) as sess:
         data = await fetch_json(sess, APPID_SOURCE)
 
-    if not data:
-        print("[ERROR] Gagal ambil AppID list dari mirror")
+    if not data or not isinstance(data, list):
+        print("[ERROR] Mirror invalid / tidak bisa parse AppID list")
         return []
 
-    appids: List[int] = []
-    for k in data.keys():
+    appids = []
+    for item in data:
         try:
-            appids.append(int(k))
-        except ValueError:
+            appid = int(item.get("appid"))
+            appids.append(appid)
+        except:
             continue
 
     appids = sorted(set(appids))
