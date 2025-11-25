@@ -73,21 +73,38 @@ def now_iso() -> str:
 # GENERIC FETCH (JSON / TEXT) DENGAN RETRY
 # =====================================================
 
-async def fetch_json(session: aiohttp.ClientSession, url: str) -> Optional[Dict[str, Any]]:
+async def fetch_json(session: aiohttp.ClientSession, url: str):
     for attempt in range(1, REQUEST_ATTEMPTS + 1):
         await asyncio.sleep(REQUEST_DELAY)
         try:
             async with session.get(url) as resp:
+                text = await resp.text()
+
                 if resp.status != 200:
                     print(f"[WARN] JSON {url} status {resp.status}")
                     if attempt == REQUEST_ATTEMPTS:
                         return None
                     continue
-                return await resp.json()
+
+                try:
+                    # coba decode standar
+                    return await resp.json()
+                except:
+                    # fallback manual (karena GitHub RAW pakai text/plain)
+                    try:
+                        return json.loads(text)
+                    except Exception as e:
+                        print(f"[ERROR] Fallback JSON decode failed for {url} -> {e}")
+                        if attempt == REQUEST_ATTEMPTS:
+                            return None
+                        continue
+
         except Exception as e:
             print(f"[ERROR] JSON {url} -> {e}")
             if attempt == REQUEST_ATTEMPTS:
                 return None
+
+    print("[ERROR] Mirror invalid / tidak bisa parse JSON")
     return None
 
 
