@@ -4,7 +4,7 @@ permissions:
   contents: write
 
 on:
-  workflow_dispatch:   # hanya running manual
+  workflow_dispatch:   # hanya manual
 
 jobs:
   fullscan:
@@ -25,7 +25,11 @@ jobs:
           pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
 
-      - name: Run FULL SCAN (50k apps)
+      - name: Run FULL SCAN (50k+ apps)
+        env:
+          AIOHTTP_TIMEOUT: "50"
+          REQUEST_DELAY_MS: "150"
+          REQUEST_ATTEMPTS: "3"
         run: |
           python steam_sync.py --full
 
