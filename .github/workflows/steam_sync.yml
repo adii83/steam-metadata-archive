@@ -1,0 +1,52 @@
+name: Steam Metadata Sync
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC (10:00 WIB)
+
+env:
+  AIOHTTP_TIMEOUT: 30
+  REQUEST_DELAY_MS: 120   # Delay antar request
+  PYTHONUNBUFFERED: 1
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          pip install aiohttp beautifulsoup4 lxml
+
+      - name: Run Steam Sync
+        run: |
+          echo "[RUN] steam_sync.py (Anti rate-limit activated)"
+          python steam_sync.py
+
+      - name: Commit JSON if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [[ -n $(git status --porcelain) ]]; then
+            git add steam_data.json
+            git commit -m "Auto-update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "No changes → Skip commit."
+          fi
