@@ -2538,5 +2538,2503 @@
     "price_normalized": 45999,
     "protection": null,
     "last_update": "2025-11-25T14:16:30.927331+00:00"
+  },
+  "3520": {
+    "appid": 3520,
+    "title": "Mystery P.I.™ - The Vegas Heist",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3520/header.jpg?t=1729270255",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3520/header.jpg?t=1729270255",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "The heist of the century has just happened! You've been hired by the casino to find &amp; return the stolen money before its grand opening in 16 hours. Search for over 2300 cleverly hidden objects in 25 intriguing locations to solve the Vegas Heist. Two addictive ways to play: Vegas Heist mode and Unlimited Seek &amp; Find mode.",
+    "developers": [
+      "SpinTop Games"
+    ],
+    "publishers": [
+      "PopCap Games, Inc."
+    ],
+    "release_date": "5 Jun, 2008",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:36.156148+00:00"
+  },
+  "3530": {
+    "appid": 3530,
+    "title": "Amazing Adventures Around the World",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3530/header.jpg?t=1729270342",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3530/header.jpg?t=1729270342",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3530/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3530/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3530/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "Pieces of an ancient stone tablet have started turning up around the globe and the Museum needs your help to locate the pieces and find the most expensive gem ever known...the World Diamond. Under the direction of the Museum, you must immediately begin your global seek &amp; find adventure.",
+    "developers": [
+      "SpinTop Games"
+    ],
+    "publishers": [
+      "PopCap Games, Inc."
+    ],
+    "release_date": "15 Apr, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:37.980875+00:00"
+  },
+  "3540": {
+    "appid": 3540,
+    "title": "Peggle™ Nights",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/header.jpg?t=1615208369",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3540/header.jpg?t=1615208369",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "Join the Peggle Masters on a dreamtime adventure of alter egos and peg-tastic action. Stay up late to aim, shoot and clear orange pegs, and bask in Extreme Fever glory under the silver moon.",
+    "developers": [
+      "PopCap Games, Inc."
+    ],
+    "publishers": [
+      "PopCap Games, Inc.",
+      "Electronic Arts"
+    ],
+    "release_date": "15 Oct, 2008",
+    "price_display": "Rp 69.000",
+    "price_normalized": 69000,
+    "protection": true,
+    "last_update": "2025-11-25T14:22:39.921347+00:00"
+  },
+  "3560": {
+    "appid": 3560,
+    "title": "Bejeweled Twist",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560/header.jpg?t=1628006452",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560/header.jpg?t=1628006452",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3560/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3560/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3560/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual, Strategy",
+    "short_description": "Get set for a vivid sensory rush as you spin and match explosive gems for shockwaves of fun. Rotate jewels freely to set up electrifying combos, outwit surprising obstacles like Locks and Bombs, and create high-voltage Flame and Lightning gems.",
+    "developers": [
+      "PopCap Games, Inc."
+    ],
+    "publishers": [
+      "PopCap Games, Inc.",
+      "Electronic Arts"
+    ],
+    "release_date": "18 Nov, 2008",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": true,
+    "last_update": "2025-11-25T14:22:42.142828+00:00"
+  },
+  "3570": {
+    "appid": 3570,
+    "title": "Mystery P.I.™ - The New York Fortune",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3570/header.jpg?t=1729270345",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3570/header.jpg?t=1729270345",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3570/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3570/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3570/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "A fun loving &amp; eccentric New York billionaire has hidden the will to his vast fortune somewhere in New York City! His family only has 17 hours to locate the will or their Grandpa's entire estate will be given to his cat &amp; dog. You are the world famous Mystery P.I.",
+    "developers": [
+      "SpinTop Games"
+    ],
+    "publishers": [
+      "PopCap Games, Inc."
+    ],
+    "release_date": "28 Jan, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:44.086114+00:00"
+  },
+  "3580": {
+    "appid": 3580,
+    "title": "The Wizard's Pen™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3580/header.jpg?t=1584807894",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3580/header.jpg?t=1584807894",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3580/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3580/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3580/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "The Wizard has vanished! The clues to his whereabouts are in his workbook, but all the pages are blank. You'll need the Wizard's magic pen - and your powers of perception - to guess the image on each page. The better your guess, the higher your score, and the closer you are to finding the Wizard.",
+    "developers": [
+      "PopCap Games, Inc."
+    ],
+    "publishers": [
+      "PopCap Games, Inc."
+    ],
+    "release_date": "18 Feb, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:46.121301+00:00"
+  },
+  "3590": {
+    "appid": 3590,
+    "title": "Plants vs. Zombies GOTY Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590/header.jpg?t=1738970324",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590/header.jpg?t=1738970324",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3590/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3590/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3590/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks.",
+    "developers": [
+      "PopCap Games, Inc."
+    ],
+    "publishers": [
+      "PopCap Games, Inc.",
+      "Electronic Arts"
+    ],
+    "release_date": "5 May, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": true,
+    "last_update": "2025-11-25T14:22:47.937410+00:00"
+  },
+  "3600": {
+    "appid": 3600,
+    "title": "Escape Rosecliff Island",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600/header.jpg?t=1729270397",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600/header.jpg?t=1729270397",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3600/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3600/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3600/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "An unexpected storm has left you shipwrecked on a mysterious and remote private island. Seek &amp; find cleverly hidden objects and solve puzzles to find a way off the island! Find over 2100 hidden objects in 25 intriguing and mysterious locations to find items that will help you escape!",
+    "developers": [
+      "SpinTop Games"
+    ],
+    "publishers": [
+      "PopCap Games, Inc."
+    ],
+    "release_date": "15 Apr, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:49.968576+00:00"
+  },
+  "3610": {
+    "appid": 3610,
+    "title": "Mystery P.I. - Lost in Los Angeles",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610/header.jpg?t=1447352362",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3610/header.jpg?t=1447352362",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3610/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3610/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3610/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual",
+    "short_description": "Seek & Find the Hollywood Blockbuster! The only copy of this year's biggest blockbuster movie has gone missing the day before the VIP Hollywood premiere. You are the world famous Mystery P.I. and have been hired to track down and return the lost movie. Seek & Find over 2100 hidden objects in 25 stunning L.A.",
+    "developers": [
+      "SpinTop Games"
+    ],
+    "publishers": [],
+    "release_date": "27 Jul, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:51.763364+00:00"
+  },
+  "3620": {
+    "appid": 3620,
+    "title": "Zuma's Revenge!",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/header.jpg?t=1628007882",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3620/header.jpg?t=1628007882",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3620/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3620/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3620/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Casual",
+    "short_description": "An irresistible force has taken our fearless frog to an island where the puzzle-action of Zuma has evolved in amazing ways… but evil spirits and tenacious tiki bosses rule the land! Survive by firing stone spheres to destroy the deadly stream of balls. Conquer over 60 levels!",
+    "developers": [
+      "PopCap Games, Inc."
+    ],
+    "publishers": [
+      "PopCap Games, Inc.",
+      "Electronic Arts"
+    ],
+    "release_date": "15 Sep, 2009",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": true,
+    "last_update": "2025-11-25T14:22:53.627607+00:00"
+  },
+  "3700": {
+    "appid": 3700,
+    "title": "Sniper Elite",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3700/header.jpg?t=1579791723",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3700/header.jpg?t=1579791723",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3700/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3700/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3700/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "As World War II draws to a close, the first covert battles of the Cold War begin. Caught in the life and death struggle between Soviets and Germans in war-torn Berlin, you control the fate of a lone American OSS Sniper.",
+    "developers": [
+      "Rebellion"
+    ],
+    "publishers": [
+      "Rebellion"
+    ],
+    "release_date": "16 Jul, 2009",
+    "price_display": "Rp 69.999",
+    "price_normalized": 69999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:56.019009+00:00"
+  },
+  "3710": {
+    "appid": 3710,
+    "title": "Judge Dredd: Dredd vs. Death",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710/header.jpg?t=1579791442",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710/header.jpg?t=1579791442",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3710/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3710/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3710/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Welcome to Mega-City One, a city of over 400 million people - every one of them a potential criminal. It is the third decade of the 22nd Century, unemployment is widespread, boredom is universal and only the Judges can prevent total anarchy. Empowered to dispense instant justice, they are Judge, Jury and Executioner all in one.",
+    "developers": [
+      "Rebellion"
+    ],
+    "publishers": [
+      "Rebellion"
+    ],
+    "release_date": "26 Mar, 2009",
+    "price_display": "Rp 69.999",
+    "price_normalized": 69999,
+    "protection": null,
+    "last_update": "2025-11-25T14:22:58.123845+00:00"
+  },
+  "3720": {
+    "appid": 3720,
+    "title": "Evil Genius",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720/header.jpg?t=1721932669",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720/header.jpg?t=1721932669",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3720/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3720/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3720/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Everybody wants to rule the world! Achieve global power with EVIL GENIUS, the one and only complete world domination simulator. All the everyday tasks of the deliciously wicked mastermind are available to experience and master from building your ultra-secret base to developing spectacular super-weapons to carry out your nefarious master...",
+    "developers": [
+      "Elixir Studios"
+    ],
+    "publishers": [
+      "Rebellion"
+    ],
+    "release_date": "22 Jun, 2009",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:00.244119+00:00"
+  },
+  "3730": {
+    "appid": 3730,
+    "title": "Aliens versus Predator Classic 2000",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730/header.jpg?t=1579791217",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3730/header.jpg?t=1579791217",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3730/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3730/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3730/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Aliens Versus Predator Classic 2000 features the Colonial Marine, Alien and Predator Campaigns and the frenetic single-player Skirmish mode from the original title: Alien Versus Predator Gold Edition, which was released to massive acclaim in 2000.",
+    "developers": [
+      "Rebellion"
+    ],
+    "publishers": [
+      "Rebellion"
+    ],
+    "release_date": "15 Jan, 2010",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:02.267246+00:00"
+  },
+  "3800": {
+    "appid": 3800,
+    "title": "Advent Rising",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3800/header.jpg?t=1614819828",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3800/header.jpg?t=1614819828",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3800/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3800/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3800/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "A common legend pervades the galaxy-that of a powerful, highly intelligent ancient race that will one day deliver the universe. They are known as Humans. The Advent of Humanity Begins...",
+    "developers": [
+      "GlyphX Games",
+      "Cavetap"
+    ],
+    "publishers": [
+      "Ziggurat"
+    ],
+    "release_date": "14 Sep, 2006",
+    "price_display": "Rp 69.999",
+    "price_normalized": 69999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:04.092643+00:00"
+  },
+  "3810": {
+    "appid": 3810,
+    "title": "BloodRayne (Legacy)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810/header.jpg?t=1605897948",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810/header.jpg?t=1605897948",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3810/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3810/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3810/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "In the years between the World Wars, Agent BloodRayne works as a killing machine for The Brimstone Society--a top secret fraternity that hunts down and destroys supernatural threats. Starring heroine Rayne, this original action horror game unleashed the red headed dhampir on the world.",
+    "developers": [
+      "Terminal Reality"
+    ],
+    "publishers": [
+      "Ziggurat"
+    ],
+    "release_date": "14 Sep, 2006",
+    "price_display": "Free",
+    "price_normalized": 0,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:06.021722+00:00"
+  },
+  "3820": {
+    "appid": 3820,
+    "title": "BloodRayne 2 (Legacy)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820/header.jpg?t=1605898008",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820/header.jpg?t=1605898008",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3820/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3820/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3820/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "BloodRayne is a dhampir, born from the unnatural union of vampire and human. Blessed with the powers of a vampire but cursed with the thirst for blood and a weakness to sunlight, Rayne is challenged with her most personal battle yet as she hunts down her siblings.",
+    "developers": [
+      "Terminal Reality"
+    ],
+    "publishers": [
+      "Ziggurat"
+    ],
+    "release_date": "14 Sep, 2006",
+    "price_display": "Free",
+    "price_normalized": 0,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:08.035325+00:00"
+  },
+  "3830": {
+    "appid": 3830,
+    "title": "Psychonauts",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/header.jpg?t=1731601282",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3830/header.jpg?t=1731601282",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3830/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3830/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3830/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "A Psychic Odyssey Through the Minds of Misfits, Monsters, and Madmen. This classic action/adventure platformer from acclaimed developers Double Fine Productions follows the story of a young psychic named Razputin.",
+    "developers": [
+      "Double Fine Productions"
+    ],
+    "publishers": [
+      "Double Fine Productions"
+    ],
+    "release_date": "11 Oct, 2006",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:10.043090+00:00"
+  },
+  "3900": {
+    "appid": 3900,
+    "title": "Sid Meier's Civilization® IV",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3900/header.jpg?t=1724341287",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3900/header.jpg?t=1724341287",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3900/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3900/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3900/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "With over 6 million units sold and unprecedented critical acclaim from fans and press around the world, Sid Meier's Civilization is recognized as one of the greatest PC game franchises of all-time. Now, Sid Meier and Firaxis Games will take this incredibly fun and addictive game to new heights by adding new ways to play and win, new...",
+    "developers": [
+      "Firaxis Games"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "25 Oct, 2006",
+    "price_display": "Rp 135.999",
+    "price_normalized": 135999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:12.035105+00:00"
+  },
+  "3910": {
+    "appid": 3910,
+    "title": "Sid Meier's Civilization® III Complete",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3910/header.jpg?t=1569013660",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3910/header.jpg?t=1569013660",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3910/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3910/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3910/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Sid Meier's Civilization III: Complete, the latest offering in the Sid Meier's Civilization III franchise, provides gaming fans with Sid Meier's Civilization III, the highly-addictive journey of discovery.",
+    "developers": [
+      "Firaxis Games"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "25 Oct, 2006",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:14.003656+00:00"
+  },
+  "3920": {
+    "appid": 3920,
+    "title": "Sid Meier's Pirates!",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920/header.jpg?t=1568748025",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920/header.jpg?t=1568748025",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3920/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3920/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3920/header_alt_assets_2.jpg"
+    ],
+    "genre": "RPG",
+    "short_description": "Sail the Caribbean, marauding all on the high seas or ally your ship and crew as a privateer in search of riches - the life you choose is up to you. Face dogged enemies, raid unsuspecting villages, woo fair maidens, avoid capture or dig for buried treasure. Discover what it takes to become one of the most famous pirates in history!",
+    "developers": [
+      "Firaxis Games"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "11 Jul, 2005",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:15.962013+00:00"
+  },
+  "3960": {
+    "appid": 3960,
+    "title": "Shattered Union",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3960/header.jpg?t=1569015701",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3960/header.jpg?t=1569015701",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3960/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3960/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3960/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Following a great increase in terrorism, internal strife and ultimately, the nuclear destruction of Washington, D.C., the United States shatters into a half-dozen nation-states that descend into war. Take the helm of one of these newfound sovereignties (or the 'peacekeeping' European Expeditionary Force) and struggle to reunify America...",
+    "developers": [
+      "PopTop"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "25 Oct, 2006",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:17.890726+00:00"
+  },
+  "3980": {
+    "appid": 3980,
+    "title": "CivCity: Rome",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3980/header.jpg?t=1569015577",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3980/header.jpg?t=1569015577",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3980/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3980/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3980/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "CivCity: Rome, an innovative city builder inspired by the world of Sid Meiers Civilization, and created by a collaboration between Firefly Studios and Firaxis Games, invites players to shift focus from building a multi-city empire and zoom-in on the great cities of the Roman Empire, culminating in Rome itself!",
+    "developers": [
+      "FireFly Studios",
+      "Firaxis Games"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "6 Apr, 2007",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:19.742895+00:00"
+  },
+  "3990": {
+    "appid": 3990,
+    "title": "Civilization IV®: Warlords",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3990/header.jpg?t=1573064463",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3990/header.jpg?t=1573064463",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3990/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3990/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3990/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Sid Meier's Civilization IV: Warlords is the first expansion pack for the award-winning game that has become an instant world-wide hit. Paying homage to some of history's greatest military leaders, the expansion delivers six unique and interesting scenarios, giving players the chance to change the course of history with the help of their...",
+    "developers": [
+      "Firaxis Games"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "6 Apr, 2007",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:21.538327+00:00"
+  },
+  "4000": {
+    "appid": 4000,
+    "title": "Garry's Mod",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1762954771",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1762954771",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual, Indie, Simulation",
+    "short_description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+    "developers": [
+      "Facepunch Studios"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "29 Nov, 2006",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:23.448594+00:00"
+  },
+  "4100": {
+    "appid": 4100,
+    "title": "Poker Superstars II",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100/header.jpg?t=1447350914",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100/header.jpg?t=1447350914",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4100/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4100/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4100/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual, Strategy, Indie",
+    "short_description": "You've been invited back for Season 2! Poker Superstars II raises the stakes with more superstars, a bigger tournament and a brand new poker AI. Import your own photo into the game and become a Poker Superstar.",
+    "developers": [
+      "Funkitron"
+    ],
+    "publishers": [],
+    "release_date": "5 Oct, 2006",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:25.451347+00:00"
+  },
+  "4230": {
+    "appid": 4230,
+    "title": "RACE - The WTCC Game",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4230/header.jpg?t=1478078220",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4230/header.jpg?t=1478078220",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4230/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4230/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4230/header_alt_assets_2.jpg"
+    ],
+    "genre": "Racing",
+    "short_description": "The Official WTCC Game | RACE is the first ever game to be focused on the hard hitting, intense action of the exciting WTCC championship which is exploding in popularity all over the world. Based on WTCC, one of only three official FIA world championships next to Formula 1 and WRC, RACE features the complete WTCC championship season of...",
+    "developers": [
+      "SimBin"
+    ],
+    "publishers": [
+      "SimBin"
+    ],
+    "release_date": "24 Nov, 2006",
+    "price_display": "Rp 269.999",
+    "price_normalized": 269999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:27.252820+00:00"
+  },
+  "4290": {
+    "appid": 4290,
+    "title": "RACE: Caterham Expansion",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4290/header.jpg?t=1478078209",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4290/header.jpg?t=1478078209",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4290/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4290/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4290/header_alt_assets_2.jpg"
+    ],
+    "genre": "Racing",
+    "short_description": "Celebrating the 50-year anniversary of Caterham Cars Ltd, RACE fans can now expand the WTCC Experience with this exceptional series of classic sportscars. RACE: CATERHAM introduces a total of 60 individual new cars/car skins based on some of the most exciting models in the Caterham sports car range, including the Caterham CSR 200, CSR...",
+    "developers": [
+      "SimBin"
+    ],
+    "publishers": [
+      "SimBin"
+    ],
+    "release_date": "22 Jun, 2007",
+    "price_display": "Rp 37.999",
+    "price_normalized": 37999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:29.346509+00:00"
+  },
+  "4300": {
+    "appid": 4300,
+    "title": "RoboBlitz",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4300/header.jpg?t=1447350932",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4300/header.jpg?t=1447350932",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4300/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4300/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4300/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Indie",
+    "short_description": "RoboBlitz&trade; is a humorous, physics-based action game full of inventive gizmos, weapons, characters, and environments. Players take on the role of Blitz, a multi-talented robot who must activate an aging Space Cannon to save his world from a band of maladjusted space pirates.",
+    "developers": [
+      "Naked Sky Entertainment"
+    ],
+    "publishers": [],
+    "release_date": "7 Nov, 2006",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:31.322215+00:00"
+  },
+  "4420": {
+    "appid": 4420,
+    "title": "Silverfall",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4420/header.jpg?t=1650987758",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4420/header.jpg?t=1650987758",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4420/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4420/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4420/header_alt_assets_2.jpg"
+    ],
+    "genre": "RPG",
+    "short_description": "Silverfall, a once glorious city, lies in the fantastical Kingdom of Nelwë, where the forces of Technology and Nature are strongly opposed. Symptoms of this terrible conflict have begun to manifest physically as melded cyberbiologic organics and living steam-driven automatons.",
+    "developers": [
+      "Monte Cristo"
+    ],
+    "publishers": [
+      "Focus Entertainment"
+    ],
+    "release_date": "20 Mar, 2007",
+    "price_display": "Rp 44.000",
+    "price_normalized": 44000,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:33.159537+00:00"
+  },
+  "4460": {
+    "appid": 4460,
+    "title": "City Life 2008",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460/header.jpg?t=1712848950",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460/header.jpg?t=1712848950",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4460/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4460/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4460/header_alt_assets_2.jpg"
+    ],
+    "genre": "Simulation, Strategy",
+    "short_description": "Construct the city of the 21st Century with City Life! City Life 2008 Edition is a next-generation City Builder. Its 3D game engine provides a level of detail and animation unprecedented in the City Builder genre, with total freedom of construction.",
+    "developers": [
+      "Monte Cristo"
+    ],
+    "publishers": [
+      "Focus Entertainment"
+    ],
+    "release_date": "29 Sep, 2008",
+    "price_display": "Rp 89.000",
+    "price_normalized": 89000,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:35.100635+00:00"
+  },
+  "4470": {
+    "appid": 4470,
+    "title": "Silverfall: Earth Awakening",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4470/header.jpg?t=1650987799",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4470/header.jpg?t=1650987799",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4470/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4470/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4470/header_alt_assets_2.jpg"
+    ],
+    "genre": "RPG",
+    "short_description": "Silverfall Earth Awakening is an action RPG with unique graphical feel offering a fantastic quest to explore the new territories of Nelwë. In this heroic fantasy world where nature and technology collide you will have to make important choices which will lead you to side with one or the other.",
+    "developers": [
+      "Monte Cristo"
+    ],
+    "publishers": [
+      "Focus Entertainment"
+    ],
+    "release_date": "18 Jul, 2008",
+    "price_display": "Rp 44.000",
+    "price_normalized": 44000,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:36.990779+00:00"
+  },
+  "4520": {
+    "appid": 4520,
+    "title": "Full Spectrum Warrior",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4520/header.jpg?t=1727863949",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4520/header.jpg?t=1727863949",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4520/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4520/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4520/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Strategy",
+    "short_description": "The U.S. Army is the most powerful ground force in the entire world. The backbone of a ground invasion is the U.S. Army Infantry, and in the midst of combat, their skills, courage, and teamwork are put to the test. While readiness continues to be the U.S. Army's top priority, how it goes about its business is changing.",
+    "developers": [
+      "Pandemic Studios"
+    ],
+    "publishers": [
+      "THQ Nordic"
+    ],
+    "release_date": "17 Jul, 2007",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:39.032753+00:00"
+  },
+  "4530": {
+    "appid": 4530,
+    "title": "Full Spectrum Warrior: Ten Hammers",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530/header.jpg?t=1727863760",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530/header.jpg?t=1727863760",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4530/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4530/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4530/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Strategy",
+    "short_description": "Sequel to the critically acclaimed, squad-based/real-time tactical combat game, Full Spectrum Warrior: Ten Hammers delivers the most authentic and realistic infantry combat experience ever. As Squad Leader, coordinate the actions of multiple infantry squads, leading them through over 12 levels of intense action.",
+    "developers": [
+      "Pandemic Studios"
+    ],
+    "publishers": [
+      "THQ Nordic"
+    ],
+    "release_date": "17 Jul, 2007",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:41.025884+00:00"
+  },
+  "4560": {
+    "appid": 4560,
+    "title": "Company of Heroes - Legacy Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560/header.jpg?t=1573488196",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560/header.jpg?t=1573488196",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4560/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4560/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4560/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Strategy",
+    "short_description": "Delivering a visceral WWII gaming experience, Company of Heroes redefines RTS by bringing the sacrifice of heroic soldiers, war-ravaged environments, and dynamic battlefields to life. This legacy version also grants access to the latest version of COH, just called &quot;Company of Heroes&quot;.",
+    "developers": [
+      "Relic Entertainment"
+    ],
+    "publishers": [
+      "SEGA"
+    ],
+    "release_date": "17 Jul, 2007",
+    "price_display": "Rp 279.999",
+    "price_normalized": 279999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:42.962678+00:00"
+  },
+  "4570": {
+    "appid": 4570,
+    "title": "Warhammer 40,000: Dawn of War - Anniversary Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570/header.jpg?t=1750948362",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4570/header.jpg?t=1750948362",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4570/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4570/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4570/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "All of Warhammer 40,000: Dawn of War in one glorious package. Play the genre-defining classic real time strategy game in all its blood-soaked glory, including four complete campaigns and nine full-fledged factions.",
+    "developers": [
+      "Relic Entertainment"
+    ],
+    "publishers": [
+      "Relic Entertainment"
+    ],
+    "release_date": "7 Aug, 2007",
+    "price_display": "Rp 127.000",
+    "price_normalized": 127000,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:44.790314+00:00"
+  },
+  "4700": {
+    "appid": 4700,
+    "title": "Total War: MEDIEVAL II – Definitive Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700/header.jpg?t=1763643156",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700/header.jpg?t=1763643156",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Spanning the most turbulent era in Western history, your quest for territory and power takes you through Europe, Africa, the Middle East, and even onto the shores of the New World.",
+    "developers": [
+      "CREATIVE ASSEMBLY",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "SEGA",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "15 Nov, 2006",
+    "price_display": "Rp 225.999",
+    "price_normalized": 225999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:46.652898+00:00"
+  },
+  "4770": {
+    "appid": 4770,
+    "title": "Rome: Total War™ - Alexander",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770/header.jpg?t=1711461029",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770/header.jpg?t=1711461029",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4770/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4770/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4770/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Rome: Total War - Alexander is the second official expansion pack to Rome: Total War. An entirely new campaign map that stretches from Macedonia to Greece and into the heart of the ancient Persian Empire New campaign game that tasks players with matching the exploits of Alexander the Great as he swept across Central Asia and dominated...",
+    "developers": [
+      "The Creative Assembly"
+    ],
+    "publishers": [
+      "SEGA"
+    ],
+    "release_date": "28 Aug, 2007",
+    "price_display": "Free",
+    "price_normalized": 0,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:48.502965+00:00"
+  },
+  "4780": {
+    "appid": 4780,
+    "title": "Medieval II: Total War™ Kingdoms",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4780/header.jpg?t=1605830263",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4780/header.jpg?t=1605830263",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4780/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4780/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4780/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Medieval II: Total War Kingdoms is the official expansion to last year's award-winning Medieval II: Total War, presenting players with all-new territories to explore, troops to command, and enemies to conquer.",
+    "developers": [
+      "The Creative Assembly",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "SEGA",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "28 Aug, 2007",
+    "price_display": "Rp 225.999",
+    "price_normalized": 225999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:50.516997+00:00"
+  },
+  "4800": {
+    "appid": 4800,
+    "title": "Heroes of Annihilated Empires",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800/header.jpg?t=1685134248",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800/header.jpg?t=1685134248",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4800/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4800/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4800/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Heroes of Annihilated Empires - is a fantasy-based game from GSC Game World in the genre of RTS vs RPG for PC. 4 unique races awaits for the heroes, who want to fight in an Epic scale battles!",
+    "developers": [
+      "GSC Game World"
+    ],
+    "publishers": [
+      "GSC Game World"
+    ],
+    "release_date": "22 Nov, 2006",
+    "price_display": "Rp 59.999",
+    "price_normalized": 59999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:52.392441+00:00"
+  },
+  "4850": {
+    "appid": 4850,
+    "title": "Cossacks: Back to War",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4850/header.jpg?t=1685134248",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4850/header.jpg?t=1685134248",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4850/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4850/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4850/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Cossacks: Back to War contains all of the gameplay features of Cossacks: European Wars and Cossacks: The Art of War, this is a complete care package for all current and future Cossacks fans. This add-on contains two new nations: Switzerland and Hungary.",
+    "developers": [
+      "GSC Game World"
+    ],
+    "publishers": [
+      "GSC World Publishing"
+    ],
+    "release_date": "2 Sep, 2010",
+    "price_display": "Rp 49.999",
+    "price_normalized": 49999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:54.267805+00:00"
+  },
+  "4870": {
+    "appid": 4870,
+    "title": "Cossacks: Art of War",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4870/header.jpg?t=1685134248",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4870/header.jpg?t=1685134248",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4870/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4870/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4870/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Cossacks: The Art of War continues the history of the great battles of XVII–XVIII centuries",
+    "developers": [
+      "GSC Game World"
+    ],
+    "publishers": [
+      "GSC World Publishing"
+    ],
+    "release_date": "26 Aug, 2011",
+    "price_display": "Rp 49.999",
+    "price_normalized": 49999,
+    "protection": null,
+    "last_update": "2025-11-25T14:23:56.229767+00:00"
+  },
+  "4880": {
+    "appid": 4880,
+    "title": "Cossacks: European Wars",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4880/header.jpg?t=1685134248",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4880/header.jpg?t=1685134248",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4880/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4880/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4880/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "This game is devoted to the key events of the XVII–XVIII centuries.",
+    "developers": [
+      "GSC Game World"
+    ],
+    "publishers": [
+      "GSC World Publishing"
+    ],
+    "release_date": "26 Aug, 2011",
+    "price_display": "Rp 49.999",
+    "price_normalized": 49999,
+    "protection": true,
+    "last_update": "2025-11-25T14:23:58.025091+00:00"
+  },
+  "4890": {
+    "appid": 4890,
+    "title": "Cossacks II: Battle for Europe",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890/header.jpg?t=1685134248",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890/header.jpg?t=1685134248",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4890/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4890/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4890/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Cossacks II: Battle for Europe is a standalone add-on for &quot;Cossacks II: Napoleonic Wars&quot; presenting new nations with the possibility to wage multiplayer battles.",
+    "developers": [
+      "GSC Game World"
+    ],
+    "publishers": [
+      "GSC World Publishing"
+    ],
+    "release_date": "26 Aug, 2011",
+    "price_display": "Rp 49.999",
+    "price_normalized": 49999,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:00.047306+00:00"
+  },
+  "4900": {
+    "appid": 4900,
+    "title": "Zen of Sudoku",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4900/header.jpg?t=1659427988",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4900/header.jpg?t=1659427988",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4900/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4900/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4900/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual, Indie",
+    "short_description": "From the creators of Natural Selection comes Zen of Sudoku, a relaxing, easy to play version of Sudoku for your PC.Relax with hand-painted Japanese-styled backgrounds, no timer and lush natural soundscapes.Stimulates your brain to keep it healthy and alert.",
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "release_date": "14 Dec, 2006",
+    "price_display": "Free",
+    "price_normalized": 0,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:02.126193+00:00"
+  },
+  "4920": {
+    "appid": 4920,
+    "title": "Natural Selection 2",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4920/header.jpg?t=1747384807",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4920/header.jpg?t=1747384807",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4920/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4920/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4920/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Indie, Strategy",
+    "short_description": "A fast paced multiplayer shooter that pits aliens against humans in a strategic and action-packed struggle for survival!",
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment",
+      "KRAFTON, Inc."
+    ],
+    "release_date": "30 Oct, 2012",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:04.499161+00:00"
+  },
+  "6000": {
+    "appid": 6000,
+    "title": "STAR WARS™ Republic Commando™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6000/header.jpg?t=1741729103",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6000/header.jpg?t=1741729103",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6000/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6000/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6000/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "You are the leader of an elite squad of Republic Commandos, your mission is to infiltrate, dominate, and ultimately, annihilate the enemy. Your squad will follow your orders and your lead, working together as a team - instinctively, intelligently, instantly. You are their leader. They are your weapon.",
+    "developers": [
+      "LucasArts"
+    ],
+    "publishers": [
+      "LucasArts",
+      "Lucasfilm",
+      "Disney"
+    ],
+    "release_date": "8 Jul, 2009",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:06.471596+00:00"
+  },
+  "6010": {
+    "appid": 6010,
+    "title": "Indiana Jones® and the Fate of Atlantis™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6010/header.jpg?t=1571778027",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6010/header.jpg?t=1571778027",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6010/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6010/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6010/header_alt_assets_2.jpg"
+    ],
+    "genre": "Adventure",
+    "short_description": "The Man With The Hat Is Back In His Greatest Adventure Yet! 1939 - The eve of World War II. Nazi agents are about to get their hands on a weapon more dangerous than the atom bomb. Only Indy can stop them before they unleash the deadly secret that sank Atlantis.",
+    "developers": [
+      "LucasArts"
+    ],
+    "publishers": [
+      "LucasArts",
+      "Lucasfilm",
+      "Disney"
+    ],
+    "release_date": "8 Jul, 2009",
+    "price_display": "Rp 56.499",
+    "price_normalized": 56499,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:08.318337+00:00"
+  },
+  "6020": {
+    "appid": 6020,
+    "title": "STAR WARS™ Jedi Knight - Jedi Academy™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6020/header.jpg?t=1741814908",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6020/header.jpg?t=1741814908",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6020/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6020/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6020/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Forge your weapon and follow the path of the Jedi Jedi Knight: Jedi Academy is the latest installment of the highly acclaimed Jedi Knight series. Take on the role of a new student eager to learn the ways of the Force from Jedi Master Luke Skywalker.",
+    "developers": [
+      "Raven Software"
+    ],
+    "publishers": [
+      "LucasArts",
+      "Lucasfilm",
+      "Disney"
+    ],
+    "release_date": "16 Sep, 2009",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:10.139461+00:00"
+  },
+  "6030": {
+    "appid": 6030,
+    "title": "STAR WARS™ Jedi Knight II - Jedi Outcast™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6030/header.jpg?t=1741814017",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6030/header.jpg?t=1741814017",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6030/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6030/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6030/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "The Legacy of Star Wars Dark Forces™ and Star Wars® Jedi Knight lives on in the intense first-person action of Jedi Outcast.",
+    "developers": [
+      "Raven Software"
+    ],
+    "publishers": [
+      "LucasArts",
+      "Lucasfilm",
+      "Disney"
+    ],
+    "release_date": "16 Sep, 2009",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:12.124334+00:00"
+  },
+  "6040": {
+    "appid": 6040,
+    "title": "The Dig®",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6040/header.jpg?t=1542756570",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6040/header.jpg?t=1542756570",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6040/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6040/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6040/header_alt_assets_2.jpg"
+    ],
+    "genre": "Adventure",
+    "short_description": "An asteroid the size of a small moon is on a crash course toward Earth. Once the wayward asteroid is nuked into a safe orbit, a trio conducts a routine examination of the rocky surface. What they uncover is anything but routine.",
+    "developers": [
+      "LucasArts"
+    ],
+    "publishers": [
+      "LucasArts"
+    ],
+    "release_date": "8 Jul, 2009",
+    "price_display": "Rp 56.499",
+    "price_normalized": 56499,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:14.113852+00:00"
+  },
+  "6060": {
+    "appid": 6060,
+    "title": "STAR WARS™ Battlefront II (Classic, 2005)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6060/header.jpg?t=1707697325",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6060/header.jpg?t=1707697325",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6060/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6060/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6060/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Join the rise of Darth Vader’s elite 501st Legion of Stormtroopers as you fight through an all new story-based saga where every action you take impacts the battlefront and, ultimately, the fate of the Star Wars galaxy.",
+    "developers": [
+      "Pandemic Studios"
+    ],
+    "publishers": [
+      "Lucasfilm",
+      "LucasArts",
+      "Disney"
+    ],
+    "release_date": "8 Jul, 2009",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:16.067747+00:00"
+  },
+  "6080": {
+    "appid": 6080,
+    "title": "Thrillville®: Off the Rails™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6080/header.jpg?t=1757539645",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6080/header.jpg?t=1757539645",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6080/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6080/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6080/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Adventure, Racing, Simulation, Strategy",
+    "short_description": "Thrillville™: Off the Rails lives up to its name with 20 death-defying rides! Players can build incredible coasters to leap from one track to another, launch through the air like cannonballs, blast through a burning rings of fire and more!",
+    "developers": [
+      "Frontier"
+    ],
+    "publishers": [
+      "LucasArts"
+    ],
+    "release_date": "8 Jul, 2009",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:17.992551+00:00"
+  },
+  "6090": {
+    "appid": 6090,
+    "title": "Armed and Dangerous®",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6090/header.jpg?t=1741730256",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6090/header.jpg?t=1741730256",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6090/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6090/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6090/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Meet the Lionhearts. A smack-talking rag-tag band of rebels on an impossible quest. If they can make it through an army of psychotic robots and wall-smashing Goliaths, they just might save the world... if they don't burn it down first.",
+    "developers": [
+      "Planet Moon Studios"
+    ],
+    "publishers": [
+      "LucasArts",
+      "Lucasfilm",
+      "Disney"
+    ],
+    "release_date": "8 Jul, 2009",
+    "price_display": "Rp 56.499",
+    "price_normalized": 56499,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:19.983184+00:00"
+  },
+  "6120": {
+    "appid": 6120,
+    "title": "Shank",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6120/header.jpg?t=1720817954",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6120/header.jpg?t=1720817954",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6120/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6120/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6120/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Indie",
+    "short_description": "Shank is the cult-classic revival of the sidescrolling beat-em-up. Play as Shank in an over-the-top grindhouse game, packed to the rim with enemies, bosses, combos, and more by the award-winning team at Klei Entertainment.",
+    "developers": [
+      "Klei Entertainment"
+    ],
+    "publishers": [
+      "Klei Entertainment"
+    ],
+    "release_date": "25 Oct, 2010",
+    "price_display": "Rp 69.999",
+    "price_normalized": 69999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:21.860032+00:00"
+  },
+  "6200": {
+    "appid": 6200,
+    "title": "Ghost Master®",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6200/header.jpg?t=1759952256",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6200/header.jpg?t=1759952256",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6200/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6200/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6200/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Grim spectres, howling banshees, and sly gremlins are yours to command as you unleash ghastly spirits on the town of Gravenville and scare the wits out of its citizens. In the world of the Ghost Master, spooks do your bidding, as you solve puzzles and unlock mysteries in a challenge that combines the best of strategy, adventure, and...",
+    "developers": [
+      "Sick Puppies"
+    ],
+    "publishers": [
+      "Strategy First"
+    ],
+    "release_date": "21 Dec, 2006",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:23.957983+00:00"
+  },
+  "6210": {
+    "appid": 6210,
+    "title": "Vegas: Make It Big™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6210/header.jpg?t=1759941666",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6210/header.jpg?t=1759941666",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6210/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6210/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6210/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "&lt;p&gt;Develop a state-of-the art Las Vegas resort complex, using all the money and management skill you can. Customers on the living, breathing Las Vegas boulevard are Notoriously hard to satisfy - can you win the hearts and wallets of Vegas?&lt;/p&gt; &lt;p&gt;Amazing real-time 3D graphics show off your resort to the max.",
+    "developers": [
+      "Deepred"
+    ],
+    "publishers": [
+      "Strategy First"
+    ],
+    "release_date": "21 Dec, 2006",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:25.932469+00:00"
+  },
+  "6220": {
+    "appid": 6220,
+    "title": "FlatOut",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6220/header.jpg?t=1764061419",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6220/header.jpg?t=1764061419",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6220/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6220/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6220/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Racing, Simulation",
+    "short_description": "Ram through pile-ups and smash through your windshield as you push racing to the edge! FlatOut™ delivers more heart-stopping thrills than any sane driver can handle!",
+    "developers": [
+      "Bugbear Entertainment",
+      "ZOOM Platform Media",
+      "Jordan Freeman Group"
+    ],
+    "publishers": [
+      "Strategy First"
+    ],
+    "release_date": "2 Feb, 2007",
+    "price_display": "Rp 69.999",
+    "price_normalized": 69999,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:27.942138+00:00"
+  },
+  "6250": {
+    "appid": 6250,
+    "title": "Making History: The Calm & the Storm",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6250/header.jpg?t=1759941835",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6250/header.jpg?t=1759941835",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6250/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6250/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6250/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Strategy",
+    "short_description": "&lt;p&gt;Making History® delivers the open-ended gameplay of strategy-game classics, but with compelling new economic, military, and diplomatic systems and deep research that lets you play with real historical challenges.",
+    "developers": [
+      "Muzzy Lane"
+    ],
+    "publishers": [
+      "Strategy First"
+    ],
+    "release_date": "13 Mar, 2007",
+    "price_display": "Rp 37.999",
+    "price_normalized": 37999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:29.936837+00:00"
+  },
+  "6270": {
+    "appid": 6270,
+    "title": "Ducati World Championship",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6270/header.jpg?t=1759941771",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6270/header.jpg?t=1759941771",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6270/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6270/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6270/header_alt_assets_2.jpg"
+    ],
+    "genre": "Racing",
+    "short_description": "&lt;p&gt;Feel the rush of motorcycle racing with Ducati World Championship. Select your machine from over 70 original Ducati models, perfectly simulated replicas of the real thing. With Ducati World Championship you don't have to settle on one model - you can have them all!",
+    "developers": [
+      "Artematica Entertainment"
+    ],
+    "publishers": [
+      "Strategy First"
+    ],
+    "release_date": "21 Sep, 2007",
+    "price_display": "Rp 37.999",
+    "price_normalized": 37999,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:32.035873+00:00"
+  },
+  "6300": {
+    "appid": 6300,
+    "title": "Dreamfall: The Longest Journey",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6300/header.jpg?t=1592476034",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6300/header.jpg?t=1592476034",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6300/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6300/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6300/header_alt_assets_2.jpg"
+    ],
+    "genre": "Adventure, RPG",
+    "short_description": "Dreamfall: The Longest Journey, winner of multiple E3 awards as the best game in its genre, is the continuation of a saga that began in the award-winning The Longest Journey, considered to be one of the finest adventure games ever made.",
+    "developers": [
+      "Funcom"
+    ],
+    "publishers": [
+      "Funcom"
+    ],
+    "release_date": "12 Jan, 2007",
+    "price_display": "Rp 165.999",
+    "price_normalized": 165999,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:33.986384+00:00"
+  },
+  "6310": {
+    "appid": 6310,
+    "title": "The Longest Journey",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6310/header.jpg?t=1675333329",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6310/header.jpg?t=1675333329",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6310/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6310/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6310/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Adventure, RPG",
+    "short_description": "The Longest Journey is an amazing graphical adventure, where the player controls the protagonist, April Ryan, on her journey between parallel universes.",
+    "developers": [
+      "Funcom"
+    ],
+    "publishers": [
+      "Funcom"
+    ],
+    "release_date": "1 May, 2007",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": true,
+    "last_update": "2025-11-25T14:24:36.177424+00:00"
+  },
+  "6370": {
+    "appid": 6370,
+    "title": "Bloodline Champions",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6370/header.jpg?t=1667472057",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6370/header.jpg?t=1667472057",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6370/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6370/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6370/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Free To Play, Massively Multiplayer",
+    "short_description": "Bloodline Champions is a Free-to-Play online PvP Arena game where players engage in short, intense battles of up to ten players divided into two teams. Each player takes control over one of several bloodlines, each with their own unique weapons and abilities. Easy to learn, challenging to master.",
+    "developers": [
+      "Stunlock Studios"
+    ],
+    "publishers": [
+      "Stunlock Studios"
+    ],
+    "release_date": "28 Oct, 2011",
+    "price_display": "Free",
+    "price_normalized": 0,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:38.874336+00:00"
+  },
+  "6400": {
+    "appid": 6400,
+    "title": "Joint Task Force",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6400/header.jpg?t=1447350970",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6400/header.jpg?t=1447350970",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6400/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6400/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6400/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Strategy",
+    "short_description": "Joint Task Force is the real-time strategy (RTS) game where you command the frontline forces in tomorrow's most hazardous conflicts. Lead twenty dramatic missions in explosive war-zones including the Middle East, Central Asia, and the Balkans.",
+    "developers": [
+      "Most Wanted Entertainment"
+    ],
+    "publishers": [
+      "HD Publishing"
+    ],
+    "release_date": "27 Mar, 2007",
+    "price_display": "Rp 59.999",
+    "price_normalized": 59999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:40.825123+00:00"
+  },
+  "6420": {
+    "appid": 6420,
+    "title": "Nexus - The Jupiter Incident",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6420/header.jpg?t=1732705190",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6420/header.jpg?t=1732705190",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6420/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6420/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6420/header_alt_assets_2.jpg"
+    ],
+    "genre": "Indie, Simulation, Strategy",
+    "short_description": "Ambitious megacorporations monopolize the conquest of space and the colonization of the solar system. At the very edge of the solar system, the companies make a discovery that will shift the technological advantage and upset the balance. And so a new conflict is born: &quot;The Jupiter Incident.&quot;",
+    "developers": [
+      "Mithis Games"
+    ],
+    "publishers": [
+      "HandyGames"
+    ],
+    "release_date": "3 Jul, 2007",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:42.972073+00:00"
+  },
+  "6510": {
+    "appid": 6510,
+    "title": "Lost Planet™: Extreme Condition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6510/header.jpg?t=1709710940",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6510/header.jpg?t=1709710940",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6510/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6510/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6510/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Adventure",
+    "short_description": "Driven to the brink of extinction on ice-covered wastelands, humankind fights to survive. Battle to survive against gargantuan alien Akrid and treacherous Snow Pirates on the vast and frozen landscape of EDN III.",
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "Capcom"
+    ],
+    "release_date": "26 Jun, 2007",
+    "price_display": "Rp 199.000",
+    "price_normalized": 199000,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:44.790278+00:00"
+  },
+  "6600": {
+    "appid": 6600,
+    "title": "Bullet Candy",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6600/header.jpg?t=1447350969",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6600/header.jpg?t=1447350969",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6600/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6600/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6600/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual, Indie",
+    "short_description": "Bullet Candy is a fast paced, action packed arena shooter. There are a variety of combo systems and many secret techniques that you can employ to get the best score and weapon upgrades possible. Viewed from a top-down perspective, Bullet Candy allows for a true 360° shoot-em-up experience.",
+    "developers": [
+      "R C Knight"
+    ],
+    "publishers": [],
+    "release_date": "14 Feb, 2007",
+    "price_display": "Rp 35.999",
+    "price_normalized": 35999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:46.692741+00:00"
+  },
+  "6800": {
+    "appid": 6800,
+    "title": "Commandos: Behind Enemy Lines",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6800/header.jpg?t=1744213285",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6800/header.jpg?t=1744213285",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6800/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6800/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6800/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Commandos: Behind Enemy Lines is a real-time tactics game set in World War II that puts you in command of a small squad of elite troopers. Send them behind enemy lines on a series of hazardous missions, and bring them back alive.",
+    "developers": [
+      "Pyro Studios"
+    ],
+    "publishers": [
+      "Kalypso Media Digital"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 47.999",
+    "price_normalized": 47999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:48.678961+00:00"
+  },
+  "6810": {
+    "appid": 6810,
+    "title": "Commandos: Beyond the Call of Duty",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6810/header.jpg?t=1744213385",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6810/header.jpg?t=1744213385",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6810/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6810/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6810/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "You have been selected for active service in the Commandos Corps, and must now mobilize in a series of 8 new dangerous missions.",
+    "developers": [
+      "Pyro Studios"
+    ],
+    "publishers": [
+      "Kalypso Media Digital"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 47.999",
+    "price_normalized": 47999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:50.693512+00:00"
+  },
+  "6830": {
+    "appid": 6830,
+    "title": "Commandos 2: Men of Courage",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6830/header.jpg?t=1744213353",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6830/header.jpg?t=1744213353",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6830/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6830/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6830/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Commandos 2: Men of Courage is a tactical action/strategy game set against the backdrop of World War II. Take control of an elite group of commandos who must venture deep into enemy territory and utilize their combined expertise to complete a series of mission-based objectives.",
+    "developers": [
+      "Pyro Studios"
+    ],
+    "publishers": [
+      "Kalypso Media Digital"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 47.999",
+    "price_normalized": 47999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:52.840704+00:00"
+  },
+  "6840": {
+    "appid": 6840,
+    "title": "Commandos 3: Destination Berlin",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6840/header.jpg?t=1744213318",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6840/header.jpg?t=1744213318",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6840/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6840/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6840/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Commandos 3: Destination Berlin is a game of real-time tactics that places you in command of an elite unit of Special Forces behind enemy lines in the European theater of World War II.",
+    "developers": [
+      "Pyro Studios"
+    ],
+    "publishers": [
+      "Kalypso Media Digital"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 47.999",
+    "price_normalized": 47999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:55.008545+00:00"
+  },
+  "6850": {
+    "appid": 6850,
+    "title": "Hitman 2: Silent Assassin",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/header.jpg?t=1732293077",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/header.jpg?t=1732293077",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Enter the realm of a retired assassin, forced back into action by treason. You may be a hired killer but you still have a sense of loyalty and justice. Visit the dark recesses of a world corrupted by crime, greed, degradation and dishonor. And a past that catches up with you.",
+    "developers": [
+      "Io-Interactive A/S"
+    ],
+    "publishers": [
+      "Io-Interactive A/S"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 78.999",
+    "price_normalized": 78999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:57.211957+00:00"
+  },
+  "6860": {
+    "appid": 6860,
+    "title": "Hitman: Blood Money",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/header.jpg?t=1732283123",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/header.jpg?t=1732283123",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Money Talks. Silence Pays. Prepare to Make a Killing. When assassins from Agent 47's contract agency, The ICA, are eliminated in a series of hits, it seems a larger, more powerful agency has entered the fray. Sensing he may be a target, 47 travels to America, and prepares to make a killing.",
+    "developers": [
+      "Io-Interactive A/S"
+    ],
+    "publishers": [
+      "Io-Interactive A/S"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:24:59.392208+00:00"
+  },
+  "6870": {
+    "appid": 6870,
+    "title": "Battlestations: Midway",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6870/header.jpg?t=1592490116",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6870/header.jpg?t=1592490116",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6870/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6870/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6870/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Battlestations: Midway is an immense action game that drops players into massive air, sea, and undersea battles from Pearl Harbor to the Battle of Midway.",
+    "developers": [
+      "Eidos Interactive"
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 59.999",
+    "price_normalized": 59999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:01.368749+00:00"
+  },
+  "6880": {
+    "appid": 6880,
+    "title": "Just Cause",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6880/header.jpg?t=1728395147",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6880/header.jpg?t=1728395147",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6880/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6880/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6880/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Your world...Your rules!",
+    "developers": [
+      "Avalanche Studios"
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 59.999",
+    "price_normalized": 59999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:03.406697+00:00"
+  },
+  "6900": {
+    "appid": 6900,
+    "title": "Hitman: Codename 47",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/header.jpg?t=1732283914",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6900/header.jpg?t=1732283914",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6900/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6900/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6900/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "As the enigmatic Hitman, you must use stealth and tactical problem solving to enter, execute and exit your assignment with minimum attention and maximum effectiveness. For a price, you have access to the most devious devices, but how you use them will determine if you retire as a millionaire or get permanently retired.",
+    "developers": [
+      "IO Interactive A/S"
+    ],
+    "publishers": [
+      "IO Interactive A/S"
+    ],
+    "release_date": "15 Mar, 2007",
+    "price_display": "Rp 69.999",
+    "price_normalized": 69999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:05.414677+00:00"
+  },
+  "6910": {
+    "appid": 6910,
+    "title": "Deus Ex: Game of the Year Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6910/header.jpg?t=1726596757",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6910/header.jpg?t=1726596757",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6910/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6910/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6910/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "The year is 2052 and the world is a dangerous and chaotic place. Terrorists operate openly - killing thousands; drugs, disease and pollution kill even more. The world's economies are close to collapse and the gap between the insanely wealthy and the desperately poor grows ever wider.",
+    "developers": [
+      "Ion Storm"
+    ],
+    "publishers": [
+      "Eidos Interactive Corp."
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 76.000",
+    "price_normalized": 76000,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:07.642658+00:00"
+  },
+  "6920": {
+    "appid": 6920,
+    "title": "Deus Ex: Invisible War",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6920/header.jpg?t=1762984154",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6920/header.jpg?t=1762984154",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6920/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6920/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6920/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Approximately 20 years after Deus Ex, the world is only beginning to recover from a catastrophic worldwide depression. In this techno-nightmare, take part in the dark struggle to raise the world from its own ashes.",
+    "developers": [
+      "Ion Storm"
+    ],
+    "publishers": [
+      "Eidos Interactive Corp."
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 76.000",
+    "price_normalized": 76000,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:09.896224+00:00"
+  },
+  "6980": {
+    "appid": 6980,
+    "title": "Thief: Deadly Shadows",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6980/header.jpg?t=1700763742",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6980/header.jpg?t=1700763742",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6980/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6980/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6980/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "You are Garrett, the master thief. Rarely seen and never caught, Garrett is the best that ever was. Able to sneak past any guard, pick any lock, and break into the most ingeniously secured residences. Garrett steals from the wealthy and gives to himself, making his living in the dark and foreboding City.",
+    "developers": [
+      "Ion Storm"
+    ],
+    "publishers": [
+      "Eidos Interactive Corp."
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 97.000",
+    "price_normalized": 97000,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:12.063262+00:00"
+  },
+  "7000": {
+    "appid": 7000,
+    "title": "Tomb Raider: Legend",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7000/header.jpg?t=1729009388",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7000/header.jpg?t=1729009388",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7000/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7000/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7000/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, Adventure",
+    "short_description": "Follow Lara Croft down a path of discovery as she travels the globe to remote, exotic locales in search of one of history's greatest artifacts, that unleashes unwelcome figures from Lara's mysterious past.",
+    "developers": [
+      "Crystal Dynamics"
+    ],
+    "publishers": [
+      "Crystal Dynamics"
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 76.000",
+    "price_normalized": 76000,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:14.131761+00:00"
+  },
+  "7010": {
+    "appid": 7010,
+    "title": "Project: Snowblind",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7010/header.jpg?t=1721932681",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7010/header.jpg?t=1721932681",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7010/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7010/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7010/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Experience the dramatic intensity of the frontlines of a war through the eyes of the first of a new breed of super soldiers in this gritty and epic first-person action game. An augmented super-soldier must stop a renegade regime from eradicating the civilized world. Hong Kong, 2065. 2nd Lt.",
+    "developers": [
+      "Crystal Dynamics"
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 55.999",
+    "price_normalized": 55999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:16.020201+00:00"
+  },
+  "7020": {
+    "appid": 7020,
+    "title": "Rogue Trooper",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7020/header.jpg?t=1579791638",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7020/header.jpg?t=1579791638",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7020/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7020/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7020/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action",
+    "short_description": "Nu Earth: a poisoned planet where endless war rages between the Norts and the Southers. A futile struggle on a hostile planet with no end in sight. But there are tales of a lone warrior. A man who knows no allegiance, the Rogue Trooper!",
+    "developers": [
+      "Rebellion"
+    ],
+    "publishers": [
+      "Rebellion"
+    ],
+    "release_date": "29 Mar, 2007",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:18.162886+00:00"
+  },
+  "7110": {
+    "appid": 7110,
+    "title": "Jade Empire™: Special Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7110/header.jpg?t=1729270453",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7110/header.jpg?t=1729270453",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7110/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7110/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7110/header_alt_assets_2.jpg"
+    ],
+    "genre": "RPG",
+    "short_description": "Step into the role of an aspiring martial-arts master and follow the path of the open palm or the closed fist.",
+    "developers": [
+      "BioWare"
+    ],
+    "publishers": [
+      "BioWare",
+      "Electronic Arts"
+    ],
+    "release_date": "27 Feb, 2007",
+    "price_display": "Rp 189.000",
+    "price_normalized": 189000,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:20.051890+00:00"
+  },
+  "7200": {
+    "appid": 7200,
+    "title": "Trackmania United Forever",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7200/header.jpg?t=1680016410",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7200/header.jpg?t=1680016410",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7200/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7200/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7200/header_alt_assets_2.jpg"
+    ],
+    "genre": "Racing",
+    "short_description": "TrackMania is the most entertaining car racing game ever. Millions of players play it in single or multiplayer modes. TrackMania United Forever is the ultimate TrackMania edition thanks to the numerous additions and innovations it has to offer.",
+    "developers": [
+      "Nadeo"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "release_date": "16 Apr, 2008",
+    "price_display": "Rp 309.000",
+    "price_normalized": 309000,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:21.995058+00:00"
+  },
+  "7210": {
+    "appid": 7210,
+    "title": "Runaway, A Road Adventure",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7210/header.jpg?t=1650986919",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7210/header.jpg?t=1650986919",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7210/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7210/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7210/header_alt_assets_2.jpg"
+    ],
+    "genre": "Adventure",
+    "short_description": "New York, 2000......Without knowing how or why, Brian, a student on the verge of graduating from college, is attacked by Mafia gangsters. During his desperate getaway, in the company of a mysterious striptease dancer, he ends up meeting a wide range of unusual characters.",
+    "developers": [
+      "Pendulo Studios"
+    ],
+    "publishers": [
+      "Focus Entertainment"
+    ],
+    "release_date": "14 Mar, 2007",
+    "price_display": "Rp 44.000",
+    "price_normalized": 44000,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:24.096873+00:00"
+  },
+  "7220": {
+    "appid": 7220,
+    "title": "Runaway, The Dream of The Turtle",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7220/header.jpg?t=1650987235",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7220/header.jpg?t=1650987235",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7220/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7220/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7220/header_alt_assets_2.jpg"
+    ],
+    "genre": "Adventure",
+    "short_description": "Travel to the four corners of the world with Brian and Gina in a crazy story packed full of surprises. Pirates, spies, surfers, soldiers, and even aliens get in on the act - all combining to create a wonderfully rewarding experience to savour and remember forever!",
+    "developers": [
+      "Pendulo Studios"
+    ],
+    "publishers": [
+      "Focus Entertainment"
+    ],
+    "release_date": "14 Mar, 2007",
+    "price_display": "Rp 44.000",
+    "price_normalized": 44000,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:25.995243+00:00"
+  },
+  "7260": {
+    "appid": 7260,
+    "title": "Loki",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7260/header.jpg?t=1562029560",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7260/header.jpg?t=1562029560",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7260/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7260/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7260/header_alt_assets_2.jpg"
+    ],
+    "genre": "RPG",
+    "short_description": "A fantasy voyage through the great mythologies, Loki allows the player to take on the role of one of the four heroes of the game, each drawn from a different mythology: a mighty Norse fighter, a fierce Greek warrior, a powerful Egyptian magician or an Aztec shaman who masters the secrets of the spirit world.",
+    "developers": [
+      "Cyanide Studios"
+    ],
+    "publishers": [],
+    "release_date": "5 Nov, 2007",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:28.037577+00:00"
+  },
+  "7340": {
+    "appid": 7340,
+    "title": "Azada",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7340/header.jpg?t=1531434562",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7340/header.jpg?t=1531434562",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7340/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7340/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7340/header_alt_assets_2.jpg"
+    ],
+    "genre": "Casual, Indie",
+    "short_description": "Trapped in a magical puzzle book, the adventurous Titus needs your help to release him from his spell. To do this, you must solve the tricky puzzles of Azada™. Crack the series of puzzles and fill in the missing pages of the enchanted book to free Titus from his prison. Loads of unique puzzles to solve.",
+    "developers": [
+      "Big Fish Games"
+    ],
+    "publishers": [
+      "Big Fish Games"
+    ],
+    "release_date": "21 Apr, 2010",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:30.045688+00:00"
+  },
+  "7510": {
+    "appid": 7510,
+    "title": "X-Blades",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7510/header.jpg?t=1718187381",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7510/header.jpg?t=1718187381",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7510/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7510/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7510/header_alt_assets_2.jpg"
+    ],
+    "genre": "Nudity, Violent, Action, Adventure, RPG",
+    "short_description": "In X-Blades, the player takes on the role of the enchanting heroine Ayumi, who survives a breathtaking dance of blades through the Hordes of Darkness. The long-haired beautiful anime, with her pistol blades and mind-blowing leaps, whirls and swirls from one fantastic level to the next.",
+    "developers": [
+      "Gaijin Entertainment"
+    ],
+    "publishers": [
+      "Topware Interactive"
+    ],
+    "release_date": "30 Apr, 2009",
+    "price_display": "Rp 114.999",
+    "price_normalized": 114999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:31.896892+00:00"
+  },
+  "7520": {
+    "appid": 7520,
+    "title": "Two Worlds II HD",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7520/header.jpg?t=1666025333",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7520/header.jpg?t=1666025333",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7520/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7520/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7520/header_alt_assets_2.jpg"
+    ],
+    "genre": "RPG",
+    "short_description": "Check out the new Velvet Edition bundle including both Two Worlds II and Pirates of the Flying Fortress DLC.",
+    "developers": [
+      "Reality Pump Studios"
+    ],
+    "publishers": [
+      "Topware Interactive, ACE"
+    ],
+    "release_date": "3 Feb, 2011",
+    "price_display": "Rp 206.999",
+    "price_normalized": 206999,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:33.890401+00:00"
+  },
+  "7530": {
+    "appid": 7530,
+    "title": "Two Worlds II Castle Defense",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7530/header.jpg?t=1577597494",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7530/header.jpg?t=1577597494",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7530/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7530/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7530/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "While the bloody battle between Gandohar’s troops and the armies of the Orcs is raging in front of the gates of Oswaroth, the emperor waits in the depths of his palace on the outcome of the struggle for power.",
+    "developers": [
+      "Reality Pump Studios"
+    ],
+    "publishers": [
+      "Topware Interactive"
+    ],
+    "release_date": "14 Jun, 2011",
+    "price_display": "Rp 90.999",
+    "price_normalized": 90999,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:35.904220+00:00"
+  },
+  "7600": {
+    "appid": 7600,
+    "title": "Sid Meier's Railroads!",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7600/header.jpg?t=1568915755",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7600/header.jpg?t=1568915755",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7600/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7600/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7600/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Sid Meier's Railroads! marks the return of the watershed title in simulation/strategy gaming that launched the popular &quot;tycoon&quot; genre, and inspired a new generation of games. Sid Meier's Railroads!",
+    "developers": [
+      "Firaxis Games",
+      "Feral Interactive (Mac)"
+    ],
+    "publishers": [
+      "2K",
+      "Feral Interactive (Mac)"
+    ],
+    "release_date": "4 May, 2007",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": true,
+    "last_update": "2025-11-25T14:25:37.907144+00:00"
+  },
+  "7610": {
+    "appid": 7610,
+    "title": "Railroad Tycoon 3",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7610/header.jpg?t=1569013196",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7610/header.jpg?t=1569013196",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7610/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7610/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7610/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Railroad Tycoon 3 features 25 scenarios challenging players to recreate magnificent feats of railroading history from around the world. Players can lay track (including tunnels and overpasses), pick from over 40 locomotives from early steams to modern bullets, choose to haul over 35 types of cargo in a dynamic economy, and participate in...",
+    "developers": [
+      "PopTop"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 May, 2007",
+    "price_display": "Rp 89.999",
+    "price_normalized": 89999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:40.032500+00:00"
+  },
+  "7620": {
+    "appid": 7620,
+    "title": "Railroad Tycoon II Platinum",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7620/header.jpg?t=1569013478",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7620/header.jpg?t=1569013478",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7620/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7620/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7620/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "Includes Railroad Tycoon II and the expansion The Second Century It can take you from New York to South Africa. It can take you from the year 1804 to the year 2000. It can take you from penniless manual laborer to powerful multi-millionaire.",
+    "developers": [
+      "PopTop"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 May, 2007",
+    "price_display": "Rp 47.499",
+    "price_normalized": 47499,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:41.855497+00:00"
+  },
+  "7650": {
+    "appid": 7650,
+    "title": "X-COM: Terror From the Deep",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7650/header.jpg?t=1568749080",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7650/header.jpg?t=1568749080",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7650/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7650/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7650/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "The war continues... X-COM: UFO Defense brought you to a galactic battlefield. X-COM: Terror from the Deep brings the alien terror into a totally new dimension.Seeking to take advantage of a weakened Earth, X-COM's deep space foes unexpectedly change strategy and launch a powerful second front against planet Earth.",
+    "developers": [
+      "MicroProse Software, Inc"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 May, 2007",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:43.850890+00:00"
+  },
+  "7660": {
+    "appid": 7660,
+    "title": "X-COM: Apocalypse",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7660/header.jpg?t=1571243661",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7660/header.jpg?t=1571243661",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7660/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7660/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7660/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "There's something evil in the city tonight... Earth has been ravaged by human excess, petty conflict and alien invasion. The world's population has been herded into huge cities, the first of which was Mega Primus. 2084: A Utopia shattered, social collapse and civil unrest reigns in Mega Primus. Fiendish aliens terrorize the city.",
+    "developers": [
+      "MicroProse Software, Inc"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 Sep, 2008",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:45.857370+00:00"
+  },
+  "7670": {
+    "appid": 7670,
+    "title": "BioShock™",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg?t=1730172622",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg?t=1730172622",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header_alt_assets_2.jpg"
+    ],
+    "genre": "Action, RPG",
+    "short_description": "BioShock is a shooter unlike any you've ever played, loaded with weapons and tactics never seen. You'll have a complete arsenal at your disposal from simple revolvers to grenade launchers and chemical throwers, but you'll also be forced to genetically modify your DNA to create an even more deadly weapon: you.",
+    "developers": [
+      "2K Boston",
+      "2K Australia"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "21 Aug, 2007",
+    "price_display": "Rp 135.999",
+    "price_normalized": 135999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:47.825077+00:00"
+  },
+  "7730": {
+    "appid": 7730,
+    "title": "X-COM: Interceptor",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7730/header.jpg?t=1571243765",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7730/header.jpg?t=1571243765",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7730/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7730/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7730/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "They're back...only this time the heinous aliens are out to destroy Earth and rule the new frontier. As X-COM commander, it's your sole duty to protect humanity and the prized mining operations in outer space.",
+    "developers": [
+      "MicroProse Software, Inc"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 Sep, 2008",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:49.866390+00:00"
+  },
+  "7760": {
+    "appid": 7760,
+    "title": "X-COM: UFO Defense",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7760/header.jpg?t=1571243544",
+    "header_candidates": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7760/header.jpg?t=1571243544",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7760/header_alt_assets_0.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7760/header_alt_assets_1.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7760/header_alt_assets_2.jpg"
+    ],
+    "genre": "Strategy",
+    "short_description": "You are in control of X-COM: an organization formed by the world's governments to fight the ever-increasing alien menace.",
+    "developers": [
+      "MicroProse Software, Inc"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "4 Sep, 2008",
+    "price_display": "Rp 45.999",
+    "price_normalized": 45999,
+    "protection": null,
+    "last_update": "2025-11-25T14:25:51.698964+00:00"
   }
 }
