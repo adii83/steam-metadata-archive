@@ -1,70 +1,49 @@
 #!/usr/bin/env python3
 """
-Steam Metadata Sync (FULL + DAILY, pakai AppID mirror jsnli)
-
-Field per appid:
-
-- appid (int)
-- title (str)
-- header (str)
-- header_candidates (list[str])
-- genre (str, comma-separated)
-- short_description (str)
-- developers (list[str])
-- publishers (list[str])
-- release_date (str)
-- price_display (str, "Rp 150.000" / "Free")
-- price_normalized (int, contoh 150000)
-- protection (bool|null)
-- last_update (ISO datetime)
-
-Mode:
-- FULL SCAN  : python steam_sync.py --full
-- DAILY SCAN : python steam_sync.py
+SELF-DRIVING STEAM SCRAPER (LOCAL MODE)
+---------------------------------------
+- Strict mirror (jsnli)
+- Fetch 1 appid per cycle (1 detik)
+- Auto-backoff: 10m → 30m → 1h
+- Auto-resume progress
+- Strict fields:
+    appid, title, header, header_candidates,
+    genre, short_description,
+    developers, publishers,
+    release_date,
+    price_display, price_normalized,
+    protection,
+    last_update
 """
 
 import asyncio
 import aiohttp
 import json
-import os
-import random
+import time
 from pathlib import Path
 from datetime import datetime, timezone
-from typing import Dict, Any, Optional, List, Tuple
-
-from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
+from typing import Optional, Dict, Any, List
 
-# =====================================================
+# ------------------------------
 # CONFIG
-# =====================================================
+# ------------------------------
+OUTPUT = Path("steam_data.json")
+PROGRESS_FILE = Path("progress.json")
 
-OUTPUT_PATH = Path("steam_data.json")
-INVALID_PATH = Path("invalid_appids.json")
+APPID_MIRROR = (
+    "https://raw.githubusercontent.com/jsnli/steamappidlist/"
+    "refs/heads/master/data/games_appid.json"
+)
 
-# AppID mirror (selalu update) dari jsnli/steamappidlist
-APPID_SOURCE = "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json"
+DETAIL_URL = "https://store.steampowered.com/api/appdetails?appids={appid}&cc=id&l=en"
+HTML_URL = "https://store.steampowered.com/app/{appid}/"
 
-# Steam API & Store
-STEAM_APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
-STEAM_STORE_PAGE_URL = "https://store.steampowered.com/app/{appid}/"
+FETCH_DELAY = 1            # 1 detik
+BACKOFF_STEPS = [600, 1800, 3600]  # 10m → 30m → 1h
+MAX_ATTEMPTS = 3
 
-# Batasan
-MAX_CONCURRENCY = int(os.getenv("MAX_CONCURRENCY", "6"))
-
-# DAILY scan limits
-DAILY_REFRESH_COUNT = int(os.getenv("DAILY_REFRESH_COUNT", "300"))
-DAILY_NEW_LIMIT = int(os.getenv("DAILY_NEW_LIMIT", "200"))
-
-# FULL scan limit (untuk hari pertama, biar tidak barbar)
-FULL_MAX_APPS = int(os.getenv("FULL_MAX_APPS", "10000"))
-
-# Anti-rate-limit config
-REQUEST_DELAY = float(os.getenv("REQUEST_DELAY_MS", "150")) / 1000.0
-AIOHTTP_TIMEOUT = float(os.getenv("AIOHTTP_TIMEOUT", "40"))
-REQUEST_ATTEMPTS = int(os.getenv("REQUEST_ATTEMPTS", "3"))
-
-USER_AGENTS = [
+UA = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     "Mozilla/5.0 (X11; Linux x86_64)",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5)",
@@ -72,501 +51,233 @@ USER_AGENTS = [
 ]
 
 
-def now_iso() -> str:
+def now():
     return datetime.now(timezone.utc).isoformat()
 
 
-# =====================================================
-# GENERIC FETCH (JSON / TEXT) DENGAN RETRY
-# =====================================================
-
-async def fetch_json(session: aiohttp.ClientSession, url: str):
-    """
-    Generic JSON fetcher untuk endpoint yang bukan Steam appdetails.
-    Ada fallback manual json.loads() untuk content-type text/plain
-    (misalnya GitHub raw).
-    """
-    for attempt in range(1, REQUEST_ATTEMPTS + 1):
-        await asyncio.sleep(REQUEST_DELAY)
-        try:
-            async with session.get(url) as resp:
-                text = await resp.text()
-                if resp.status != 200:
-                    print(f"[WARN] JSON {url} status {resp.status}")
-                    if attempt == REQUEST_ATTEMPTS:
-                        return None
-                    continue
-
-                # Coba decode via resp.json(), kalau gagal fallback manual
-                try:
-                    return await resp.json()
-                except Exception:
-                    try:
-                        return json.loads(text)
-                    except Exception as e:
-                        print(f"[ERROR] Fallback JSON decode failed for {url} -> {e}")
-                        if attempt == REQUEST_ATTEMPTS:
-                            return None
-                        continue
-
-        except Exception as e:
-            print(f"[ERROR] JSON {url} -> {e}")
-            if attempt == REQUEST_ATTEMPTS:
-                return None
-
-    print("[ERROR] Mirror invalid / tidak bisa parse JSON")
-    return None
+def load_json(path: Path, default):
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except:
+        return default
 
 
-async def fetch_text(session: aiohttp.ClientSession, url: str) -> str:
-    for attempt in range(1, REQUEST_ATTEMPTS + 1):
-        await asyncio.sleep(REQUEST_DELAY)
-        try:
-            async with session.get(url) as resp:
-                if resp.status != 200:
-                    print(f"[WARN] TEXT {url} status {resp.status}")
-                    if attempt == REQUEST_ATTEMPTS:
-                        return ""
-                    continue
-                return await resp.text()
-        except Exception as e:
-            print(f"[ERROR] TEXT {url} -> {e}")
-            if attempt == REQUEST_ATTEMPTS:
-                return ""
-    return ""
+def save_json(path: Path, data):
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-# =====================================================
-# KHUSUS APPDETAILS (BUTUH STATUS CODE)
-# =====================================================
+# ------------------------------
+# PARSE STORE API
+# ------------------------------
+def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    d = js.get(str(appid), {})
+    if not d.get("success"):
+        return None
+    info = d.get("data")
+    if not info:
+        return None
 
-async def fetch_appdetails_json(session: aiohttp.ClientSession, appid: int) -> Tuple[Optional[Dict[str, Any]], int]:
-    """
-    Fetch ke appdetails API untuk 1 AppID.
-    Return (data, status_code)
-    """
-    url = f"{STEAM_APPDETAILS_URL}?appids={appid}&cc=id&l=en"
+    header = info.get("header_image")
+    genres = ", ".join([g.get("description", "") for g in info.get("genres", [])])
 
-    for attempt in range(1, REQUEST_ATTEMPTS + 1):
-        await asyncio.sleep(REQUEST_DELAY)
-        try:
-            async with session.get(url) as resp:
-                text = await resp.text()
-                status = resp.status
-
-                if status != 200:
-                    print(f"[WARN] JSON {url} status {status}")
-                    if attempt == REQUEST_ATTEMPTS:
-                        return None, status
-                    continue
-
-                try:
-                    data = await resp.json()
-                except Exception:
-                    try:
-                        data = json.loads(text)
-                    except Exception as e:
-                        print(f"[ERROR] Appdetails JSON decode failed for {appid} -> {e}")
-                        if attempt == REQUEST_ATTEMPTS:
-                            return None, status
-                        continue
-
-                return data, status
-
-        except Exception as e:
-            print(f"[ERROR] Appdetails {appid} -> {e}")
-            if attempt == REQUEST_ATTEMPTS:
-                return None, 0
-
-    return None, 0
-
-
-# =====================================================
-# APPID LIST – PAKAI MIRROR GITHUB
-# =====================================================
-
-async def get_app_list_from_mirror() -> List[int]:
-    """
-    Ambil daftar AppID dari mirror:
-    https://github.com/jsnli/steamappidlist
-
-    Format games_appid.json:
-    [
-      {"appid": 10, "name": "...", ...},
-      {"appid": 20, "name": "...", ...},
-      ...
-    ]
-    """
-    headers = {
-        "User-Agent": random.choice(USER_AGENTS),
-        "Accept-Language": "en-US,en;q=0.9",
-    }
-    timeout = ClientTimeout(total=AIOHTTP_TIMEOUT)
-
-    async with aiohttp.ClientSession(headers=headers, timeout=timeout) as sess:
-        data = await fetch_json(sess, APPID_SOURCE)
-
-    if not data or not isinstance(data, list):
-        print("[ERROR] Gagal ambil AppID list dari mirror")
-        return []
-
-    appids: List[int] = []
-    for item in data:
-        try:
-            appid = int(item.get("appid"))
-            appids.append(appid)
-        except Exception:
-            continue
-
-    appids = sorted(set(appids))
-    print(f"[INFO] AppID mirror total: {len(appids)}")
-    return appids
-
-
-# =====================================================
-# PRICE HANDLER (IDR + NON DISKON)
-# =====================================================
-
-def parse_price(info: Dict[str, Any]) -> tuple[str, int]:
+    # price
     price = info.get("price_overview")
+    if price:
+        init = price.get("initial", 0)
+        fin = price.get("final", 0)
+        chosen = init if init > 0 else fin
+        if chosen > 0:
+            norm = chosen // 100
+            disp = f"Rp {norm:,.0f}".replace(",", ".")
+        else:
+            disp, norm = "Free", 0
+    else:
+        disp, norm = "Free", 0
 
-    if not price:
-        # FREE game (no price_overview)
-        return "Free", 0
+    return {
+        "appid": appid,
+        "title": info.get("name"),
+        "header": header,
+        "header_candidates": build_header_candidates(appid, header),
+        "genre": genres or None,
+        "short_description": info.get("short_description"),
+        "developers": info.get("developers", []),
+        "publishers": info.get("publishers", []),
+        "release_date": (info.get("release_date") or {}).get("date"),
+        "price_display": disp,
+        "price_normalized": norm,
+    }
 
-    initial = price.get("initial", 0)          # harga normal *100
-    final = price.get("final", 0)              # harga diskon *100
-    chosen = initial if initial > 0 else final # prioritaskan harga normal
 
-    if chosen <= 0:
-        return "Free", 0
-
-    harga_rp = int(chosen / 100)  # konversi dari *100 ke rupiah
-    text = f"Rp {harga_rp:,.0f}".replace(",", ".")
-    return text, harga_rp
-
-
-# =====================================================
-# HEADER CANDIDATES
-# =====================================================
-
-def build_header_candidates(appid: int, header_from_api: Optional[str]) -> List[str]:
+def build_header_candidates(appid: int, header_api: Optional[str]):
     base = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}"
-
-    candidates: List[str] = []
-    if header_from_api:
-        candidates.append(header_from_api)
-
-    candidates.extend([
+    c = []
+    if header_api:
+        c.append(header_api)
+    c.extend([
         f"{base}/header.jpg",
         f"{base}/header_alt_assets_0.jpg",
         f"{base}/header_alt_assets_1.jpg",
         f"{base}/header_alt_assets_2.jpg",
     ])
-
-    cleaned: List[str] = []
-    seen = set()
-    for url in candidates:
-        if url and url not in seen:
-            seen.add(url)
-            cleaned.append(url)
-    return cleaned
+    out, seen = [], set()
+    for x in c:
+        if x not in seen:
+            seen.add(x)
+            out.append(x)
+    return out
 
 
-# =====================================================
+# ------------------------------
 # PROTECTION ENGINE
-# =====================================================
+# ------------------------------
+def detect_protection(base: dict, txt: str) -> Optional[bool]:
+    t = txt.lower()
 
-def detect_protection(base: Dict[str, Any], html_text: str) -> Optional[bool]:
-    """
-    Return:
-      True → proteksi (Denuvo / EA / Ubisoft / Rockstar / Activision / Epic)
-      None → tidak terdeteksi proteksi
-    """
-    t = html_text.lower()
-
-    # Langsung: Denuvo
     if "denuvo" in t:
         return True
 
-    launcher_keywords = [
-        "electronic arts", "ea ", " ea,", " ea)",
+    launch_kw = [
+        "electronic arts", "ea", "ea games", "ea sports",
         "ubisoft", "uplay", "ubisoft connect",
-        "rockstar games", "rockstar north", "social club",
-        "activision", "blizzard", "battle.net", "battlenet",
+        "rockstar games", "social club",
+        "activision", "battle.net", "battlenet",
         "epic games", "epic online services",
     ]
 
     pubs = [p.lower() for p in base.get("publishers", [])]
     devs = [d.lower() for d in base.get("developers", [])]
 
-    if any(l in p for p in pubs for l in launcher_keywords):
+    if any(l in p for p in pubs for l in launch_kw):
         return True
-    if any(l in d for d in devs for l in launcher_keywords):
+    if any(l in d for d in devs for l in launch_kw):
         return True
 
-    html_triggers = [
-        "ea app", "origin", "requires ea account",
-        "ubisoft connect", "requires ubisoft account",
-        "rockstar games launcher", "rockstar social club",
+    html_kw = [
+        "ea app", "origin",
+        "requires ea account",
+        "requires ubisoft account",
         "requires rockstar account",
-        "battle.net", "battlenet", "requires activision account",
-        "epic games account", "requires epic account",
+        "requires activision",
+        "requires epic account",
+        "login with epic",
     ]
-    if any(x in t for x in html_triggers):
+
+    if any(k in t for k in html_kw):
         return True
 
-    # Anti-cheat = bukan proteksi game-DRM
-    anti_cheat = ["easy anti-cheat", "battleye", "vac", "valve anti-cheat"]
-    if any(a in t for a in anti_cheat):
-        return None
-
-    # Third-party EULA doang → bukan proteksi
-    if "3rd-party eula" in t or "third-party eula" in t:
+    anti = ["easy anti-cheat", "eac", "battleye", "vac"]
+    if any(a in t for a in anti):
         return None
 
     return None
 
 
-# =====================================================
-# PARSE API / LOAD / SAVE
-# =====================================================
-
-def parse_store_api(appid: int, data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-    entry = data.get(str(appid), {})
-    if not entry or not entry.get("success"):
-        return None
-
-    info = entry.get("data") or {}
-    if not info:
-        return None
-
-    appid_num = info.get("steam_appid") or appid
-    header = info.get("header_image")
-
-    genres = ", ".join(
-        g.get("description", "")
-        for g in info.get("genres", [])
-        if g.get("description")
-    )
-
-    price_display, price_normalized = parse_price(info)
-
-    result: Dict[str, Any] = {
-        "appid": appid_num,
-        "title": info.get("name"),
-        "header": header,
-        "header_candidates": build_header_candidates(appid_num, header),
-        "genre": genres or None,
-        "short_description": info.get("short_description"),
-        "developers": info.get("developers", []),
-        "publishers": info.get("publishers", []),
-        "release_date": (info.get("release_date") or {}).get("date"),
-        "price_display": price_display,
-        "price_normalized": price_normalized,
-    }
-
-    return result
+# ------------------------------
+# NETWORK HELPERS
+# ------------------------------
+async def fetch_json(session, url):
+    for _ in range(MAX_ATTEMPTS):
+        try:
+            async with session.get(url) as r:
+                if r.status == 200:
+                    return await r.json(content_type=None)
+                if r.status == 403:
+                    return "403"
+        except:
+            pass
+        await asyncio.sleep(1)
+    return None
 
 
-def load_existing_data() -> Dict[int, Dict[str, Any]]:
-    if not OUTPUT_PATH.exists():
-        return {}
-    try:
-        raw = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
-        out: Dict[int, Dict[str, Any]] = {}
-        for k, v in raw.items():
-            try:
-                out[int(k)] = v
-            except ValueError:
+async def fetch_text(session, url):
+    for _ in range(MAX_ATTEMPTS):
+        try:
+            async with session.get(url) as r:
+                if r.status == 200:
+                    return await r.text()
+                if r.status == 403:
+                    return "403"
+        except:
+            pass
+        await asyncio.sleep(1)
+    return ""
+
+
+# ------------------------------
+# MAIN ENGINE
+# ------------------------------
+async def main():
+    print("[INIT] Loading mirror...")
+    mirror = await fetch_all_mirror()
+
+    appids = [m["appid"] for m in mirror]
+    appids.sort()
+
+    db = load_json(OUTPUT, {})
+    prog = load_json(PROGRESS_FILE, {"index": 0})
+
+    idx = prog["index"]
+
+    async with aiohttp.ClientSession(headers={"User-Agent": UA[0]}) as sess_api, \
+         aiohttp.ClientSession(headers={"User-Agent": UA[1]}) as sess_html:
+
+        backoff_stage = 0
+
+        while idx < len(appids):
+            appid = appids[idx]
+            print(f"[FETCH] {idx+1}/{len(appids)} → AppID {appid}")
+
+            js = await fetch_json(sess_api, DETAIL_URL.format(appid=appid))
+            if js == "403":
+                wait = BACKOFF_STEPS[min(backoff_stage, len(BACKOFF_STEPS)-1)]
+                print(f"[403] Blocked. Sleeping {wait/60:.0f} minutes...")
+                time.sleep(wait)
+                backoff_stage += 1
                 continue
-        return out
-    except Exception as e:
-        print(f"[WARN] gagal load JSON lama: {e}")
-        return {}
+
+            base = parse_store_api(appid, js or {})
+            if not base:
+                idx += 1
+                save_progress(idx)
+                continue
+
+            html = await fetch_text(sess_html, HTML_URL.format(appid=appid))
+            if html == "403":
+                wait = BACKOFF_STEPS[min(backoff_stage, len(BACKOFF_STEPS)-1)]
+                print(f"[403] HTML Blocked. Sleep {wait/60:.0f}m...")
+                time.sleep(wait)
+                backoff_stage += 1
+                continue
+
+            text = BeautifulSoup(html, "lxml").get_text(" ", strip=True)
+            prot = detect_protection(base, text)
+
+            full = dict(base)
+            full["protection"] = prot
+            full["last_update"] = now()
+
+            db[str(appid)] = full
+            save_json(OUTPUT, db)
+
+            idx += 1
+            save_progress(idx)
+
+            backoff_stage = 0
+            time.sleep(FETCH_DELAY)
 
 
-def save_data(data: Dict[int, Dict[str, Any]]) -> None:
-    out = {str(k): v for k, v in sorted(data.items(), key=lambda kv: kv[0])}
-    OUTPUT_PATH.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"[DONE] Saved {len(out)} apps → {OUTPUT_PATH}")
+def save_progress(idx):
+    save_json(PROGRESS_FILE, {"index": idx})
 
 
-# ------------------ INVALID APPIDS -------------------
-
-def load_invalid() -> Dict[str, set[int]]:
-    if not INVALID_PATH.exists():
-        return {"http_403": set(), "no_api_data": set()}
-    try:
-        raw = json.loads(INVALID_PATH.read_text(encoding="utf-8"))
-        http_403 = set(int(x) for x in raw.get("http_403", []))
-        no_api = set(int(x) for x in raw.get("no_api_data", []))
-        return {"http_403": http_403, "no_api_data": no_api}
-    except Exception as e:
-        print(f"[WARN] gagal load invalid_appids.json: {e}")
-        return {"http_403": set(), "no_api_data": set()}
-
-
-def save_invalid(invalid: Dict[str, set[int]]) -> None:
-    payload = {
-        "http_403": sorted(list(invalid.get("http_403", set()))),
-        "no_api_data": sorted(list(invalid.get("no_api_data", set()))),
-    }
-    INVALID_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"[INFO] Saved invalid AppIDs → {INVALID_PATH}")
-
-
-# =====================================================
-# FETCH PER APP
-# =====================================================
-
-async def fetch_app(
-    appid: int,
-    api_sess: aiohttp.ClientSession,
-    html_sess: aiohttp.ClientSession,
-    sem: asyncio.Semaphore,
-    invalid_tracker: Dict[str, set[int]],
-) -> Optional[Dict[str, Any]]:
-    async with sem:
-        print(f"[FETCH] AppID {appid}")
-
-        api_json, status = await fetch_appdetails_json(api_sess, appid)
-
-        if status == 403:
-            print(f"[INFO] AppID {appid} → 403 (forbidden), tandai invalid.")
-            invalid_tracker["http_403"].add(appid)
-            return None
-
-        if api_json is None:
-            # Network / parsing error → jangan tandai invalid permanen,
-            # biar bisa dicoba lagi di run berikutnya.
-            print(f"[WARN] Tidak bisa ambil API data untuk {appid} (network/parse)")
-            return None
-
-        base = parse_store_api(appid, api_json)
-        if not base:
-            print(f"[WARN] No API data for {appid} (success=false / data kosong)")
-            invalid_tracker["no_api_data"].add(appid)
-            return None
-
-        html = await fetch_text(html_sess, STEAM_STORE_PAGE_URL.format(appid=appid))
-        text = BeautifulSoup(html, "lxml").get_text(" ", strip=True)
-
-        protection = detect_protection(base, text)
-
-        full = dict(base)
-        full["protection"] = protection
-        full["last_update"] = now_iso()
-
-        return full
-
-
-# =====================================================
-# MAIN LOGIC
-# =====================================================
-
-async def main(full_scan: bool = False) -> None:
-    # 1. AppID list dari mirror
-    all_appids = await get_app_list_from_mirror()
-    if not all_appids:
-        print("[FATAL] Tidak ada AppID dari mirror. Abort.")
-        return
-
-    # 2. Load invalid AppIDs
-    invalid = load_invalid()
-    invalid_all = invalid["http_403"] | invalid["no_api_data"]
-    if invalid_all:
-        print(f"[INFO] Invalid AppIDs known: {len(invalid_all)}")
-
-    # Filter out invalid dari pool
-    valid_appids = [a for a in all_appids if a not in invalid_all]
-    print(f"[INFO] Valid AppIDs after filter invalid: {len(valid_appids)}")
-
-    # 3. Load JSON lama
-    existing = load_existing_data()
-    existing_ids = set(existing.keys())
-
-    # 4. Deteksi NEW & REMOVED (follow mirror + invalid)
-    valid_set = set(valid_appids)
-    new_ids = sorted(valid_set - existing_ids)
-    removed_ids = sorted(existing_ids - valid_set)
-
-    if removed_ids:
-        print(f"[INFO] Removed {len(removed_ids)} appids (tidak ada di mirror/valid)")
-        for rid in removed_ids:
-            existing.pop(rid, None)
-
-    print(f"[INFO] Existing in JSON : {len(existing_ids)}")
-    print(f"[INFO] New from mirror  : {len(new_ids)}")
-
-    # 5. Tentukan target untuk run ini
-    if full_scan or not existing:
-        # FULL mode → batasi dengan FULL_MAX_APPS
-        target_ids = valid_appids[:FULL_MAX_APPS]
-        mode = f"FULL ({len(target_ids)}/{len(valid_appids)} appids)"
-    else:
-        # DAILY mode:
-        # - ambil sebagian new_ids
-        # - ambil sample dari existing untuk refresh
-        chosen_new: List[int] = []
-        if new_ids:
-            take = min(DAILY_NEW_LIMIT, len(new_ids))
-            chosen_new = new_ids[:take]
-
-        refresh_sample: List[int] = []
-        if existing:
-            sample_size = min(DAILY_REFRESH_COUNT, len(existing))
-            refresh_sample = random.sample(list(existing.keys()), sample_size)
-
-        target_ids = sorted(set(chosen_new + refresh_sample))
-        mode = f"DAILY (new: {len(chosen_new)}, refresh: {len(refresh_sample)})"
-
-    print(f"[MODE] {mode} – total target appids: {len(target_ids)}")
-
-    if not target_ids:
-        print("[INFO] Tidak ada yang perlu di-update. Save & exit.")
-        save_data(existing)
-        save_invalid(invalid)
-        return
-
-    # 6. Setup HTTP sessions
-    headers = {
-        "User-Agent": random.choice(USER_AGENTS),
-        "Accept-Language": "en-US,en;q=0.9",
-    }
-    timeout = ClientTimeout(total=AIOHTTP_TIMEOUT)
-    sem = asyncio.Semaphore(MAX_CONCURRENCY)
-
-    async with aiohttp.ClientSession(headers=headers, timeout=timeout) as api_sess, \
-            aiohttp.ClientSession(headers=headers, timeout=timeout) as html_sess:
-
-        tasks = [
-            fetch_app(a, api_sess, html_sess, sem, invalid)
-            for a in target_ids
-        ]
-
-        updated: List[Dict[str, Any]] = []
-        for coro in asyncio.as_completed(tasks):
-            item = await coro
-            if item:
-                updated.append(item)
-
-    print(f"[INFO] Fetched/updated this run: {len(updated)} apps")
-
-    # 7. Merge ke existing
-    for item in updated:
-        existing[int(item["appid"])] = item
-
-    # 8. Save data & invalid list
-    save_data(existing)
-    save_invalid(invalid)
+async def fetch_all_mirror():
+    async with aiohttp.ClientSession(headers={"User-Agent": UA[0]}) as sess:
+        data = await fetch_json(sess, APPID_MIRROR)
+    return data or []
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Steam metadata sync (full / daily)")
-    parser.add_argument("--full", action="store_true", help="Full scan (limit FULL_MAX_APPS)")
-    args = parser.parse_args()
-
-    asyncio.run(main(full_scan=args.full))
+    asyncio.run(main())
