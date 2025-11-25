@@ -155,7 +155,7 @@ async def get_app_list_from_mirror() -> List[int]:
 # PRICE HANDLER (IDR + NON DISKON)
 # =====================================================
 
-def parse_price(info: Dict[str, Any]) -> (str, int):
+def parse_price(info: Dict[str, Any]) -> tuple[str, int]:
     price = info.get("price_overview")
 
     if not price:
