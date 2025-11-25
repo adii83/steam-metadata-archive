@@ -110,10 +110,65 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         if url.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
             screenshots_api.append(url)
 
+    # Trailer handling (jika ada)
+    # - trailer_thumb: thumbnail image for header_candidates (first movie)
+    # - trailer: prefer an MP4 url (first movie that provides an mp4), else None
+    trailer_thumb = None
+    trailer_mp4 = None
+    movies = info.get("movies") or []
+    if movies:
+        m0 = movies[0]
+        trailer_thumb = m0.get("thumbnail") or None
+
+        # Try to find an MP4 URL from movies entries (prefer 'max' or highest-res)
+        for m in movies:
+            mp4 = m.get("mp4")
+            if isinstance(mp4, dict):
+                # prefer 'max', then largest numeric key
+                if mp4.get("max"):
+                    trailer_mp4 = mp4.get("max")
+                else:
+                    # find largest numeric key
+                    keys = [k for k in mp4.keys() if k.isdigit()]
+                    if keys:
+                        kmax = sorted(keys, key=int)[-1]
+                        trailer_mp4 = mp4.get(kmax)
+            elif isinstance(mp4, str) and mp4:
+                trailer_mp4 = mp4
+
+            if trailer_mp4:
+                break
+
+    # Bangun header_candidates: header selalu DIUTAMAKAN PERTAMA,
+    # lalu trailer thumbnail (jika ada), lalu screenshot API (full).
+    # Dedup dan batasi maksimal 7 item.
+    candidates = []
+    seen = set()
+
+    # header harus selalu di posisi pertama bila tersedia
+    if header:
+        seen.add(header)
+        candidates.append(header)
+
+    # lalu trailer thumbnail (jika ada)
+    if trailer_thumb and trailer_thumb not in seen:
+        seen.add(trailer_thumb)
+        candidates.append(trailer_thumb)
+
+    # sisanya dari screenshots_api
+    for u in screenshots_api:
+        if u not in seen:
+            seen.add(u)
+            candidates.append(u)
+        if len(candidates) >= 7:
+            break
+
     return {
         "appid": appid,
         "title": info.get("name"),
         "header": header,
+        "trailer": trailer_mp4,
+        "header_candidates": candidates,
         "screenshots_api": screenshots_api,
         "genre": genres or None,
         "short_description": info.get("short_description"),
@@ -227,26 +282,74 @@ async def fetch_text(session, url):
 def extract_screenshots_from_html(html: str) -> List[str]:
     """
     Fallback screenshot extractor dari HTML Steam Store.
+    Kompatibel untuk game lama yang tidak punya JSON screenshots.
     """
-    screenshots = []
+    soup = BeautifulSoup(html, "lxml")
+
+    urls = set()
+
+    # Cari semua tag img yang mengandung kata "image" atau "screenshot"
+    for img in soup.find_all("img"):
+        src = img.get("src") or ""
+        low = src.lower()
+
+        if any(ext in low for ext in [".jpg", ".jpeg", ".png", ".webp"]):
+            if "header" not in low and "icon" not in low:
+                urls.add(src)
+
+    return list(urls)[:6]
+
+
+async def fetch_screenshots_from_steamdb(session, appid: int) -> List[str]:
+    """Fetch screenshots from SteamDB page and normalize URLs.
+    Prefer shared.fastly.steamstatic.com where possible.
+    """
+    url = f"https://steamdb.info/app/{appid}/screenshots/"
+    out = []
+
     try:
-        m = re.search(r'"screenshots":\s*(\[[^\]]+\])', html)
-        if not m:
-            return screenshots
-
-        arr = json.loads(m.group(1))
-
-        for ss in arr:
-            url = ss.get("path_full") or ss.get("path_original")
-            if not url:
-                continue
-            low = url.lower()
-            if low.endswith((".jpg", ".jpeg", ".png", ".webp")):
-                screenshots.append(url)
+        async with session.get(url, headers={"User-Agent": UA[2]}) as r:
+            if r.status != 200:
+                return []
+            html = await r.text()
     except:
-        return screenshots
+        return []
 
-    return screenshots
+    soup = BeautifulSoup(html, "lxml")
+
+    for img in soup.select("img.screenshot-image"):
+        src = img.get("src") or ""
+        if not src:
+            continue
+
+        # --- NORMALISASI URL ---
+        # case 1: //shared.fastly.steamstatic.com
+        if src.startswith("//"):
+            src = "https:" + src
+
+        # case 2: /appmedia/... (harus ganti domain)
+        elif src.startswith("/"):
+            src = "https://steamdb.info" + src
+
+        # case 3: nama file doang → SKIP (tidak valid)
+        elif not src.startswith("http"):
+            continue
+
+        # Filter hanya image
+        if src.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+            # force shared.fastly.steamstatic.com when possible
+            # if src contains a steamstatic domain, prefer shared.fastly
+            if "steamstatic.com" in src and "shared.fastly.steamstatic.com" not in src:
+                # fallback: replace common domains with shared.fastly
+                src = src.replace("cdn.akamai.steamstatic.com", "shared.fastly.steamstatic.com").replace("store.akamai.steamstatic.com", "shared.fastly.steamstatic.com")
+
+            out.append(src)
+
+        if len(out) >= 6:
+            break
+
+    return out
+
 
 
 # ------------------------------
@@ -297,17 +400,7 @@ async def main():
 
             text = BeautifulSoup(html, "lxml").get_text(" ", strip=True)
 
-            # === FALLBACK SCREENSHOT ===
-            screenshots = base.get("screenshots_api", [])
-            if not screenshots:
-                screenshots = extract_screenshots_from_html(html)
-
-            # rebuild header_candidates from header + screenshots
-            base["header_candidates"] = build_header_candidates(
-                base.get("header"),
-                screenshots
-            )
-
+            # header_candidates are built from API only (trailer thumb, header, screenshots)
             prot = detect_protection(base, text)
 
             full = dict(base)
