@@ -45,7 +45,7 @@ FETCH_DELAY = 1            # 1 detik
 BACKOFF_STEPS = [600, 1800, 3600]  # 10m → 30m → 1h
 MAX_ATTEMPTS = 3
 
-AUTO_PUSH_EVERY = 200
+AUTO_PUSH_EVERY = 1000
 
 UA = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
