@@ -30,7 +30,7 @@ import os
 import random
 from pathlib import Path
 from datetime import datetime, timezone
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional, List, Tuple
 
 from aiohttp import ClientTimeout
 from bs4 import BeautifulSoup
@@ -40,6 +40,7 @@ from bs4 import BeautifulSoup
 # =====================================================
 
 OUTPUT_PATH = Path("steam_data.json")
+INVALID_PATH = Path("invalid_appids.json")
 
 # AppID mirror (selalu update) dari jsnli/steamappidlist
 APPID_SOURCE = "https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json"
@@ -49,10 +50,16 @@ STEAM_APPDETAILS_URL = "https://store.steampowered.com/api/appdetails"
 STEAM_STORE_PAGE_URL = "https://store.steampowered.com/app/{appid}/"
 
 # Batasan
-MAX_CONCURRENCY = int(os.getenv("MAX_CONCURRENCY", "8"))
-DAILY_REFRESH_COUNT = int(os.getenv("DAILY_REFRESH_COUNT", "300"))
+MAX_CONCURRENCY = int(os.getenv("MAX_CONCURRENCY", "6"))
 
-# Anti-rate-limit config (bisa override via env di GitHub Actions)
+# DAILY scan limits
+DAILY_REFRESH_COUNT = int(os.getenv("DAILY_REFRESH_COUNT", "300"))
+DAILY_NEW_LIMIT = int(os.getenv("DAILY_NEW_LIMIT", "200"))
+
+# FULL scan limit (untuk hari pertama, biar tidak barbar)
+FULL_MAX_APPS = int(os.getenv("FULL_MAX_APPS", "10000"))
+
+# Anti-rate-limit config
 REQUEST_DELAY = float(os.getenv("REQUEST_DELAY_MS", "150")) / 1000.0
 AIOHTTP_TIMEOUT = float(os.getenv("AIOHTTP_TIMEOUT", "40"))
 REQUEST_ATTEMPTS = int(os.getenv("REQUEST_ATTEMPTS", "3"))
@@ -74,23 +81,26 @@ def now_iso() -> str:
 # =====================================================
 
 async def fetch_json(session: aiohttp.ClientSession, url: str):
+    """
+    Generic JSON fetcher untuk endpoint yang bukan Steam appdetails.
+    Ada fallback manual json.loads() untuk content-type text/plain
+    (misalnya GitHub raw).
+    """
     for attempt in range(1, REQUEST_ATTEMPTS + 1):
         await asyncio.sleep(REQUEST_DELAY)
         try:
             async with session.get(url) as resp:
                 text = await resp.text()
-
                 if resp.status != 200:
                     print(f"[WARN] JSON {url} status {resp.status}")
                     if attempt == REQUEST_ATTEMPTS:
                         return None
                     continue
 
+                # Coba decode via resp.json(), kalau gagal fallback manual
                 try:
-                    # coba decode standar
                     return await resp.json()
-                except:
-                    # fallback manual (karena GitHub RAW pakai text/plain)
+                except Exception:
                     try:
                         return json.loads(text)
                     except Exception as e:
@@ -127,18 +137,63 @@ async def fetch_text(session: aiohttp.ClientSession, url: str) -> str:
 
 
 # =====================================================
+# KHUSUS APPDETAILS (BUTUH STATUS CODE)
+# =====================================================
+
+async def fetch_appdetails_json(session: aiohttp.ClientSession, appid: int) -> Tuple[Optional[Dict[str, Any]], int]:
+    """
+    Fetch ke appdetails API untuk 1 AppID.
+    Return (data, status_code)
+    """
+    url = f"{STEAM_APPDETAILS_URL}?appids={appid}&cc=id&l=en"
+
+    for attempt in range(1, REQUEST_ATTEMPTS + 1):
+        await asyncio.sleep(REQUEST_DELAY)
+        try:
+            async with session.get(url) as resp:
+                text = await resp.text()
+                status = resp.status
+
+                if status != 200:
+                    print(f"[WARN] JSON {url} status {status}")
+                    if attempt == REQUEST_ATTEMPTS:
+                        return None, status
+                    continue
+
+                try:
+                    data = await resp.json()
+                except Exception:
+                    try:
+                        data = json.loads(text)
+                    except Exception as e:
+                        print(f"[ERROR] Appdetails JSON decode failed for {appid} -> {e}")
+                        if attempt == REQUEST_ATTEMPTS:
+                            return None, status
+                        continue
+
+                return data, status
+
+        except Exception as e:
+            print(f"[ERROR] Appdetails {appid} -> {e}")
+            if attempt == REQUEST_ATTEMPTS:
+                return None, 0
+
+    return None, 0
+
+
+# =====================================================
 # APPID LIST – PAKAI MIRROR GITHUB
 # =====================================================
 
 async def get_app_list_from_mirror() -> List[int]:
     """
     Ambil daftar AppID dari mirror:
-    https://github.com/jsnli/steamappidlist/tree/master/data
+    https://github.com/jsnli/steamappidlist
 
-    Format:
+    Format games_appid.json:
     [
-      {"appid": 10, "name": "..."},
-      {"appid": 20, "name": "..."},
+      {"appid": 10, "name": "...", ...},
+      {"appid": 20, "name": "...", ...},
       ...
     ]
     """
@@ -152,15 +207,15 @@ async def get_app_list_from_mirror() -> List[int]:
         data = await fetch_json(sess, APPID_SOURCE)
 
     if not data or not isinstance(data, list):
-        print("[ERROR] Mirror invalid / tidak bisa parse AppID list")
+        print("[ERROR] Gagal ambil AppID list dari mirror")
         return []
 
-    appids = []
+    appids: List[int] = []
     for item in data:
         try:
             appid = int(item.get("appid"))
             appids.append(appid)
-        except:
+        except Exception:
             continue
 
     appids = sorted(set(appids))
@@ -289,7 +344,11 @@ def parse_store_api(appid: int, data: Dict[str, Any]) -> Optional[Dict[str, Any]
     appid_num = info.get("steam_appid") or appid
     header = info.get("header_image")
 
-    genres = ", ".join(g.get("description", "") for g in info.get("genres", []) if g.get("description"))
+    genres = ", ".join(
+        g.get("description", "")
+        for g in info.get("genres", [])
+        if g.get("description")
+    )
 
     price_display, price_normalized = parse_price(info)
 
@@ -333,6 +392,30 @@ def save_data(data: Dict[int, Dict[str, Any]]) -> None:
     print(f"[DONE] Saved {len(out)} apps → {OUTPUT_PATH}")
 
 
+# ------------------ INVALID APPIDS -------------------
+
+def load_invalid() -> Dict[str, set[int]]:
+    if not INVALID_PATH.exists():
+        return {"http_403": set(), "no_api_data": set()}
+    try:
+        raw = json.loads(INVALID_PATH.read_text(encoding="utf-8"))
+        http_403 = set(int(x) for x in raw.get("http_403", []))
+        no_api = set(int(x) for x in raw.get("no_api_data", []))
+        return {"http_403": http_403, "no_api_data": no_api}
+    except Exception as e:
+        print(f"[WARN] gagal load invalid_appids.json: {e}")
+        return {"http_403": set(), "no_api_data": set()}
+
+
+def save_invalid(invalid: Dict[str, set[int]]) -> None:
+    payload = {
+        "http_403": sorted(list(invalid.get("http_403", set()))),
+        "no_api_data": sorted(list(invalid.get("no_api_data", set()))),
+    }
+    INVALID_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"[INFO] Saved invalid AppIDs → {INVALID_PATH}")
+
+
 # =====================================================
 # FETCH PER APP
 # =====================================================
@@ -342,15 +425,28 @@ async def fetch_app(
     api_sess: aiohttp.ClientSession,
     html_sess: aiohttp.ClientSession,
     sem: asyncio.Semaphore,
+    invalid_tracker: Dict[str, set[int]],
 ) -> Optional[Dict[str, Any]]:
     async with sem:
         print(f"[FETCH] AppID {appid}")
-        api_url = f"{STEAM_APPDETAILS_URL}?appids={appid}&cc=id&l=en"
-        api_json = await fetch_json(api_sess, api_url)
 
-        base = parse_store_api(appid, api_json or {})
+        api_json, status = await fetch_appdetails_json(api_sess, appid)
+
+        if status == 403:
+            print(f"[INFO] AppID {appid} → 403 (forbidden), tandai invalid.")
+            invalid_tracker["http_403"].add(appid)
+            return None
+
+        if api_json is None:
+            # Network / parsing error → jangan tandai invalid permanen,
+            # biar bisa dicoba lagi di run berikutnya.
+            print(f"[WARN] Tidak bisa ambil API data untuk {appid} (network/parse)")
+            return None
+
+        base = parse_store_api(appid, api_json)
         if not base:
-            print(f"[WARN] No API data for {appid}")
+            print(f"[WARN] No API data for {appid} (success=false / data kosong)")
+            invalid_tracker["no_api_data"].add(appid)
             return None
 
         html = await fetch_text(html_sess, STEAM_STORE_PAGE_URL.format(appid=appid))
@@ -372,44 +468,68 @@ async def fetch_app(
 async def main(full_scan: bool = False) -> None:
     # 1. AppID list dari mirror
     all_appids = await get_app_list_from_mirror()
-    app_set = set(all_appids)
+    if not all_appids:
+        print("[FATAL] Tidak ada AppID dari mirror. Abort.")
+        return
 
-    # 2. Load JSON lama
+    # 2. Load invalid AppIDs
+    invalid = load_invalid()
+    invalid_all = invalid["http_403"] | invalid["no_api_data"]
+    if invalid_all:
+        print(f"[INFO] Invalid AppIDs known: {len(invalid_all)}")
+
+    # Filter out invalid dari pool
+    valid_appids = [a for a in all_appids if a not in invalid_all]
+    print(f"[INFO] Valid AppIDs after filter invalid: {len(valid_appids)}")
+
+    # 3. Load JSON lama
     existing = load_existing_data()
     existing_ids = set(existing.keys())
 
-    # 3. Deteksi NEW & REMOVED (follow mirror)
-    new_ids = sorted(app_set - existing_ids)
-    removed_ids = sorted(existing_ids - app_set)
+    # 4. Deteksi NEW & REMOVED (follow mirror + invalid)
+    valid_set = set(valid_appids)
+    new_ids = sorted(valid_set - existing_ids)
+    removed_ids = sorted(existing_ids - valid_set)
 
     if removed_ids:
-        print(f"[INFO] Removed {len(removed_ids)} appids (di mirror sudah tidak ada)")
+        print(f"[INFO] Removed {len(removed_ids)} appids (tidak ada di mirror/valid)")
         for rid in removed_ids:
             existing.pop(rid, None)
 
     print(f"[INFO] Existing in JSON : {len(existing_ids)}")
     print(f"[INFO] New from mirror  : {len(new_ids)}")
 
-    # 4. Tentukan target untuk run ini
+    # 5. Tentukan target untuk run ini
     if full_scan or not existing:
-        target_ids = all_appids
-        mode = "FULL"
+        # FULL mode → batasi dengan FULL_MAX_APPS
+        target_ids = valid_appids[:FULL_MAX_APPS]
+        mode = f"FULL ({len(target_ids)}/{len(valid_appids)} appids)"
     else:
-        refresh_sample = []
+        # DAILY mode:
+        # - ambil sebagian new_ids
+        # - ambil sample dari existing untuk refresh
+        chosen_new: List[int] = []
+        if new_ids:
+            take = min(DAILY_NEW_LIMIT, len(new_ids))
+            chosen_new = new_ids[:take]
+
+        refresh_sample: List[int] = []
         if existing:
             sample_size = min(DAILY_REFRESH_COUNT, len(existing))
             refresh_sample = random.sample(list(existing.keys()), sample_size)
-        target_ids = sorted(set(new_ids + refresh_sample))
-        mode = "DAILY"
+
+        target_ids = sorted(set(chosen_new + refresh_sample))
+        mode = f"DAILY (new: {len(chosen_new)}, refresh: {len(refresh_sample)})"
 
     print(f"[MODE] {mode} – total target appids: {len(target_ids)}")
 
     if not target_ids:
         print("[INFO] Tidak ada yang perlu di-update. Save & exit.")
         save_data(existing)
+        save_invalid(invalid)
         return
 
-    # 5. Setup HTTP sessions
+    # 6. Setup HTTP sessions
     headers = {
         "User-Agent": random.choice(USER_AGENTS),
         "Accept-Language": "en-US,en;q=0.9",
@@ -418,9 +538,12 @@ async def main(full_scan: bool = False) -> None:
     sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
     async with aiohttp.ClientSession(headers=headers, timeout=timeout) as api_sess, \
-         aiohttp.ClientSession(headers=headers, timeout=timeout) as html_sess:
+            aiohttp.ClientSession(headers=headers, timeout=timeout) as html_sess:
 
-        tasks = [fetch_app(a, api_sess, html_sess, sem) for a in target_ids]
+        tasks = [
+            fetch_app(a, api_sess, html_sess, sem, invalid)
+            for a in target_ids
+        ]
 
         updated: List[Dict[str, Any]] = []
         for coro in asyncio.as_completed(tasks):
@@ -430,19 +553,20 @@ async def main(full_scan: bool = False) -> None:
 
     print(f"[INFO] Fetched/updated this run: {len(updated)} apps")
 
-    # 6. Merge ke existing
+    # 7. Merge ke existing
     for item in updated:
         existing[int(item["appid"])] = item
 
-    # 7. Save
+    # 8. Save data & invalid list
     save_data(existing)
+    save_invalid(invalid)
 
 
 if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Steam metadata sync (full / daily)")
-    parser.add_argument("--full", action="store_true", help="Full scan semua AppID")
+    parser.add_argument("--full", action="store_true", help="Full scan (limit FULL_MAX_APPS)")
     args = parser.parse_args()
 
     asyncio.run(main(full_scan=args.full))

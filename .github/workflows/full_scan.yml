@@ -1,10 +1,17 @@
-name: Steam Full Scan (Day 1 Only)
+name: Steam Full Scan (Day 1 / Manual)
 
 permissions:
   contents: write
 
 on:
-  workflow_dispatch:   # hanya manual
+  workflow_dispatch:   # jalan manual dari tab Actions
+
+env:
+  MAX_CONCURRENCY: 6
+  REQUEST_DELAY_MS: 150
+  REQUEST_ATTEMPTS: 3
+  AIOHTTP_TIMEOUT: 40
+  FULL_MAX_APPS: 10000       # batasi 10.000 app pertama (bisa kamu ubah)
 
 jobs:
   fullscan:
@@ -19,24 +26,30 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
 
       - name: Install deps
         run: |
           pip install --upgrade pip
           pip install aiohttp beautifulsoup4 lxml
 
-      - name: Run FULL SCAN (50k+ apps)
-        env:
-          AIOHTTP_TIMEOUT: "50"
-          REQUEST_DELAY_MS: "150"
-          REQUEST_ATTEMPTS: "3"
+      - name: Run FULL SCAN
         run: |
+          echo "[RUN] steam_sync.py --full"
           python steam_sync.py --full
 
       - name: Commit JSON if changed
         run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add steam_data.json || true
-          git commit -m "FULL SCAN $(date -u +'%Y-%m-%d %H:%M UTC')" || true
-          git push
+
+          # ambil dulu update terbaru, anti 'fetch first'
+          git pull --rebase origin main || true
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add steam_data.json invalid_appids.json || true
+            git commit -m "FULL SCAN $(date -u +'%Y-%m-%d %H:%M UTC')" || true
+            git push origin main || true
+          else
+            echo "No changes → Skip commit."
+          fi
