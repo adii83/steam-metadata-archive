@@ -7,7 +7,7 @@ SELF-DRIVING STEAM SCRAPER (LOCAL MODE)
 - Auto-backoff: 10m → 30m → 1h
 - Auto-resume progress
 - Strict fields:
-    appid, title, header, header_candidates,
+    appid, title, header,
     genre, short_description,
     developers, publishers,
     release_date,
@@ -16,6 +16,8 @@ SELF-DRIVING STEAM SCRAPER (LOCAL MODE)
     last_update
 """
 
+import argparse
+import sys
 import asyncio
 import aiohttp
 import json
@@ -26,6 +28,8 @@ from pathlib import Path
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from typing import Optional, Dict, Any, List
+from html import unescape
+ 
 
 # ------------------------------
 # CONFIG
@@ -69,7 +73,8 @@ def load_json(path: Path, default):
 
 
 def save_json(path: Path, data):
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    # Write compact JSON without indentation or trailing newlines
+    path.write_text(json.dumps(data, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
 
 
 # ------------------------------
@@ -100,76 +105,12 @@ def parse_store_api(appid: int, js: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     else:
         disp, norm = "Free", 0
 
-    # --- FIRST TRY: screenshot dari API ---
-    ss_raw = info.get("screenshots") or []
-    screenshots_api = []
-    for s in ss_raw:
-        url = s.get("path_full") or s.get("path_thumbnail")
-        if not url:
-            continue
-        if url.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
-            screenshots_api.append(url)
-
-    # Trailer handling (jika ada)
-    # - trailer_thumb: thumbnail image for header_candidates (first movie)
-    # - trailer: prefer an MP4 url (first movie that provides an mp4), else None
-    trailer_thumb = None
-    trailer_mp4 = None
-    movies = info.get("movies") or []
-    if movies:
-        m0 = movies[0]
-        trailer_thumb = m0.get("thumbnail") or None
-
-        # Try to find an MP4 URL from movies entries (prefer 'max' or highest-res)
-        for m in movies:
-            mp4 = m.get("mp4")
-            if isinstance(mp4, dict):
-                # prefer 'max', then largest numeric key
-                if mp4.get("max"):
-                    trailer_mp4 = mp4.get("max")
-                else:
-                    # find largest numeric key
-                    keys = [k for k in mp4.keys() if k.isdigit()]
-                    if keys:
-                        kmax = sorted(keys, key=int)[-1]
-                        trailer_mp4 = mp4.get(kmax)
-            elif isinstance(mp4, str) and mp4:
-                trailer_mp4 = mp4
-
-            if trailer_mp4:
-                break
-
-    # Bangun header_candidates: header selalu DIUTAMAKAN PERTAMA,
-    # lalu trailer thumbnail (jika ada), lalu screenshot API (full).
-    # Dedup dan batasi maksimal 7 item.
-    candidates = []
-    seen = set()
-
-    # header harus selalu di posisi pertama bila tersedia
-    if header:
-        seen.add(header)
-        candidates.append(header)
-
-    # lalu trailer thumbnail (jika ada)
-    if trailer_thumb and trailer_thumb not in seen:
-        seen.add(trailer_thumb)
-        candidates.append(trailer_thumb)
-
-    # sisanya dari screenshots_api
-    for u in screenshots_api:
-        if u not in seen:
-            seen.add(u)
-            candidates.append(u)
-        if len(candidates) >= 7:
-            break
+    # (Screenshots and trailer fields removed — no longer produced)
 
     return {
         "appid": appid,
         "title": info.get("name"),
         "header": header,
-        "trailer": trailer_mp4,
-        "header_candidates": candidates,
-        "screenshots_api": screenshots_api,
         "genre": genres or None,
         "short_description": info.get("short_description"),
         "developers": info.get("developers", []),
@@ -206,39 +147,88 @@ def build_header_candidates(header_url: str, screenshots: List[str]):
 # ------------------------------
 # PROTECTION ENGINE
 # ------------------------------
-def detect_protection(base: dict, txt: str) -> Optional[bool]:
-    t = txt.lower()
+def detect_protection(base: dict, txt: str, raw_html: Optional[str] = None) -> Optional[bool]:
+    """Detect whether the store page indicates additional protection/launcher requirements.
 
-    if "denuvo" in t:
-        return True
+    Parameters:
+    - base: metadata dict with 'publishers' and 'developers'
+    - txt: plain text extracted from page (lowercased expected)
+    - raw_html: raw html source (optional) — used to detect explicit DRM_notice divs
 
-    launch_kw = [
-        "electronic arts", "ea", "ea games", "ea sports",
-        "ubisoft", "uplay", "ubisoft connect",
-        "rockstar games", "social club",
-        "activision", "battle.net", "battlenet",
-        "epic games", "epic online services",
-    ]
+    Returns True for detected protection, None for inconclusive/unknown.
+    """
+    t = (txt or "").lower()
 
-    pubs = [p.lower() for p in base.get("publishers", [])]
-    devs = [d.lower() for d in base.get("developers", [])]
+    # Helper: extract DRM/anticheat div text blocks (normalized, lowercased)
+    def extract_drm_text_blocks(html: str) -> List[str]:
+        out = []
+        if not html:
+            return out
+        soup = BeautifulSoup(html, "lxml")
+        pattern = re.compile(r'(?:drm[_\-\s]?notice|anticheat_section)', re.IGNORECASE)
+        for div in soup.find_all("div"):
+            classes = div.get("class")
+            if not classes:
+                continue
+            class_str = " ".join(classes)
+            if pattern.search(class_str):
+                text = div.get_text(" ", strip=True) or ""
+                text = unescape(text)
+                text = re.sub(r'[\s\u00A0]+', ' ', text).strip().lower()
+                out.append(text)
+        return out
 
-    if any(l in p for p in pubs for l in launch_kw):
-        return True
-    if any(l in d for d in devs for l in launch_kw):
-        return True
+    def find_phrases_in_blocks(blocks: List[str], phrases: List[str]) -> List[str]:
+        found = []
+        for block in blocks:
+            for p in phrases:
+                pl = p.lower()
+                try:
+                    pat = r"\b" + re.escape(pl) + r"\b"
+                    if re.search(pat, block):
+                        if p not in found:
+                            found.append(p)
+                except re.error:
+                    if pl in block and p not in found:
+                        found.append(p)
+        return found
 
-    html_kw = [
-        "ea app", "origin",
-        "requires ea account",
-        "requires ubisoft account",
-        "requires rockstar account",
-        "requires activision",
-        "requires epic account",
-        "login with epic",
-    ]
+    # If raw_html is provided, only inspect DRM/anticheat UI blocks for the
+    # specific phrase list. If nothing matches inside those blocks, return
+    # None (inconclusive) so we don't mislabel pages based on other text.
+    if raw_html:
+        blocks = extract_drm_text_blocks(raw_html)
+        html_check_phrases = [
+            "ea app",
+            "requires ea account",
+            "requires ubisoft account",
+            "requires rockstar account",
+            "requires activision",
+            "requires epic account",
+            "login with epic",
+            # launcher/publisher keywords (kept as phrases to detect explicit launcher notices)
+            "electronic arts", "ea games", "ea sports",
+            "ubisoft", "uplay", "ubisoft connect",
+            "rockstar games", "social club",
+            "activision", "battle.net", "battlenet",
+            "epic games", "epic online services", "denuvo",
+        ]
 
-    if any(k in t for k in html_kw):
+        # check denuvo inside blocks as well
+        for b in blocks:
+            if 'denuvo' in b:
+                return True
+
+        phrases_found = find_phrases_in_blocks(blocks, html_check_phrases)
+        if phrases_found:
+            return True
+        return None
+
+    # If raw_html not provided, fall back to older heuristics (denuvo / anti-cheat)
+    # NOTE: publisher/developer substring heuristics were removed to match
+    # the analyzer logic where launcher keywords are only trusted when
+    # observed inside DRM/anticheat UI blocks.
+    if 'denuvo' in t:
         return True
 
     anti = ["easy anti-cheat", "eac", "battleye", "vac"]
@@ -351,6 +341,28 @@ async def fetch_screenshots_from_steamdb(session, appid: int) -> List[str]:
     return out
 
 
+# ------------------------------
+# PLAYWRIGHT / DYNAMIC FALLBACK
+# ------------------------------
+# Playwright/dynamic rendering removed — analyzer subprocess is used as canonical fallback.
+
+
+def run_analyzer_subprocess(appid: int, cwd: Path = None) -> Optional[Dict[str, Any]]:
+    """Call the analyzer script as a subprocess with --json output and parse result."""
+    try:
+        script = Path(__file__).parent / 'analyze_protection_1020790.py'
+        cmd = [sys.executable, str(script), '--appid', str(appid), '--json']
+        proc = subprocess.run(cmd, capture_output=True, text=True, cwd=cwd)
+        if proc.returncode != 0:
+            return None
+        out = proc.stdout.strip()
+        if not out:
+            return None
+        return json.loads(out)
+    except Exception:
+        return None
+
+
 
 # ------------------------------
 # MAIN ENGINE
@@ -366,7 +378,6 @@ async def main():
     prog = load_json(PROGRESS_FILE, {"index": 0})
 
     idx = prog["index"]
-
     async with aiohttp.ClientSession(headers={"User-Agent": UA[0]}) as sess_api, \
          aiohttp.ClientSession(headers={"User-Agent": UA[1]}) as sess_html:
 
@@ -400,8 +411,18 @@ async def main():
 
             text = BeautifulSoup(html, "lxml").get_text(" ", strip=True)
 
-            # header_candidates are built from API only (trailer thumb, header, screenshots)
-            prot = detect_protection(base, text)
+            # header candidates: only `header` remains (screenshots/trailer fields removed)
+            prot = detect_protection(base, text, html)
+
+            # If static HTML is inconclusive, first try analyzer subprocess (parity)
+            if prot is None:
+                analyzer_res = run_analyzer_subprocess(appid, cwd=Path(__file__).parent)
+                if analyzer_res is not None:
+                    # Use analyzer decision (no cookie-related logging)
+                    prot = analyzer_res.get('decision')
+                else:
+                    # Analyzer subprocess unavailable — no dynamic fallback configured.
+                    print(f"[WARN] Analyzer subprocess failed for AppID {appid}; protection remains inconclusive.")
 
             full = dict(base)
             full["protection"] = prot
@@ -431,6 +452,55 @@ async def fetch_all_mirror():
     return data or []
 
 
+async def run_test(appids: list):
+    """Run quick test: fetch store API for given appids and save results to `steam_data_test.json`"""
+    print(f"[TEST] Fetching {len(appids)} appids: {appids}")
+    results = {}
+
+    async with aiohttp.ClientSession(headers={"User-Agent": UA[0]}) as sess_api, \
+         aiohttp.ClientSession(headers={"User-Agent": UA[1]}) as sess_html:
+
+        for appid in appids:
+            print(f"[TEST] AppID {appid}...")
+            js = await fetch_json(sess_api, DETAIL_URL.format(appid=appid))
+            if js == "403":
+                print(f"[TEST] AppID {appid} -> 403 from API")
+                continue
+
+            base = parse_store_api(appid, js or {})
+            if not base:
+                print(f"[TEST] AppID {appid} -> no data from API")
+                continue
+
+            html = await fetch_text(sess_html, HTML_URL.format(appid=appid))
+            text = BeautifulSoup(html, "lxml").get_text(" ", strip=True) if html else ""
+            prot = detect_protection(base, text, html)
+
+            # If static HTML inconclusive, use analyzer subprocess. No dynamic fallback.
+            if prot is None:
+                analyzer_res = run_analyzer_subprocess(appid, cwd=Path(__file__).parent)
+                if analyzer_res is not None:
+                    prot = analyzer_res.get('decision')
+                else:
+                    print(f"[TEST][WARN] Analyzer subprocess failed for AppID {appid}; protection remains inconclusive.")
+
+            full = dict(base)
+            full["protection"] = prot
+            full["last_update"] = now()
+
+            results[str(appid)] = full
+
+            # print one-app compact JSON to stdout
+            print(json.dumps(full, separators=(",", ":"), ensure_ascii=False))
+
+            await asyncio.sleep(FETCH_DELAY)
+
+    # save test output
+    out_path = Path("steam_data_test.json")
+    out_path.write_text(json.dumps(results, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    print(f"[TEST] Saved {len(results)} entries to {out_path}")
+
+
 def git_autopush():
     try:
         print("[GIT] Auto-push triggered...")
@@ -445,4 +515,16 @@ def git_autopush():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    parser = argparse.ArgumentParser(description="Steam metadata sync / test tool")
+    parser.add_argument("--test", action="store_true", help="Run test mode for provided appids")
+    parser.add_argument("--appid", nargs="+", type=int, help="One or more appids to test with (--test)")
+
+    args = parser.parse_args()
+
+    if args.test:
+        if not args.appid:
+            print("ERROR: --test requires --appid <list>")
+            sys.exit(2)
+        asyncio.run(run_test(args.appid))
+    else:
+        asyncio.run(main())

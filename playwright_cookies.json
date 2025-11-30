@@ -1,0 +1,80 @@
+[
+  {
+    "name": "steamLoginSecure",
+    "value": "76561198784774724%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MDAwRF8yNzRGREQ5N18zMzExRCIsICJzdWIiOiAiNzY1NjExOTg3ODQ3NzQ3MjQiLCAiYXVkIjogWyAid2ViOnN0b3JlIiBdLCAiZXhwIjogMTc2NDI1NzMzOCwgIm5iZiI6IDE3NTU1MzA1NDcsICJpYXQiOiAxNzY0MTcwNTQ3LCAianRpIjogIjAwMTZfMjc0RkREOTRfMURFQkEiLCAib2F0IjogMTc2NDE3MDU0NiwgInJ0X2V4cCI6IDE3ODIzMDMyNTAsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMDMuNzkuMjQ3LjQ4IiwgImlwX2NvbmZpcm1lciI6ICIxMDMuNzkuMjQ3LjQ4IiB9.psXUGJj2bceZPRXgZC_JNwyRoo7O8ZnORsC5TzSx6s8IMwWsgf9O8Y9PF3JP7eVPspjr5ZBAgqs6-EXyDEOXBg",
+    "domain": ".store.steampowered.com",
+    "path": "/",
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "steamLoginSecure",
+    "value": "76561198784774724%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MDAwRF8yNzRGREQ5N18zMzExRCIsICJzdWIiOiAiNzY1NjExOTg3ODQ3NzQ3MjQiLCAiYXVkIjogWyAid2ViOnN0b3JlIiBdLCAiZXhwIjogMTc2NDI1NzMzOCwgIm5iZiI6IDE3NTU1MzA1NDcsICJpYXQiOiAxNzY0MTcwNTQ3LCAianRpIjogIjAwMTZfMjc0RkREOTRfMURFQkEiLCAib2F0IjogMTc2NDE3MDU0NiwgInJ0X2V4cCI6IDE3ODIzMDMyNTAsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMDMuNzkuMjQ3LjQ4IiwgImlwX2NvbmZpcm1lciI6ICIxMDMuNzkuMjQ3LjQ4IiB9.psXUGJj2bceZPRXgZC_JNwyRoo7O8ZnORsC5TzSx6s8IMwWsgf9O8Y9PF3JP7eVPspjr5ZBAgqs6-EXyDEOXBg",
+    "domain": ".steampowered.com",
+    "path": "/",
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "steamLoginSecure",
+    "value": "76561198784774724%7C%7CeyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MDAwRF8yNzRGREQ5N18zMzExRCIsICJzdWIiOiAiNzY1NjExOTg3ODQ3NzQ3MjQiLCAiYXVkIjogWyAid2ViOnN0b3JlIiBdLCAiZXhwIjogMTc2NDI1NzMzOCwgIm5iZiI6IDE3NTU1MzA1NDcsICJpYXQiOiAxNzY0MTcwNTQ3LCAianRpIjogIjAwMTZfMjc0RkREOTRfMURFQkEiLCAib2F0IjogMTc2NDE3MDU0NiwgInJ0X2V4cCI6IDE3ODIzMDMyNTAsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMDMuNzkuMjQ3LjQ4IiwgImlwX2NvbmZpcm1lciI6ICIxMDMuNzkuMjQ3LjQ4IiB9.psXUGJj2bceZPRXgZC_JNwyRoo7O8ZnORsC5TzSx6s8IMwWsgf9O8Y9PF3JP7eVPspjr5ZBAgqs6-EXyDEOXBg",
+    "domain": ".steamcommunity.com",
+    "path": "/",
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "sessionid",
+    "value": "63bcdf734ccffe8997af15a2",
+    "domain": ".store.steampowered.com",
+    "path": "/",
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "sessionid",
+    "value": "63bcdf734ccffe8997af15a2",
+    "domain": ".steampowered.com",
+    "path": "/",
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "sessionid",
+    "value": "63bcdf734ccffe8997af15a2",
+    "domain": ".steamcommunity.com",
+    "path": "/",
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "browserid",
+    "value": "362099109127765745",
+    "domain": ".store.steampowered.com",
+    "path": "/"
+  },
+  {
+    "name": "steamCountry",
+    "value": "ID%7Cf1bd4f3c4cdc3be04b11243700579759",
+    "domain": ".store.steampowered.com",
+    "path": "/"
+  },
+  {
+    "name": "wants_mature_content",
+    "value": "1",
+    "domain": ".store.steampowered.com",
+    "path": "/"
+  },
+  {
+    "name": "lastagecheckage",
+    "value": "1-January-1984",
+    "domain": ".store.steampowered.com",
+    "path": "/"
+  },
+  {
+    "name": "birthtime",
+    "value": "441738001",
+    "domain": ".store.steampowered.com",
+    "path": "/"
+  }
+]
