@@ -1,0 +1,43 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore sensitive cookie files
+cookies.json
+playwright_cookies.json
+
+# (Optional) Ignore override if bersifat sensitif
+# override_data.json
+
+# Ignore VSCode workspace cache
+.vscode/
+*.code-workspace
+
+# Ignore temporary JSON files (opsional)
+progress.json
+
+# Ignore virtual environments
+venv/
+.env/
+.env*/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore test cache
+.pytest_cache/
+
+# Ignore GitHub Actions artifacts (optional)
+*.retry
+*.cache
