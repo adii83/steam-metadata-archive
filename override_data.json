@@ -18,6 +18,11 @@
         "protection": null,
         "last_update": "2025-11-29T20:57:40.705793+00:00"
     },
+    
+    "15100":{
+      "protection": true
+    },
+
     "1665460": {
         "appid": 1665460,
         "title": "eFootball™",
