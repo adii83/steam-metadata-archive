@@ -10,7 +10,7 @@
     "release_date": "21 Oct, 2025",
     "price_display": "Rp 74.000",
     "price_normalized": 74000,
-    "protection": null,
+    "protection": true,
     "last_update": "2025-11-29T20:57:40.705793+00:00"
   },
 
