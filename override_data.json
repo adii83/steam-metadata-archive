@@ -327,8 +327,8 @@
             "Ubisoft"
         ],
         "release_date": "26 Oct, 2017",
-        "price_display": "Rp 619.000",
-        "price_normalized": 619000,
+        "price_display": "Free",
+        "price_normalized": 0,
         "protection": true,
         "last_update": "2025-11-30T17:25:24.001951+00:00"
     },
