@@ -104,6 +104,57 @@
       ]
     },
     {
+      "appid": 3240220,
+      "title": "Grand Theft Auto V Enhanced",
+      "publisher": "Rockstar",
+      "category": "rockstar",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/394239e5da54fed177bd0ab04590812f6add1bb5/library_600x900_2x.jpg",
+      "password": "password_fifa24",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "fifa24_fix.rar",
+          "gdrive_id": "3c4d5e6f7g8h9i0j1k2l",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=3c4d5e6f7g8h9i0j1k2l"
+        }
+      ]
+    },
+    {
+      "appid": 3240220,
+      "title": "Grand Theft Auto V Enhanced",
+      "publisher": "Play Station",
+      "category": "playstation",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/394239e5da54fed177bd0ab04590812f6add1bb5/library_600x900_2x.jpg",
+      "password": "password_fifa24",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "fifa24_fix.rar",
+          "gdrive_id": "3c4d5e6f7g8h9i0j1k2l",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=3c4d5e6f7g8h9i0j1k2l"
+        }
+      ]
+    },
+    {
+      "appid": 3240220,
+      "title": "Grand Theft Auto V Enhanced",
+      "publisher": "Activision",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/394239e5da54fed177bd0ab04590812f6add1bb5/library_600x900_2x.jpg",
+      "password": "password_fifa24",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "fifa24_fix.rar",
+          "gdrive_id": "3c4d5e6f7g8h9i0j1k2l",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=3c4d5e6f7g8h9i0j1k2l"
+        }
+      ]
+    },
+    {
       "appid": 2669320,
       "title": "EA SPORTS FC 25",
       "publisher": "EA",
