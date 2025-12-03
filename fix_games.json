@@ -1,0 +1,124 @@
+{
+  "games": [
+    {
+      "appid": 812140,
+      "title": "Assassin's Creed Odyssey",
+      "publisher": "Ubisoft",
+      "category": "ubisoft",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg",
+      "password": "password_game_ini",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "acv_fix_part1.rar",
+          "gdrive_id": "1a2b3c4d5e6f7g8h9i0j",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1a2b3c4d5e6f7g8h9i0j"
+        },
+        {
+          "part": 2,
+          "filename": "acv_fix_part2.rar",
+          "gdrive_id": "2b3c4d5e6f7g8h9i0j1k",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=2b3c4d5e6f7g8h9i0j1k"
+        }
+      ]
+    },
+    {
+      "appid": 812140,
+      "title": "Assassin's Creed Odyssey",
+      "publisher": "Ubisoft",
+      "category": "ubisoft",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg",
+      "password": "password_game_ini",
+      "premium": false,
+      "files": [
+        {
+          "part": 1,
+          "filename": "acv_fix_part1.rar",
+          "gdrive_id": "1a2b3c4d5e6f7g8h9i0j",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1a2b3c4d5e6f7g8h9i0j"
+        },
+        {
+          "part": 2,
+          "filename": "acv_fix_part2.rar",
+          "gdrive_id": "2b3c4d5e6f7g8h9i0j1k",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=2b3c4d5e6f7g8h9i0j1k"
+        }
+      ]
+    },
+    {
+      "appid": 812140,
+      "title": "Assassin's Creed Odyssey",
+      "publisher": "Ubisoft",
+      "category": "ubisoft",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg",
+      "password": "password_game_ini",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "acv_fix_part1.rar",
+          "gdrive_id": "1a2b3c4d5e6f7g8h9i0j",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1a2b3c4d5e6f7g8h9i0j"
+        },
+        {
+          "part": 2,
+          "filename": "acv_fix_part2.rar",
+          "gdrive_id": "2b3c4d5e6f7g8h9i0j1k",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=2b3c4d5e6f7g8h9i0j1k"
+        }
+      ]
+    },
+    {
+      "appid": 2669320,
+      "title": "EA SPORTS FC 25",
+      "publisher": "EA",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/c5ddf022ee6adee9aa6a6a6e8cb9e1c8b8490022/library_600x900_2x.jpg?t=1752681627",
+      "password": "password_fifa24",
+      "premium": false,
+      "files": [
+        {
+          "part": 1,
+          "filename": "fifa24_fix.rar",
+          "gdrive_id": "3c4d5e6f7g8h9i0j1k2l",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=3c4d5e6f7g8h9i0j1k2l"
+        }
+      ]
+    },
+    {
+      "appid": 2669320,
+      "title": "EA SPORTS FC 25",
+      "publisher": "EA",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/c5ddf022ee6adee9aa6a6a6e8cb9e1c8b8490022/library_600x900_2x.jpg?t=1752681627",
+      "password": "password_fifa24",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "fifa24_fix.rar",
+          "gdrive_id": "3c4d5e6f7g8h9i0j1k2l",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=3c4d5e6f7g8h9i0j1k2l"
+        }
+      ]
+    },
+    {
+      "appid": 2669320,
+      "title": "EA SPORTS FC 25",
+      "publisher": "EA",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/c5ddf022ee6adee9aa6a6a6e8cb9e1c8b8490022/library_600x900_2x.jpg?t=1752681627",
+      "password": "password_fifa24",
+      "premium": false,
+      "files": [
+        {
+          "part": 1,
+          "filename": "fifa24_fix.rar",
+          "gdrive_id": "3c4d5e6f7g8h9i0j1k2l",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=3c4d5e6f7g8h9i0j1k2l"
+        }
+      ]
+    }
+  ]
+}
