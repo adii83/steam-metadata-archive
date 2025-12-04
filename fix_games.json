@@ -103,23 +103,6 @@
       ]
     },
     {
-      "appid": 911400,
-      "title": "Assassin's Creed® III Remastered",
-      "publisher": "Ubisoft Entertainment",
-      "category": "ubisoft",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/911400/header.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "as_iii.rar",
-          "gdrive_id": "14BM51bhojkGqwhDVUn7HtD3e-cnh3tuS",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=14BM51bhojkGqwhDVUn7HtD3e-cnh3tuS"
-        }
-      ]
-    },
-    {
       "appid": 1222700,
       "title": "A Way Out",
       "publisher": "Electronic Arts",
@@ -190,7 +173,7 @@
     {
       "appid": 911400,
       "title": "Assassin's Creed® III Remastered",
-      "publisher": "Ubisoft Entertainment\t\t\t\t",
+      "publisher": "Ubisoft Entertainment",
       "category": "ubisoft",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/911400/header.jpg",
       "password": "adi83geel",
@@ -600,11 +583,11 @@
       ]
     },
     {
-      "appid": "",
+      "appid": "224060",
       "title": "Deadpool",
-      "publisher": "",
+      "publisher": "Activision",
       "category": "other",
-      "poster": "",
+      "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4xsf.webp",
       "password": "adi83geel",
       "premium": true,
       "files": [
@@ -782,23 +765,6 @@
           "filename": "co_wwi.rar",
           "gdrive_id": "1wBZlPNKJrrZ_Oy1IdXw7hgZ5O_wgSFrm",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1wBZlPNKJrrZ_Oy1IdXw7hgZ5O_wgSFrm"
-        }
-      ]
-    },
-    {
-      "appid": 115300,
-      "title": "Call of Duty®: Modern Warfare® 3 (2011)",
-      "publisher": "Activision",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/115300/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "co_war.rar",
-          "gdrive_id": "1Yn_UTyq3aCnp1-APMtdcpYAT6qXP4hfz",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Yn_UTyq3aCnp1-APMtdcpYAT6qXP4hfz"
         }
       ]
     },
@@ -1655,23 +1621,6 @@
       ]
     },
     {
-      "appid": 1174180,
-      "title": "Red Dead Redemption 2",
-      "publisher": "Rockstar Games",
-      "category": "rockstar",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "rd_red.rar",
-          "gdrive_id": "14q9pa8a70Le0JegZAQYWHjEbSgiaWX2D",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=14q9pa8a70Le0JegZAQYWHjEbSgiaWX2D"
-        }
-      ]
-    },
-    {
       "appid": 1237950,
       "title": "STAR WARS™ Battlefront™ II",
       "publisher": "Electronic Arts",
@@ -1702,23 +1651,6 @@
           "filename": "tc_2.rar",
           "gdrive_id": "1QMweiTMCGXHdCKLUE4-vBk5-eVgvb4O2",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1QMweiTMCGXHdCKLUE4-vBk5-eVgvb4O2"
-        }
-      ]
-    },
-    {
-      "appid": 447040,
-      "title": "Watch_Dogs® 2",
-      "publisher": "Ubisoft",
-      "category": "ubisoft",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/447040/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "watch_do.rar",
-          "gdrive_id": "1WRZIwV5PEVy8nOCsTZhjfTVkuRuX--5r",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1WRZIwV5PEVy8nOCsTZhjfTVkuRuX--5r"
         }
       ]
     },
@@ -1810,23 +1742,6 @@
           "filename": "wd_leg.part2.rar",
           "gdrive_id": "1fn4kGxNXeH-WSbQVx9IbczcNE9E8aimt",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1fn4kGxNXeH-WSbQVx9IbczcNE9E8aimt"
-        }
-      ]
-    },
-    {
-      "appid": 1225570,
-      "title": "Unravel Two",
-      "publisher": "Electronic Arts",
-      "category": "ea",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1225570/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "unravel.rar",
-          "gdrive_id": "1CE1vzTFbPgkDqCtl50MgSxuMcD-suPX4",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1CE1vzTFbPgkDqCtl50MgSxuMcD-suPX4"
         }
       ]
     },
