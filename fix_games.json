@@ -519,7 +519,7 @@
       "title": "Call of Duty®: Black Ops 7",
       "publisher": "Activision",
       "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3606480/31b4b3e440129c472e45f78ebb375b6e83f91c90/hero_capsule_2x.jpg?t=1764713649",
+      "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwv.webp",
       "password": "adi83geel",
       "premium": true,
       "files": [
@@ -1764,7 +1764,7 @@
     },
     {
       "appid": 447040,
-      "title": "Watch_Dogs® 2",
+      "title": "Watch Dogs® 2",
       "publisher": "Ubisoft",
       "category": "ubisoft",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/447040/library_600x900_2x.jpg",
@@ -1776,6 +1776,23 @@
           "filename": "watch_do.rar",
           "gdrive_id": "1IOjEKbC_acgiVM9yf3bK9vlCJl92uTsz",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1IOjEKbC_acgiVM9yf3bK9vlCJl92uTsz"
+        }
+      ]
+    },
+    {
+      "appid": 243470,
+      "title": "Watch Dogs",
+      "publisher": "Ubisoft",
+      "category": "ubisoft",
+      "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p5w.webp",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "watch_do.rar",
+          "gdrive_id": "1WRZIwV5PEVy8nOCsTZhjfTVkuRuX--5r",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1WRZIwV5PEVy8nOCsTZhjfTVkuRuX--5r"
         }
       ]
     }
