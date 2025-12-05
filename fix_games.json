@@ -1576,7 +1576,7 @@
       "category": "rockstar",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
