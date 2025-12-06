@@ -126,7 +126,7 @@
       "category": "ubisoft",
       "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy6.webp",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -160,7 +160,7 @@
       "category": "ubisoft",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289650/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -194,7 +194,7 @@
       "category": "ubisoft",
       "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5j90.webp",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -368,7 +368,7 @@
       "category": "ubisoft",
       "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy4.webp",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -419,7 +419,7 @@
       "category": "ea",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238840/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -470,7 +470,7 @@
       "category": "other",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/7940/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -572,7 +572,7 @@
       "category": "other",
       "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4xsf.webp",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -707,7 +707,7 @@
       "category": "other",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/10180/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -724,7 +724,7 @@
       "category": "other",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/115300/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -996,7 +996,7 @@
       "category": "rockstar",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -1013,7 +1013,7 @@
       "category": "rockstar",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg?t=1753979045",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,
@@ -1383,7 +1383,7 @@
       "category": "ea",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1328660/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": true,
+      "premium": false,
       "files": [
         {
           "part": 1,

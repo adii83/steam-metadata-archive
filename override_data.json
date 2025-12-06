@@ -14,6 +14,53 @@
     "last_update": "2025-11-29T20:57:40.705793+00:00"
   },
 
+    "10180": {
+    "appid": 10180,
+    "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg?t=1748044299",
+    "genre": "Action",
+    "short_description": "The most-anticipated game of the year and the sequel to the best-selling first-person action game of all time, Modern Warfare 2 continues the gripping and heart-racing action as players face off against a new threat dedicated to bringing the world to the brink of collapse.",
+    "developers": ["Infinity Ward"],
+    "publishers": ["Activision"],
+    "release_date": "11 Nov, 2009",
+    "price_display": "Rp 299.000",
+    "price_normalized": 199000,
+    "protection": true,
+    "last_update": "2025-12-06T19:44:53.710646+00:00"
+    },
+    "115300": {
+    "appid": 115300,
+    "title": "Call of Duty®: Modern Warfare® 3 (2011)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115300/header.jpg?t=1692032509",
+    "genre": "Action",
+    "short_description": "The best-selling first-person action series of all-time returns with an epic sequel to the multiple GOTY award winner Call of Duty®: Modern Warfare® 2",
+    "developers": [
+    "Infinity Ward",
+    "Sledgehammer Games"
+    ],
+    "publishers": ["Activision"],
+    "release_date": "7 Nov, 2011",
+    "price_display": "Rp 599.000",
+    "price_normalized": 199000,
+    "protection": true,
+    "last_update": "2025-12-06T19:44:57.014394+00:00"
+    },
+
+  "7940": {
+    "appid": 7940,
+    "title": "Call of Duty® 4: Modern Warfare® (2007)",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7940/header.jpg?t=1748043968",
+    "genre": "Action",
+    "short_description": "The new action-thriller from the award-winning team at Infinity Ward, the creators of the Call of Duty® series, delivers the most intense and cinematic action experience ever. Call of Duty 4: Modern Warfare arms gamers with an arsenal of advanced and powerful modern day firepower and transports them to the most treacherous hotspots...",
+    "developers": ["Infinity Ward"],
+    "publishers": ["Activision"],
+    "release_date": "12 Nov, 2007",
+    "price_display": "Rp 299.000",
+    "price_normalized": 199000,
+    "protection": true,
+    "last_update": "2025-12-06T19:41:15.091208+00:00"
+  },
+
   "15100":
   {"appid":15100,
   "title":"Assassin's Creed™: Director's Cut Edition",
@@ -270,8 +317,8 @@
     "developers": ["Ubisoft Montreal"],
     "publishers": ["Ubisoft"],
     "release_date": "26 Oct, 2017",
-    "price_display": "Free",
-    "price_normalized": 0,
+    "price_display": "Rp 400.000",
+    "price_normalized": 400000,
     "protection": true,
     "last_update": "2025-11-30T17:25:24.001951+00:00"
   },
@@ -376,7 +423,7 @@
     "publishers": ["Electronic Arts"],
     "release_date": "11 Jun, 2020",
     "price_display": "Rp 479.000",
-    "price_normalized": 479000,
+    "price_normalized": 0,
     "protection": true,
     "last_update": "2025-11-30T17:25:41.123401+00:00"
   },
@@ -2000,7 +2047,7 @@
     "publishers": ["Electronic Arts"],
     "release_date": "6 Nov, 2020",
     "price_display": "Rp 379.000",
-    "price_normalized": 379000,
+    "price_normalized": 179000,
     "protection": true,
     "last_update": "2025-11-30T17:31:24.821549+00:00"
   },
@@ -5469,8 +5516,8 @@
     "developers": ["Ubisoft Sofia", "Ubisoft Kiev"],
     "publishers": ["Ubisoft"],
     "release_date": "23 Mar, 2015",
-    "price_display": "Rp 205.000",
-    "price_normalized": 205000,
+    "price_display": "Rp 405.000",
+    "price_normalized": 405000,
     "protection": true,
     "last_update": "2025-11-30T17:48:39.535703+00:00"
   },
@@ -5514,7 +5561,7 @@
     "publishers": ["Ubisoft"],
     "release_date": "17 Mar, 2011",
     "price_display": "Rp 170.000",
-    "price_normalized": 170000,
+    "price_normalized": 470000,
     "protection": true,
     "last_update": "2025-11-30T17:48:49.447275+00:00"
   },
@@ -8840,7 +8887,7 @@
     "publishers": ["Rockstar Games"],
     "release_date": "4 Mar, 2025",
     "price_display": "Rp 439.000",
-    "price_normalized": 439000,
+    "price_normalized": 139000,
     "protection": true,
     "last_update": "2025-11-30T18:29:00.290658+00:00"
   },
