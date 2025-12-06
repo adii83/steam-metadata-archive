@@ -1,20 +1,20 @@
 [
   {
-    "appid": 570,
-    "title": "Dota 2",
+    "appid": 2358720,
+    "title": "Black Myth: Wukong",
     "username": "gamer123",
     "password": "mypassword",
     "publisher": "Valve",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900_2x.jpg",
     "premium": false
   },
   {
-    "appid": 48190,
-    "title": "Assassin’s Creed Brotherhood",
+    "appid": 2622380,
+    "title": "ELDEN RING NIGHTREIGN",
     "username": "player_one",
     "password": "securepassword123",
     "publisher": "Ubisoft",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/48190/library_600x900_2x.jpg",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622380/library_600x900_2x.jpg",
     "premium": true
   }
 ]
