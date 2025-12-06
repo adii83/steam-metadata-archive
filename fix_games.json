@@ -515,23 +515,6 @@
       ]
     },
     {
-      "appid": 3606480,
-      "title": "Call of Duty®: Black Ops 7",
-      "publisher": "Activision",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3606480/31b4b3e440129c472e45f78ebb375b6e83f91c90/hero_capsule_2x.jpg?t=1764713649",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "co_ops.rar",
-          "gdrive_id": "1rQnnq2OB9RJ_kdeobOVIQIm68LCrOyAR",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1rQnnq2OB9RJ_kdeobOVIQIm68LCrOyAR"
-        }
-      ]
-    },
-    {
       "appid": 209160,
       "title": "Call of Duty®: Ghosts",
       "publisher": "Activision",
