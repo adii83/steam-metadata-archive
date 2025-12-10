@@ -2,19 +2,37 @@
   {
     "appid": 2358720,
     "title": "Black Myth: Wukong",
-    "username": "gamer123",
-    "password": "mypassword",
+    "username": "revoltg_wukong_05",
+    "password": "revoltgwukong",
     "publisher": "Valve",
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900_2x.jpg",
-    "premium": false
+    "premium": true
   },
   {
-    "appid": 2622380,
-    "title": "ELDEN RING NIGHTREIGN",
-    "username": "player_one",
-    "password": "securepassword123",
-    "publisher": "Ubisoft",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622380/library_600x900_2x.jpg",
+    "appid": 1496790,
+    "title": "Gotham Knights",
+    "username": "ven4ik_loveuu5",
+    "password": "KoloaKoachl1f4",
+    "publisher": "Valve",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1496790/library_600x900_2x.jpg",
+    "premium": true
+  },
+  {
+    "appid": 493340,
+    "title": "Planet Coaster",
+    "username": "ven4ik_loveuu5",
+    "password": "KoloaKoachl1f4",
+    "publisher": "Valve",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/493340/library_600x900_2x.jpg",
+    "premium": true
+  },
+  {
+    "appid": 2358720,
+    "title": "Black Myth: Wukong",
+    "username": "ven4ik_loveuu5",
+    "password": "KoloaKoachl1f4",
+    "publisher": "Valve",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900_2x.jpg",
     "premium": true
   }
 ]
