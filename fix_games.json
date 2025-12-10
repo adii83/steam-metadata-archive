@@ -160,13 +160,64 @@
       "category": "ubisoft",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289650/library_600x900_2x.jpg",
       "password": "adi83geel",
-      "premium": false,
+      "premium": true,
       "files": [
         {
           "part": 1,
-          "filename": "as_uni.rar",
-          "gdrive_id": "1CBcD2kbkSy_OVwP67F-Hs0ObXjdObgsX",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1CBcD2kbkSy_OVwP67F-Hs0ObXjdObgsX"
+          "filename": "ac_unit.rar",
+          "gdrive_id": "1_qY2Rz7LPefVk6Xyp-UxQlRF0k_Iwj8f",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1_qY2Rz7LPefVk6Xyp-UxQlRF0k_Iwj8f"
+        }
+      ]
+    },
+    {
+      "appid": 1088850,
+      "title": "Marvel's Guardians of the Galaxy",
+      "publisher": "Eidos Interactive Corp.",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1088850/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "ms_gal.rar",
+          "gdrive_id": "1nMcWwjao878r0GwGfHp7y4TZa8B9HiAh",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1nMcWwjao878r0GwGfHp7y4TZa8B9HiAh"
+        }
+      ]
+    },
+    {
+      "appid": 703080,
+      "title": "Planet Zoo",
+      "publisher": "Frontier Developments",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/703080/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "pz_zoo.rar",
+          "gdrive_id": "1M-yLC1EEqdNrBV_U7pex7HF02NgfmRw6",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1M-yLC1EEqdNrBV_U7pex7HF02NgfmRw6"
+        }
+      ]
+    },
+    {
+      "appid": 714370,
+      "title": "LEFT ALIVE™",
+      "publisher": "Square Enix",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/714370/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "left_ali.rar",
+          "gdrive_id": "1VLBZ42Nh-lzalxKefNlCTcA0cq0elkEJ",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1VLBZ42Nh-lzalxKefNlCTcA0cq0elkEJ"
         }
       ]
     },
@@ -215,39 +266,9 @@
       "files": [
         {
           "part": 1,
-          "filename": "as_mir.part1.rar",
-          "gdrive_id": "13bPzczhizhOGL5NnzGab0Giw8OOQvGEm",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=13bPzczhizhOGL5NnzGab0Giw8OOQvGEm"
-        },
-        {
-          "part": 2,
-          "filename": "as_mir.part2.rar",
-          "gdrive_id": "103aOOM9dz6t6CrcVTfJsgPqCtOgCdWLU",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=103aOOM9dz6t6CrcVTfJsgPqCtOgCdWLU"
-        },
-        {
-          "part": 3,
-          "filename": "as_mir.part3.rar",
-          "gdrive_id": "1JVWmrYe4BXSDKwHJFy-8afvq2aAXGdiU",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1JVWmrYe4BXSDKwHJFy-8afvq2aAXGdiU"
-        },
-        {
-          "part": 4,
-          "filename": "as_mir.part4.rar",
-          "gdrive_id": "1uFZd69hdS5QD_78wP9V5vSX4SelmgpRf",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1uFZd69hdS5QD_78wP9V5vSX4SelmgpRf"
-        },
-        {
-          "part": 5,
-          "filename": "as_mir.part5.rar",
-          "gdrive_id": "1ZufYNbo3vkf27eqqn_Rn2doTetw2FEFe",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1ZufYNbo3vkf27eqqn_Rn2doTetw2FEFe"
-        },
-        {
-          "part": 6,
-          "filename": "as_mir.part6.rar",
-          "gdrive_id": "1KJFJPoWZ4X0NAi2MaC8XN1nC8-vDK5uH",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1KJFJPoWZ4X0NAi2MaC8XN1nC8-vDK5uH"
+          "filename": "ac_mir.rar",
+          "gdrive_id": "1G1BLB3CWydWOFuoCg_2RoEievK35QDTJ",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1G1BLB3CWydWOFuoCg_2RoEievK35QDTJ"
         }
       ]
     },
@@ -262,9 +283,26 @@
       "files": [
         {
           "part": 1,
-          "filename": "as_rog.rar",
-          "gdrive_id": "1RIZsxhQeIux-0ERYzI3UZde96J79XS2R",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1RIZsxhQeIux-0ERYzI3UZde96J79XS2R"
+          "filename": "ac_rog.rar",
+          "gdrive_id": "19cehw85XpuQbEMaFJ9gkUmApQ5xDzKmO",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=19cehw85XpuQbEMaFJ9gkUmApQ5xDzKmO"
+        }
+      ]
+    },
+    {
+      "appid": 1252330,
+      "title": "DEATHLOOP",
+      "publisher": "Bethesda Softworks",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1252330/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "deathloo.rar",
+          "gdrive_id": "1UOrANMpws-8lo6MRCzm6F25oFpvmtNYY",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1UOrANMpws-8lo6MRCzm6F25oFpvmtNYY"
         }
       ]
     },
@@ -593,93 +631,43 @@
       "files": [
         {
           "part": 1,
-          "filename": "db_fig.part01.rar",
-          "gdrive_id": "1ZxXUxuWaMMOSXwmvmag3fglwNIXPrcE0",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1ZxXUxuWaMMOSXwmvmag3fglwNIXPrcE0"
-        },
+          "filename": "db_fig.rar",
+          "gdrive_id": "1B3kJ3tbFK3NdjVehE514M068DR6dXA_X",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1B3kJ3tbFK3NdjVehE514M068DR6dXA_X"
+        }
+      ]
+    },
+    {
+      "appid": 934700,
+      "title": "Dead Island 2",
+      "publisher": "Deep Silver",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/934700/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
         {
-          "part": 2,
-          "filename": "db_fig.part02.rar",
-          "gdrive_id": "1z7nEQyTQ8G09CgRbE08F2nFp8mKtm92j",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1z7nEQyTQ8G09CgRbE08F2nFp8mKtm92j"
-        },
+          "part": 1,
+          "filename": "di_2_2.rar",
+          "gdrive_id": "1_LzUoXAvfHywiS7YsZ7UwoF-yV47dUbh",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1_LzUoXAvfHywiS7YsZ7UwoF-yV47dUbh"
+        }
+      ]
+    },
+    {
+      "appid": 916440,
+      "title": "Anno 1800",
+      "publisher": "Ubisoft",
+      "category": "ubisoft",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/916440/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
         {
-          "part": 3,
-          "filename": "db_fig.part03.rar",
-          "gdrive_id": "1nJtOcUali8ijvvpFND2giE1rZMmvOYPG",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1nJtOcUali8ijvvpFND2giE1rZMmvOYPG"
-        },
-        {
-          "part": 4,
-          "filename": "db_fig.part04.rar",
-          "gdrive_id": "18TZ_iLAiUF9kmbMvg8639_jYwGRwowWp",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=18TZ_iLAiUF9kmbMvg8639_jYwGRwowWp"
-        },
-        {
-          "part": 5,
-          "filename": "db_fig.part05.rar",
-          "gdrive_id": "1-y0aLQ-FsD_gWLipzgnt3GHKAcjAo9N5",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1-y0aLQ-FsD_gWLipzgnt3GHKAcjAo9N5"
-        },
-        {
-          "part": 6,
-          "filename": "db_fig.part06.rar",
-          "gdrive_id": "1jEv9fpMqYS_VLccp4SX-d3OjOo4UcBiN",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1jEv9fpMqYS_VLccp4SX-d3OjOo4UcBiN"
-        },
-        {
-          "part": 7,
-          "filename": "db_fig.part07.rar",
-          "gdrive_id": "1Qbvbm4W2HCGngATTpSrJVPc_2-Bxj38b",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Qbvbm4W2HCGngATTpSrJVPc_2-Bxj38b"
-        },
-        {
-          "part": 8,
-          "filename": "db_fig.part08.rar",
-          "gdrive_id": "1CVcr0phYQEip7IP4iNyNOjadhMrA8xeH",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1CVcr0phYQEip7IP4iNyNOjadhMrA8xeH"
-        },
-        {
-          "part": 9,
-          "filename": "db_fig.part09.rar",
-          "gdrive_id": "1l2gaEYzvczOPbfuEQYaxBfO841umJwZT",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1l2gaEYzvczOPbfuEQYaxBfO841umJwZT"
-        },
-        {
-          "part": 10,
-          "filename": "db_fig.part10.rar",
-          "gdrive_id": "136sbIOvLx0exLsrke5TMadznJCoay7Iv",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=136sbIOvLx0exLsrke5TMadznJCoay7Iv"
-        },
-        {
-          "part": 11,
-          "filename": "db_fig.part11.rar",
-          "gdrive_id": "1rDY_bUc1HHxJnydhkDQNH3mjhJP-bnBM",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1rDY_bUc1HHxJnydhkDQNH3mjhJP-bnBM"
-        },
-        {
-          "part": 12,
-          "filename": "db_fig.part12.rar",
-          "gdrive_id": "1cIm_TrTGPIE_4xMQyw2pHcz0tAUuPOUG",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1cIm_TrTGPIE_4xMQyw2pHcz0tAUuPOUG"
-        },
-        {
-          "part": 13,
-          "filename": "db_fig.part13.rar",
-          "gdrive_id": "1O9Bl4lgyciLnecZe9rzneUcAWMGQpLbl",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1O9Bl4lgyciLnecZe9rzneUcAWMGQpLbl"
-        },
-        {
-          "part": 14,
-          "filename": "db_fig.part14.rar",
-          "gdrive_id": "1i_D7I7hJlQHGeaQDKDq5xtfXmq9KMx3F",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1i_D7I7hJlQHGeaQDKDq5xtfXmq9KMx3F"
-        },
-        {
-          "part": 15,
-          "filename": "db_fig.part15.rar",
-          "gdrive_id": "1wjQgxqtW7YwIz7Vk7YyuGPR6fFW6Ystl",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1wjQgxqtW7YwIz7Vk7YyuGPR6fFW6Ystl"
+          "part": 1,
+          "filename": "a1_180.rar",
+          "gdrive_id": "1cxTvadJdK9WIJXahmYnEK_Z9wZpzH7qJ",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1cxTvadJdK9WIJXahmYnEK_Z9wZpzH7qJ"
         }
       ]
     },
@@ -796,9 +784,9 @@
       "files": [
         {
           "part": 1,
-          "filename": "fc_daw.rar",
-          "gdrive_id": "10yQr9Uu8qlkUy_sw3NPbt3qGyZLjS46J",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=10yQr9Uu8qlkUy_sw3NPbt3qGyZLjS46J"
+          "filename": "fc_rar.rar",
+          "gdrive_id": "1_9BxwRpjgH5p8_9TYDmR1g0-wKJl4jxS",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1_9BxwRpjgH5p8_9TYDmR1g0-wKJl4jxS"
         }
       ]
     },
@@ -898,9 +886,9 @@
       "files": [
         {
           "part": 1,
-          "filename": "fc_6.rar",
-          "gdrive_id": "1MpEuTxmevxPsTQwhvFXSYMM7Rsl19ehp",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1MpEuTxmevxPsTQwhvFXSYMM7Rsl19ehp"
+          "filename": "fc_6_2.rar",
+          "gdrive_id": "1_K8q0My-y_Sg0IjDbe52vUiw5Mv6xL3U",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1_K8q0My-y_Sg0IjDbe52vUiw5Mv6xL3U"
         }
       ]
     },
@@ -1082,8 +1070,25 @@
         {
           "part": 1,
           "filename": "hl_leg.rar",
-          "gdrive_id": "1RTkfi8bBavdfhpwr_2-a-r4qG3SG_B3Q",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1RTkfi8bBavdfhpwr_2-a-r4qG3SG_B3Q"
+          "gdrive_id": "1xj_t4uzzfUsrP_JiGfpYiROFkdmDyQqr",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1xj_t4uzzfUsrP_JiGfpYiROFkdmDyQqr"
+        }
+      ]
+    },
+    {
+      "appid": 700600,
+      "title": "Evil Genius 2: World Domination",
+      "publisher": "Rebellion",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/700600/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "eg_dom.rar",
+          "gdrive_id": "13kXvxxNyqaBuIVDYi09JzByJk2CTTeoX",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=13kXvxxNyqaBuIVDYi09JzByJk2CTTeoX"
         }
       ]
     },
@@ -1251,9 +1256,60 @@
       "files": [
         {
           "part": 1,
-          "filename": "mg_pai.rar",
-          "gdrive_id": "1vaWUIXKkbQ2z216cyJiOH7eQ7x40l0PI",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1vaWUIXKkbQ2z216cyJiOH7eQ7x40l0PI"
+          "filename": "msg_v_the_pha.rar",
+          "gdrive_id": "1Acbz78mdEmx9MTMHroPa_c_xH5bzLQct",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Acbz78mdEmx9MTMHroPa_c_xH5bzLQct"
+        }
+      ]
+    },
+    {
+      "appid": 2058190,
+      "title": "Lost Judgment",
+      "publisher": "SEGA",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2058190/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "judgment.rar",
+          "gdrive_id": "1803aClC7JPxzF-Ezt_LZIgaDg4hchAHX",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1803aClC7JPxzF-Ezt_LZIgaDg4hchAHX"
+        }
+      ]
+    },
+    {
+      "appid": 648350,
+      "title": "Jurassic World Evolution",
+      "publisher": "Frontier Developments",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/648350/library_600x900_2x.jpg ",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "jur_wr_ev.rar",
+          "gdrive_id": "1SAM3N2_oKzQh-occ6Ed0QIXmY0KRGmMg",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1SAM3N2_oKzQh-occ6Ed0QIXmY0KRGmMg"
+        }
+      ]
+    },
+    {
+      "appid": 1225590,
+      "title": "Sea of Solitude",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1225590/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "so_sol.rar",
+          "gdrive_id": "1BvEgI0LVTXbSHNH4zD91OyKuLMPRnHwr",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1BvEgI0LVTXbSHNH4zD91OyKuLMPRnHwr"
         }
       ]
     },
@@ -1716,15 +1772,9 @@
       "files": [
         {
           "part": 1,
-          "filename": "wd_leg.part1.rar",
-          "gdrive_id": "1BwHwVQToSaA-TN746CX5oMtWt8Naj-qd",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1BwHwVQToSaA-TN746CX5oMtWt8Naj-qd"
-        },
-        {
-          "part": 2,
-          "filename": "wd_leg.part2.rar",
-          "gdrive_id": "1fn4kGxNXeH-WSbQVx9IbczcNE9E8aimt",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1fn4kGxNXeH-WSbQVx9IbczcNE9E8aimt"
+          "filename": "wd_leg.rar",
+          "gdrive_id": "1_t8IyTZ0999Gvbbd6Xz6LNdGa1m3Y3o0",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1_t8IyTZ0999Gvbbd6Xz6LNdGa1m3Y3o0"
         }
       ]
     },
@@ -1739,9 +1789,26 @@
       "files": [
         {
           "part": 1,
-          "filename": "unravelt.rar",
-          "gdrive_id": "1AHA0ZS1qjQ9G_UNl6LIJiJdzXz9jTGDr",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1AHA0ZS1qjQ9G_UNl6LIJiJdzXz9jTGDr"
+          "filename": "ut_two.rar",
+          "gdrive_id": "1qeAtQCZxXLVtKOw1CNpU7LECDp2eENQE",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1qeAtQCZxXLVtKOw1CNpU7LECDp2eENQE"
+        }
+      ]
+    },
+    {
+      "appid": 594570,
+      "title": "Total War: WARHAMMER II",
+      "publisher": "SEGA",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594570/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "tot_war_ham.rar",
+          "gdrive_id": "1NcZtN8BJpGZ1hZbwPCcExSeWfej3P14W",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1NcZtN8BJpGZ1hZbwPCcExSeWfej3P14W"
         }
       ]
     },
