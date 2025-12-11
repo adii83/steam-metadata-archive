@@ -15,7 +15,7 @@
     "accountId": "ven4ik_loveuu5",
     "username": "ven4ik_loveuu5",
     "password": "KoloaKoachl1f4",
-    "publisher": "Valve",
+    "publisher": "1496790",
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1496790/library_600x900_2x.jpg",
     "premium": true
   },
@@ -25,8 +25,18 @@
     "accountId": "ven4ik_loveuu5",
     "username": "ven4ik_loveuu5",
     "password": "KoloaKoachl1f4",
-    "publisher": "Valve",
+    "publisher": "Frontier Developments, Aspyr (Mac)",
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/493340/library_600x900_2x.jpg",
+    "premium": true
+  },
+  {
+    "appid": 990080,
+    "title": "Hogwarts Legacy",
+    "accountId": "wkg8244",
+    "username": "wkg8244",
+    "password": "Bcp833254",
+    "publisher": "Avalanche Software",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/library_600x900_2x.jpg",
     "premium": true
   },
   {
