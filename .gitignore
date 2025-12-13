@@ -41,3 +41,7 @@ dist/
 # Ignore GitHub Actions artifacts (optional)
 *.retry
 *.cache
+
+# Ignore local-only scripts & raw data
+convert.py
+steam_data.json
