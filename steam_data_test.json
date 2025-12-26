@@ -1,1 +1,20 @@
-{"15100":{"appid":15100,"title":"Assassin's Creed™: Director's Cut Edition","header":"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15100/header.jpg?t=1602600542","genre":"Action, Adventure","short_description":"Assassin's Creed™ is the next-gen game developed by Ubisoft Montreal that redefines the action genre. While other games claim to be next-gen with impressive graphics and physics, Assassin's Creed merges technology, game design, theme and emotions into a world where you instigate chaos and become a vulnerable, yet powerful, agent of...","developers":["Ubisoft Montreal"],"publishers":["Ubisoft"],"release_date":"9 Apr, 2008","price_display":"Rp 99.000","price_normalized":99000,"protection":null,"last_update":"2025-12-01T15:21:47.857533+00:00"}}
+{
+    "39140": {
+        "appid": 39140,
+        "title": "FINAL FANTASY VII",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39140/header.jpg?t=1734374610",
+        "genre": "RPG",
+        "short_description": "The RPG classic FINAL FANTASY VII returns to PC, now with brand new online features!",
+        "developers": [
+            "Square Enix"
+        ],
+        "publishers": [
+            "Square Enix"
+        ],
+        "release_date": "4 Jul, 2013",
+        "price_display": "Rp 106.999",
+        "price_normalized": 106999,
+        "protection": null,
+        "last_update": "2025-12-26T16:24:00.826570+00:00"
+    }
+}
