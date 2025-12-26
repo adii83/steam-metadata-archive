@@ -359,6 +359,150 @@
         }
       ]
     },
+    [
+      {
+        "appid": 39140,
+        "title": "FINAL FANTASY VII",
+        "publisher": "Square Enix",
+        "category": "other",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39140/header.jpg?t=1746070920",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "ff_vii.rar",
+            "gdrive_id": "1sxQ-cAeVDQcPKayCl68SYrbEL2rQ_fyw",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=1sxQ-cAeVDQcPKayCl68SYrbEL2rQ_fyw"
+          }
+        ]
+      },
+      {
+        "appid": 3059520,
+        "title": "F1® 25",
+        "publisher": "Electronic Arts",
+        "category": "ea",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/37f833ca5bd3d5c3eec2b411131f3e00f580bbe7/header.jpg?t=1762963192",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "f2_25.rar",
+            "gdrive_id": "13sRILloRx7leJ3o_hp1xbkTyqu0exkvd",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=13sRILloRx7leJ3o_hp1xbkTyqu0exkvd"
+          }
+        ]
+      },
+      {
+        "appid": 1687950,
+        "title": "Persona 5 Royal",
+        "publisher": "SEGA",
+        "category": "other",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1763530018",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "p5_roy.rar",
+            "gdrive_id": "12TH3SjWpgWB2CNM2cbpIdsnzUcLMQ4Jv",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=12TH3SjWpgWB2CNM2cbpIdsnzUcLMQ4Jv"
+          }
+        ]
+      },
+      {
+        "appid": 2933620,
+        "title": "Call of Duty: Black Ops 6",
+        "publisher": "Activision",
+        "category": "other",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933620/header.jpg?t=1765489042",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "co_6.part1.rar",
+            "gdrive_id": "1xPecHeeOwLSqLmGBYX38951jTv3UWzsy",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=1xPecHeeOwLSqLmGBYX38951jTv3UWzsy"
+          },
+          {
+            "part": 2,
+            "filename": "co_6.part2.rar",
+            "gdrive_id": "1VN72E3uuNTDLQiMvQcTMoiNswdC4-Aal",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=1VN72E3uuNTDLQiMvQcTMoiNswdC4-Aal"
+          }
+        ]
+      },
+      {
+        "appid": 3595230,
+        "title": "Call of Duty®: Modern Warfare® II",
+        "publisher": "Activision",
+        "category": "other",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/header.jpg?t=1748044299",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "co_ii.rar",
+            "gdrive_id": "10UJ3QhD7poPSFXMTy7zHVFoylq0cxDnc",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=10UJ3QhD7poPSFXMTy7zHVFoylq0cxDnc"
+          }
+        ]
+      },
+      {
+        "appid": 1692250,
+        "title": "F1® 22",
+        "publisher": "Electronic Arts",
+        "category": "ea",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692250/header.jpg?t=1727977759",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "f2_22.rar",
+            "gdrive_id": "1xBBfbruU5pKppnf4BFplbepHxtmAO2x5",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=1xBBfbruU5pKppnf4BFplbepHxtmAO2x5"
+          }
+        ]
+      },
+      {
+        "appid": 1134570,
+        "title": "F1 2021",
+        "publisher": "Electronic Arts",
+        "category": "ea",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134570/header.jpg?t=1487168241",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "f2_21.rar",
+            "gdrive_id": "1bh7CmcNgxKVELodU95R_jZp0C_MIwCO2",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=1bh7CmcNgxKVELodU95R_jZp0C_MIwCO2"
+          }
+        ]
+      },
+      {
+        "appid": 3595270,
+        "title": "Call of Duty®: Modern Warfare® III",
+        "publisher": "Activision",
+        "category": "other",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/header.jpg?t=1692032509",
+        "password": "gamehub",
+        "premium": true,
+        "files": [
+          {
+            "part": 1,
+            "filename": "co_iii.rar",
+            "gdrive_id": "1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo",
+            "gdrive_url": "https://drive.google.com/uc?export=download&id=1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo"
+          }
+        ]
+      }
+    ],
     {
       "appid": 2208920,
       "title": "Assassin's Creed Valhalla",
