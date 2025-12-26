@@ -491,13 +491,13 @@ async def run_test(appids: list):
             results[str(appid)] = full
 
             # print one-app compact JSON to stdout
-            print(json.dumps(full, separators=(",", ":"), ensure_ascii=False))
+            print(json.dumps(full, indent=4, ensure_ascii=False))
 
             await asyncio.sleep(FETCH_DELAY)
 
     # save test output
     out_path = Path("steam_data_test.json")
-    out_path.write_text(json.dumps(results, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    out_path.write_text(json.dumps(results, indent=4, ensure_ascii=False), encoding="utf-8")
     print(f"[TEST] Saved {len(results)} entries to {out_path}")
 
 

@@ -13,8 +13,174 @@
     "protection": null,
     "last_update": "2025-11-29T20:57:40.705793+00:00"
   },
+  "993090": {
+    "appid": 993090,
+    "title": "Lossless Scaling",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/993090/84ba6dc3a83e3dd4c0739985edbaf2e4051f57c4/header.jpg?t=1762179586",
+    "genre": "Utilities",
+    "short_description": "All-in-one gaming utility for frame generation and scaling",
+    "developers": ["THS"],
+    "publishers": ["THS"],
+    "release_date": "28 Dec, 2018",
+    "price_display": "Rp 65.000",
+    "price_normalized": 999999,
+    "protection": null,
+    "last_update": "2025-12-26T16:02:33.180194+00:00"
+  },
+  "3595230": {
+    "appid": 3595230,
+    "title": "Call of Duty®: Modern Warfare® II",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/ce4d5e53b36cb9d3c4309d1df72bf8663bbbc7ef/header.jpg?t=1764711899",
+    "genre": "Action",
+    "short_description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the iconic Operators of Task Force 141.",
+    "developers": [
+      "Infinity Ward",
+      "Raven Software",
+      "Beenox",
+      "Treyarch",
+      "High Moon Studios",
+      "Sledgehammer Games",
+      "Demonware",
+      "Toys for Bob"
+    ],
+    "publishers": ["Activision"],
+    "release_date": "22 Oct, 2022",
+    "price_display": "Rp 1.040.000",
+    "price_normalized": 1040000,
+    "protection": true,
+    "last_update": "2025-12-26T16:02:39.482127+00:00"
+  },
+  "3595270": {
+    "appid": 3595270,
+    "title": "Call of Duty®: Modern Warfare® III",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/7d0f21912a075c33bbb5ea558100e187ceb234ac/header.jpg?t=1764711750",
+    "genre": "Action",
+    "short_description": "In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat.",
+    "developers": [
+      "Sledgehammer Games",
+      "Treyarch",
+      "Infinity Ward",
+      "Beenox",
+      "Raven Software",
+      "High Moon Studios",
+      "Demonware"
+    ],
+    "publishers": ["Activision"],
+    "release_date": "10 Nov, 2023",
+    "price_display": "Rp 1.050.000",
+    "price_normalized": 1050000,
+    "protection": true,
+    "last_update": "2025-12-26T16:02:43.413811+00:00"
+  },
+  "2933620": {
+    "appid": 2933620,
+    "title": "Call of Duty®: Black Ops 6",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933620/header.jpg?t=1765489042",
+    "genre": "Action",
+    "short_description": "Call of Duty®: Black Ops 6 is signature Black Ops across a cinematic single-player Campaign, a best-in-class Multiplayer experience and with the epic return of Round-Based Zombies.",
+    "developers": [
+      "Treyarch",
+      "Raven Software",
+      "Beenox",
+      "High Moon Studios",
+      "Activision Shanghai",
+      "Sledgehammer Games",
+      "Infinity Ward",
+      "Demonware"
+    ],
+    "publishers": ["Activision"],
+    "release_date": "1 Nov, 2024",
+    "price_display": "Rp 1.040.000",
+    "price_normalized": 1040000,
+    "protection": true,
+    "last_update": "2025-12-26T16:02:47.532380+00:00"
+  },
+  "1134570": {
+    "appid": 1134570,
+    "title": "F1® 2021",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134570/header.jpg?t=1683125705",
+    "genre": "Racing, Simulation, Sports",
+    "short_description": "Every story has a beginning in F1® 2021, the official videogame of the 2021 FIA FORMULA ONE WORLD CHAMPIONSHIP™. Enjoy the stunning new features of F1® 2021, including the thrilling story experience ‘Braking Point’, two-player Career, and get even closer to the grid with ‘Real-Season Start’.",
+    "developers": ["Codemasters"],
+    "publishers": ["Electronic Arts"],
+    "release_date": "15 Jul, 2021",
+    "price_display": "Free",
+    "price_normalized": 999999,
+    "protection": true,
+    "last_update": "2025-12-26T16:02:51.634341+00:00"
+  },
+  "1692250": {
+    "appid": 1692250,
+    "title": "F1® 22",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692250/header.jpg?t=1709056193",
+    "genre": "Racing, Sports",
+    "short_description": "Enter the new era of Formula 1® in EA SPORTS™ F1® 22 the official videogame of the 2022 FIA Formula One World Championship™.",
+    "developers": ["Codemasters"],
+    "publishers": ["Electronic Arts"],
+    "release_date": "1 Jul, 2022",
+    "price_display": "Free",
+    "price_normalized": 999999,
+    "protection": true,
+    "last_update": "2025-12-26T16:02:55.946536+00:00"
+  },
+  "3059520": {
+    "appid": 3059520,
+    "title": "F1® 25",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/37f833ca5bd3d5c3eec2b411131f3e00f580bbe7/header.jpg?t=1762963192",
+    "genre": "Racing, Simulation, Sports",
+    "short_description": "Leave your mark on the world of racing in F1® 25, the official video game of the 2025 FIA Formula One World Championship™, featuring a revamped My Team mode, the thrilling third chapter of Braking Point, and more!",
+    "developers": ["Codemasters"],
+    "publishers": ["Electronic Arts"],
+    "release_date": "30 May, 2025",
+    "price_display": "Rp 659.000",
+    "price_normalized": 659000,
+    "protection": true,
+    "last_update": "2025-12-26T16:02:57.992517+00:00"
+  },
+  "1687950": {
+    "appid": 1687950,
+    "title": "Persona 5 Royal",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1763530018",
+    "genre": "RPG",
+    "short_description": "Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!",
+    "developers": ["ATLUS"],
+    "publishers": ["SEGA"],
+    "release_date": "20 Oct, 2022",
+    "price_display": "Rp 798.000",
+    "price_normalized": 798000,
+    "protection": true,
+    "last_update": "2025-12-26T16:03:00.271227+00:00"
+  },
+  "1113000": {
+    "appid": 1113000,
+    "title": "Persona 4 Golden",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113000/header.jpg?t=1763530422",
+    "genre": "RPG",
+    "short_description": "A coming of age story that sets the protagonist and his friends on a journey kickstarted by a chain of serial murders.",
+    "developers": ["ATLUS"],
+    "publishers": ["SEGA"],
+    "release_date": "13 Jun, 2020",
+    "price_display": "Rp 260.000",
+    "price_normalized": 960000,
+    "protection": true,
+    "last_update": "2025-12-26T16:03:02.528638+00:00"
+  },
+  "1382330": {
+    "appid": 1382330,
+    "title": "Persona® 5 Strikers",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382330/header.jpg?t=1763530465",
+    "genre": "Action, Adventure",
+    "short_description": "Join the Phantom Thieves and strike back against the corruption overtaking cities across Japan. A summer vacation with close friends takes a sudden turn as a distorted reality emerges; reveal the truth and redeem the hearts of those imprisoned at the center of the crisis!",
+    "developers": ["ATLUS"],
+    "publishers": ["SEGA"],
+    "release_date": "22 Feb, 2021",
+    "price_display": "Rp 769.000",
+    "price_normalized": 769000,
+    "protection": true,
+    "last_update": "2025-12-26T16:03:04.778038+00:00"
+  },
 
-    "10180": {
+  "10180": {
     "appid": 10180,
     "title": "Call of Duty®: Modern Warfare® 2 (2009)",
     "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg?t=1748044299",
@@ -27,24 +193,21 @@
     "price_normalized": 199000,
     "protection": true,
     "last_update": "2025-12-06T19:44:53.710646+00:00"
-    },
-    "115300": {
+  },
+  "115300": {
     "appid": 115300,
     "title": "Call of Duty®: Modern Warfare® 3 (2011)",
     "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115300/header.jpg?t=1692032509",
     "genre": "Action",
     "short_description": "The best-selling first-person action series of all-time returns with an epic sequel to the multiple GOTY award winner Call of Duty®: Modern Warfare® 2",
-    "developers": [
-    "Infinity Ward",
-    "Sledgehammer Games"
-    ],
+    "developers": ["Infinity Ward", "Sledgehammer Games"],
     "publishers": ["Activision"],
     "release_date": "7 Nov, 2011",
     "price_display": "Rp 599.000",
     "price_normalized": 199000,
     "protection": true,
     "last_update": "2025-12-06T19:44:57.014394+00:00"
-    },
+  },
 
   "7940": {
     "appid": 7940,
@@ -61,19 +224,19 @@
     "last_update": "2025-12-06T19:41:15.091208+00:00"
   },
 
-  "15100":
-  {"appid":15100,
-  "title":"Assassin's Creed™: Director's Cut Edition",
-  "header":"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15100/header.jpg?t=1602600542",
-  "genre":"Action, Adventure",
-  "short_description":"Assassin's Creed™ is the next-gen game developed by Ubisoft Montreal that redefines the action genre. While other games claim to be next-gen with impressive graphics and physics, Assassin's Creed merges technology, game design, theme and emotions into a world where you instigate chaos and become a vulnerable, yet powerful, agent of...",
-  "developers":["Ubisoft Montreal"],
-  "publishers":["Ubisoft"],
-  "release_date":"9 Apr, 2008",
-  "price_display":"Rp 99.000",
-  "price_normalized":99000,
-  "protection":true,
-  "last_update":"2025-12-05T16:16:00.085717+00:00"
+  "15100": {
+    "appid": 15100,
+    "title": "Assassin's Creed™: Director's Cut Edition",
+    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15100/header.jpg?t=1602600542",
+    "genre": "Action, Adventure",
+    "short_description": "Assassin's Creed™ is the next-gen game developed by Ubisoft Montreal that redefines the action genre. While other games claim to be next-gen with impressive graphics and physics, Assassin's Creed merges technology, game design, theme and emotions into a world where you instigate chaos and become a vulnerable, yet powerful, agent of...",
+    "developers": ["Ubisoft Montreal"],
+    "publishers": ["Ubisoft"],
+    "release_date": "9 Apr, 2008",
+    "price_display": "Rp 99.000",
+    "price_normalized": 99000,
+    "protection": true,
+    "last_update": "2025-12-05T16:16:00.085717+00:00"
   },
 
   "1665460": {
@@ -1056,20 +1219,6 @@
     "price_normalized": 759000,
     "protection": true,
     "last_update": "2025-11-30T17:27:54.976821+00:00"
-  },
-  "3059520": {
-    "appid": 3059520,
-    "title": "F1® 25",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/37f833ca5bd3d5c3eec2b411131f3e00f580bbe7/header.jpg?t=1762963192",
-    "genre": "Racing, Simulation, Sports",
-    "short_description": "Leave your mark on the world of racing in F1® 25, the official video game of the 2025 FIA Formula One World Championship™, featuring a revamped My Team mode, the thrilling third chapter of Braking Point, and more!",
-    "developers": ["Codemasters"],
-    "publishers": ["Electronic Arts"],
-    "release_date": "30 May, 2025",
-    "price_display": "Rp 659.000",
-    "price_normalized": 659000,
-    "protection": true,
-    "last_update": "2025-11-30T17:27:57.187697+00:00"
   },
   "2287220": {
     "appid": 2287220,
@@ -2149,20 +2298,6 @@
     "protection": true,
     "last_update": "2025-11-30T17:31:41.990550+00:00"
   },
-  "1113000": {
-    "appid": 1113000,
-    "title": "Persona 4 Golden",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113000/header.jpg?t=1763530422",
-    "genre": "RPG",
-    "short_description": "A coming of age story that sets the protagonist and his friends on a journey kickstarted by a chain of serial murders.",
-    "developers": ["ATLUS"],
-    "publishers": ["SEGA"],
-    "release_date": "13 Jun, 2020",
-    "price_display": "Rp 260.000",
-    "price_normalized": 260000,
-    "protection": true,
-    "last_update": "2025-11-30T17:31:44.060098+00:00"
-  },
   "2963950": {
     "appid": 2963950,
     "title": "Persona 4 Revival ",
@@ -2176,34 +2311,6 @@
     "price_normalized": 0,
     "protection": true,
     "last_update": "2025-11-30T17:31:46.070699+00:00"
-  },
-  "1687950": {
-    "appid": 1687950,
-    "title": "Persona 5 Royal",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1763530018",
-    "genre": "RPG",
-    "short_description": "Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!",
-    "developers": ["ATLUS"],
-    "publishers": ["SEGA"],
-    "release_date": "20 Oct, 2022",
-    "price_display": "Rp 798.000",
-    "price_normalized": 798000,
-    "protection": true,
-    "last_update": "2025-11-30T17:31:48.095392+00:00"
-  },
-  "1382330": {
-    "appid": 1382330,
-    "title": "Persona® 5 Strikers",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382330/header.jpg?t=1763530465",
-    "genre": "Action, Adventure",
-    "short_description": "Join the Phantom Thieves and strike back against the corruption overtaking cities across Japan. A summer vacation with close friends takes a sudden turn as a distorted reality emerges; reveal the truth and redeem the hearts of those imprisoned at the center of the crisis!",
-    "developers": ["ATLUS"],
-    "publishers": ["SEGA"],
-    "release_date": "22 Feb, 2021",
-    "price_display": "Rp 769.000",
-    "price_normalized": 769000,
-    "protection": true,
-    "last_update": "2025-11-30T17:31:50.115830+00:00"
   },
   "2254740": {
     "appid": 2254740,
@@ -7965,20 +8072,6 @@
     "protection": true,
     "last_update": "2025-11-30T18:06:47.311924+00:00"
   },
-  "1134570": {
-    "appid": 1134570,
-    "title": "F1® 2021",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134570/header.jpg?t=1683125705",
-    "genre": "Racing, Simulation, Sports",
-    "short_description": "Every story has a beginning in F1® 2021, the official videogame of the 2021 FIA FORMULA ONE WORLD CHAMPIONSHIP™. Enjoy the stunning new features of F1® 2021, including the thrilling story experience ‘Braking Point’, two-player Career, and get even closer to the grid with ‘Real-Season Start’.",
-    "developers": ["Codemasters"],
-    "publishers": ["Electronic Arts"],
-    "release_date": "15 Jul, 2021",
-    "price_display": "Free",
-    "price_normalized": 0,
-    "protection": true,
-    "last_update": "2025-11-30T18:06:51.002365+00:00"
-  },
   "1454890": {
     "appid": 1454890,
     "title": "Titanfall­™",
@@ -8820,20 +8913,6 @@
     "price_normalized": 0,
     "protection": true,
     "last_update": "2025-11-30T18:27:07.364581+00:00"
-  },
-  "1692250": {
-    "appid": 1692250,
-    "title": "F1® 22",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692250/header.jpg?t=1709056193",
-    "genre": "Racing, Sports",
-    "short_description": "Enter the new era of Formula 1® in EA SPORTS™ F1® 22 the official videogame of the 2022 FIA Formula One World Championship™.",
-    "developers": ["Codemasters"],
-    "publishers": ["Electronic Arts"],
-    "release_date": "1 Jul, 2022",
-    "price_display": "Free",
-    "price_normalized": 0,
-    "protection": true,
-    "last_update": "2025-11-30T18:27:36.985038+00:00"
   },
   "47890": {
     "appid": 47890,
