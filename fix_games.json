@@ -359,7 +359,6 @@
         }
       ]
     },
-    [
       {
         "appid": 39140,
         "title": "FINAL FANTASY VII",
@@ -501,8 +500,7 @@
             "gdrive_url": "https://drive.google.com/uc?export=download&id=1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo"
           }
         ]
-      }
-    ],
+      },
     {
       "appid": 2208920,
       "title": "Assassin's Creed Valhalla",
