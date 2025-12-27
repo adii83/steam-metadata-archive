@@ -62,7 +62,7 @@
       "files": [
         {
           "part": 1,
-          "filename": "tc_bla.rar",
+          "filename": "co_ops.rar",
           "gdrive_id": "1rQnnq2OB9RJ_kdeobOVIQIm68LCrOyAR",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1rQnnq2OB9RJ_kdeobOVIQIm68LCrOyAR"
         }
@@ -79,9 +79,9 @@
       "files": [
         {
           "part": 1,
-          "filename": "tc_bla.rar",
-          "gdrive_id": "1rQnnq2OB9RJ_kdeobOVIQIm68LCrOyAR",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1rQnnq2OB9RJ_kdeobOVIQIm68LCrOyAR"
+          "filename": "as_iii.rar",
+          "gdrive_id": "14BM51bhojkGqwhDVUn7HtD3e-cnh3tuS",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=14BM51bhojkGqwhDVUn7HtD3e-cnh3tuS"
         }
       ]
     },
@@ -364,7 +364,7 @@
         "title": "FINAL FANTASY VII",
         "publisher": "Square Enix",
         "category": "other",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39140/header.jpg?t=1746070920",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/39140/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -746,7 +746,7 @@
       ]
     },
     {
-      "appid": "224060",
+      "appid": 224060,
       "title": "Deadpool",
       "publisher": "Activision",
       "category": "other",
