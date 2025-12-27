@@ -381,7 +381,7 @@
         "title": "F1® 25",
         "publisher": "Electronic Arts",
         "category": "ea",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/37f833ca5bd3d5c3eec2b411131f3e00f580bbe7/header.jpg?t=1762963192",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3059520/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -398,7 +398,7 @@
         "title": "Persona 5 Royal",
         "publisher": "SEGA",
         "category": "other",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1763530018",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -415,7 +415,7 @@
         "title": "Call of Duty: Black Ops 6",
         "publisher": "Activision",
         "category": "other",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933620/header.jpg?t=1765489042",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2933620/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -438,7 +438,7 @@
         "title": "Call of Duty®: Modern Warfare® II",
         "publisher": "Activision",
         "category": "other",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/header.jpg?t=1748044299",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595230/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -455,7 +455,7 @@
         "title": "F1® 22",
         "publisher": "Electronic Arts",
         "category": "ea",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692250/header.jpg?t=1727977759",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692250/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -472,7 +472,7 @@
         "title": "F1 2021",
         "publisher": "Electronic Arts",
         "category": "ea",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134570/header.jpg?t=1487168241",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1134570/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
@@ -489,7 +489,7 @@
         "title": "Call of Duty®: Modern Warfare® III",
         "publisher": "Activision",
         "category": "other",
-        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/header.jpg?t=1692032509",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595270/library_600x900_2x.jpg",
         "password": "gamehub",
         "premium": true,
         "files": [
