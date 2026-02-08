@@ -2330,6 +2330,23 @@
         "gdrive_url": "https://drive.google.com/uc?export=download&id=1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO"
       }
     ]
+  },
+  {
+    "appid": 3159330,
+    "title": "Assassin's Creed Shadows",
+    "publisher": "Ubisoft",
+    "category": "ubisoft",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3159330/library_600x900_2x.jpg",
+    "password": "gamehub",
+    "premium": true,
+    "files": [
+      {
+        "part": 1,
+        "filename": "ac_shadow.rar",
+        "gdrive_id": "1PIny8Ak8TZVWmGQDq5UIWZVyZZbChizV",
+        "gdrive_url": "https://drive.google.com/uc?export=download&id=1PIny8Ak8TZVWmGQDq5UIWZVyZZbChizV"
+      }
+    ]
   }
   ]
 }
