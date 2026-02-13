@@ -695,23 +695,6 @@
       ]
     },
     {
-      "appid": 209160,
-      "title": "Call of Duty®: Ghosts",
-      "publisher": "Activision",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/209160/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "co_gho.rar",
-          "gdrive_id": "1JPmOVWz2iAJp9-mCztLGNlGMHQla1Pbb",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1JPmOVWz2iAJp9-mCztLGNlGMHQla1Pbb"
-        }
-      ]
-    },
-    {
       "appid": 202970,
       "title": "Call of Duty®: Black Ops II",
       "publisher": "Activision",
@@ -1846,15 +1829,9 @@
       "files": [
         {
           "part": 1,
-          "filename": "ree_re4.part1.rar",
-          "gdrive_id": "1KICfXcqDFpQ1euGopqYpiOkmmZsshYcQ",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1KICfXcqDFpQ1euGopqYpiOkmmZsshYcQ"
-        },
-        {
-          "part": 2,
-          "filename": "ree_re4.part2.rar",
-          "gdrive_id": "1KU9Uoa7OtWFN9JSSlIYXjGEtmCKhf578",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1KU9Uoa7OtWFN9JSSlIYXjGEtmCKhf578"
+          "filename": "re_re4.rar",
+          "gdrive_id": "1nprfUECOm6P5Srw5pTxpQIOpUf_gcX2Y",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1nprfUECOm6P5Srw5pTxpQIOpUf_gcX2Y"
         }
       ]
     },
