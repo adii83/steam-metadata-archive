@@ -1001,23 +1001,6 @@
       ]
     },
     {
-      "appid": 2369390,
-      "title": "Far Cry® 6",
-      "publisher": "Ubisoft",
-      "category": "ubisoft",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2369390/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "fc_6_2.rar",
-          "gdrive_id": "1_K8q0My-y_Sg0IjDbe52vUiw5Mv6xL3U",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1_K8q0My-y_Sg0IjDbe52vUiw5Mv6xL3U"
-        }
-      ]
-    },
-    {
       "appid": 371660,
       "title": "Far Cry® Primal",
       "publisher": "Ubisoft",
