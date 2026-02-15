@@ -113,6 +113,24 @@
     "protection": true,
     "last_update": "2025-12-26T16:02:47.532380+00:00"
   },
+    "251570": {
+        "appid": 251570,
+        "title": "7 Days to Die",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1766024790",
+        "genre": "Action, Adventure, Indie, RPG, Simulation, Strategy",
+        "short_description": "7 Days to Die is an open-world game that is a unique combination of first-person shooter, survival horror, tower defense, and role-playing games. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!",
+        "developers": [
+            "The Fun Pimps"
+        ],
+        "publishers": [
+            "The Fun Pimps Entertainment LLC"
+        ],
+        "release_date": "25 Jul, 2024",
+        "price_display": "Rp 338.999",
+        "price_normalized": 438999,
+        "protection": true,
+        "last_update": "2026-02-15T01:51:03.393386+00:00"
+    },
   "1134570": {
     "appid": 1134570,
     "title": "F1® 2021",

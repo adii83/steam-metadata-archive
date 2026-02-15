@@ -1836,6 +1836,23 @@
       ]
     },
     {
+      "appid": 251570,
+      "title": "7 Days to Die",
+      "publisher": "The Fun Pimps",
+      "category": "the-fun-pimps",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/251570/library_600x900_2x.jpg",
+      "password": "adi83geel",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "7d_t_d.rar",
+          "gdrive_id": "1OOfWzB9VHERv5L2MrWOT1NstJ6s6rtK-",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1OOfWzB9VHERv5L2MrWOT1NstJ6s6rtK-"
+        }
+      ]
+    },  
+    {
       "appid": 2001120,
       "title": "Split Fiction",
       "publisher": "Electronic Arts",

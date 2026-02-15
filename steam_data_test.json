@@ -1,20 +1,20 @@
 {
-    "39140": {
-        "appid": 39140,
-        "title": "FINAL FANTASY VII",
-        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39140/header.jpg?t=1734374610",
-        "genre": "RPG",
-        "short_description": "The RPG classic FINAL FANTASY VII returns to PC, now with brand new online features!",
+    "251570": {
+        "appid": 251570,
+        "title": "7 Days to Die",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1766024790",
+        "genre": "Action, Adventure, Indie, RPG, Simulation, Strategy",
+        "short_description": "7 Days to Die is an open-world game that is a unique combination of first-person shooter, survival horror, tower defense, and role-playing games. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!",
         "developers": [
-            "Square Enix"
+            "The Fun Pimps"
         ],
         "publishers": [
-            "Square Enix"
+            "The Fun Pimps Entertainment LLC"
         ],
-        "release_date": "4 Jul, 2013",
-        "price_display": "Rp 106.999",
-        "price_normalized": 106999,
-        "protection": null,
-        "last_update": "2025-12-26T16:24:00.826570+00:00"
+        "release_date": "25 Jul, 2024",
+        "price_display": "Rp 338.999",
+        "price_normalized": 338999,
+        "protection": true,
+        "last_update": "2026-02-15T01:51:03.393386+00:00"
     }
 }
