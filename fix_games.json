@@ -91,14 +91,14 @@
       "publisher": "Ubisoft",
       "category": "ubisoft",
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/33230/library_600x900_2x.jpg",
-      "password": "adi83geel",
+      "password": "gamehub",
       "premium": true,
       "files": [
         {
           "part": 1,
-          "filename": "as_2.rar",
-          "gdrive_id": "14BM51bhojkGqwhDVUn7HtD3e-cnh3tuS",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=14BM51bhojkGqwhDVUn7HtD3e-cnh3tuS"
+          "filename": "ac_2.rar",
+          "gdrive_id": "1nZFHURo2cOeq2Bhg_DVUGrAwvJA6T-j7",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1nZFHURo2cOeq2Bhg_DVUGrAwvJA6T-j7"
         }
       ]
     },
