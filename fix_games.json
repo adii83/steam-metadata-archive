@@ -2171,15 +2171,21 @@
     "files": [
       {
         "part": 1,
-        "filename": "f2_26.part1.rar",
-        "gdrive_id": "1CXY2RWID0l96KM4hKr6h5o7GBZoVh-Wk",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1CXY2RWID0l96KM4hKr6h5o7GBZoVh-Wk"
+        "filename": "fc_26.part1.rar",
+        "gdrive_id": "1YxuPfMZG6t4-m9N_S6QgBwafY4PZ6Qmy",
+        "gdrive_url": "https://drive.google.com/uc?export=download&id=1YxuPfMZG6t4-m9N_S6QgBwafY4PZ6Qmy"
       },
       {
         "part": 2,
-        "filename": "f2_26.part2.rar",
-        "gdrive_id": "1aVZp39h5Qv0SG0R7z4BBUF9a9fhuNTn7",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1aVZp39h5Qv0SG0R7z4BBUF9a9fhuNTn7"
+        "filename": "fc_26.part2.rar",
+        "gdrive_id": "1RSmkp9vx8-WxGMkWFYqq9_kNBV3PnNhm",
+        "gdrive_url": "https://drive.google.com/uc?export=download&id=1RSmkp9vx8-WxGMkWFYqq9_kNBV3PnNhm"
+      },
+      {
+        "part": 3,
+        "filename": "fc_26.part3.rar",
+        "gdrive_id": "1zlXqw-utwP8Kftg9RWjUu3Tupp3mc_bP",
+        "gdrive_url": "https://drive.google.com/uc?export=download&id=1zlXqw-utwP8Kftg9RWjUu3Tupp3mc_bP"
       }
     ]
   },
