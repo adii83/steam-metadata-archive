@@ -377,23 +377,6 @@
         ]
       },
       {
-        "appid": 3059520,
-        "title": "F1® 25",
-        "publisher": "Electronic Arts",
-        "category": "ea",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3059520/647cb731676b04437c9a002bd5a5db2f0bb308d1/library_600x900_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "f2_25.rar",
-            "gdrive_id": "13sRILloRx7leJ3o_hp1xbkTyqu0exkvd",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=13sRILloRx7leJ3o_hp1xbkTyqu0exkvd"
-          }
-        ]
-      },
-      {
         "appid": 1687950,
         "title": "Persona 5 Royal",
         "publisher": "SEGA",
