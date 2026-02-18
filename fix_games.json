@@ -2022,24 +2022,6 @@
         }
       ]
     },
-    
-    {
-      "appid": 594570,
-      "title": "Total War: WARHAMMER II",
-      "publisher": "SEGA",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594570/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "tot_war_ham.rar",
-          "gdrive_id": "1NcZtN8BJpGZ1hZbwPCcExSeWfej3P14W",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1NcZtN8BJpGZ1hZbwPCcExSeWfej3P14W"
-        }
-      ]
-    },
     {
       "appid": 447040,
       "title": "Watch Dogs® 2",
