@@ -113,6 +113,24 @@
     "protection": true,
     "last_update": "2025-12-26T16:02:47.532380+00:00"
   },
+      "1808500": {
+        "appid": 1808500,
+        "title": "ARC Raiders",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/73c61e48820d46c67a04ba01a78ea37d421b9dd4/header_alt_assets_2.jpg?t=1770365163",
+        "genre": "Action",
+        "short_description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+        "developers": [
+            "Embark Studios"
+        ],
+        "publishers": [
+            "Embark Studios"
+        ],
+        "release_date": "30 Oct, 2025",
+        "price_display": "Rp 463.182",
+        "price_normalized": 463182,
+        "protection": true,
+        "last_update": "2026-02-20T18:12:39.669843+00:00"
+    },
     "251570": {
         "appid": 251570,
         "title": "7 Days to Die",
