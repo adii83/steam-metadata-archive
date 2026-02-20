@@ -131,6 +131,24 @@
         "protection": true,
         "last_update": "2026-02-20T18:12:39.669843+00:00"
     },
+        "33230": {
+        "appid": 33230,
+        "title": "Assassin's Creed 2",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg?t=1682004272",
+        "genre": "Action, Adventure",
+        "short_description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!",
+        "developers": [
+            "Ubisoft Montreal"
+        ],
+        "publishers": [
+            "Ubisoft"
+        ],
+        "release_date": "4 Mar, 2010",
+        "price_display": "Rp 99.000",
+        "price_normalized": 99000,
+        "protection": true,
+        "last_update": "2026-02-20T18:46:34.705679+00:00"
+    },
     "251570": {
         "appid": 251570,
         "title": "7 Days to Die",

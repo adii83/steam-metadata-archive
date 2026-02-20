@@ -1,20 +1,20 @@
 {
-    "1808500": {
-        "appid": 1808500,
-        "title": "ARC Raiders",
-        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/73c61e48820d46c67a04ba01a78ea37d421b9dd4/header_alt_assets_2.jpg?t=1770365163",
-        "genre": "Action",
-        "short_description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+    "33230": {
+        "appid": 33230,
+        "title": "Assassin's Creed 2",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg?t=1682004272",
+        "genre": "Action, Adventure",
+        "short_description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!",
         "developers": [
-            "Embark Studios"
+            "Ubisoft Montreal"
         ],
         "publishers": [
-            "Embark Studios"
+            "Ubisoft"
         ],
-        "release_date": "30 Oct, 2025",
-        "price_display": "Rp 463.182",
-        "price_normalized": 463182,
-        "protection": null,
-        "last_update": "2026-02-20T18:12:39.669843+00:00"
+        "release_date": "4 Mar, 2010",
+        "price_display": "Rp 99.000",
+        "price_normalized": 99000,
+        "protection": true,
+        "last_update": "2026-02-20T18:46:34.705679+00:00"
     }
 }
