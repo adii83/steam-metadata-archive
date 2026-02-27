@@ -2099,6 +2099,7 @@
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846380/library_600x900_2x.jpg",
     "password": "gamehub",
     "premium": true,
+    "aktivasi_offline": true,
     "files": [
       {
         "part": 1,
@@ -2133,6 +2134,7 @@
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3405690/3e62e7456809a5cf182104711ed7465762d3b5fb/library_capsule_2x.jpg",
     "password": "gamehub",
     "premium": true,
+    "aktivasi_offline": true,
     "files": [
       {
         "part": 1,
@@ -2292,6 +2294,7 @@
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3159330/library_600x900_2x.jpg",
     "password": "gamehub",
     "premium": true,
+    "aktivasi_offline": true,
     "files": [
       {
         "part": 1,
