@@ -25,6 +25,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2668510/f5cf694ddab93ed2462a9e2f5e01064e121c5663/library_600x900_2x.jpg?t=1741118459",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "PlayRDR.exe",
       "files": [
         {
           "part": 1,
@@ -42,10 +44,12 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1225560/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "stp-unravel.exe",
       "files": [
         {
           "part": 1,
-          "filename": "tc_bla.rar",
+          "filename": "unravel.rar",
           "gdrive_id": "1CE1vzTFbPgkDqCtl50MgSxuMcD-suPX4",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1CE1vzTFbPgkDqCtl50MgSxuMcD-suPX4"
         }
@@ -110,6 +114,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222700/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "Haze1/Binaries/Win64/AWayOut.exe",
       "files": [
         {
           "part": 1,
@@ -359,131 +365,137 @@
         }
       ]
     },
-      {
-        "appid": 39140,
-        "title": "FINAL FANTASY VII",
-        "publisher": "Square Enix",
-        "category": "other",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/39140/library_600x900_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "ff_vii.rar",
-            "gdrive_id": "1sxQ-cAeVDQcPKayCl68SYrbEL2rQ_fyw",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=1sxQ-cAeVDQcPKayCl68SYrbEL2rQ_fyw"
-          }
-        ]
-      },
-      {
-        "appid": 1687950,
-        "title": "Persona 5 Royal",
-        "publisher": "SEGA",
-        "category": "other",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/library_600x900_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "p5_roy.rar",
-            "gdrive_id": "12TH3SjWpgWB2CNM2cbpIdsnzUcLMQ4Jv",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=12TH3SjWpgWB2CNM2cbpIdsnzUcLMQ4Jv"
-          }
-        ]
-      },
-      {
-        "appid": 2933620,
-        "title": "Call of Duty: Black Ops 6",
-        "publisher": "Activision",
-        "category": "other",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2933620/hero_capsule.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "co_6.part1.rar",
-            "gdrive_id": "1xPecHeeOwLSqLmGBYX38951jTv3UWzsy",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=1xPecHeeOwLSqLmGBYX38951jTv3UWzsy"
-          },
-          {
-            "part": 2,
-            "filename": "co_6.part2.rar",
-            "gdrive_id": "1VN72E3uuNTDLQiMvQcTMoiNswdC4-Aal",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=1VN72E3uuNTDLQiMvQcTMoiNswdC4-Aal"
-          }
-        ]
-      },
-      {
-        "appid": 3595230,
-        "title": "Call of Duty®: Modern Warfare® II",
-        "publisher": "Activision",
-        "category": "other",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595230/89267cd5928eebbb7ec07562e912717eba09ebc2/library_capsule_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "co_ii.rar",
-            "gdrive_id": "10UJ3QhD7poPSFXMTy7zHVFoylq0cxDnc",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=10UJ3QhD7poPSFXMTy7zHVFoylq0cxDnc"
-          }
-        ]
-      },
-      {
-        "appid": 1692250,
-        "title": "F1® 22",
-        "publisher": "Electronic Arts",
-        "category": "ea",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692250/library_600x900_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "f2_22.rar",
-            "gdrive_id": "1xBBfbruU5pKppnf4BFplbepHxtmAO2x5",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=1xBBfbruU5pKppnf4BFplbepHxtmAO2x5"
-          }
-        ]
-      },
-      {
-        "appid": 1134570,
-        "title": "F1 2021",
-        "publisher": "Electronic Arts",
-        "category": "ea",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1134570/library_600x900_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "f2_21.rar",
-            "gdrive_id": "1bh7CmcNgxKVELodU95R_jZp0C_MIwCO2",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=1bh7CmcNgxKVELodU95R_jZp0C_MIwCO2"
-          }
-        ]
-      },
-      {
-        "appid": 3595270,
-        "title": "Call of Duty®: Modern Warfare® III",
-        "publisher": "Activision",
-        "category": "other",
-        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595270/a3070fe258d1e2a0232aad783d34f927629dbd21/library_capsule_2x.jpg",
-        "password": "gamehub",
-        "premium": true,
-        "files": [
-          {
-            "part": 1,
-            "filename": "co_iii.rar",
-            "gdrive_id": "1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo",
-            "gdrive_url": "https://drive.google.com/uc?export=download&id=1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo"
-          }
-        ]
-      },
+    {
+      "appid": 39140,
+      "title": "FINAL FANTASY VII",
+      "publisher": "Square Enix",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/39140/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "ff_vii.rar",
+          "gdrive_id": "1sxQ-cAeVDQcPKayCl68SYrbEL2rQ_fyw",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1sxQ-cAeVDQcPKayCl68SYrbEL2rQ_fyw"
+        }
+      ]
+    },
+    {
+      "appid": 1687950,
+      "title": "Persona 5 Royal",
+      "publisher": "SEGA",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "p5_roy.rar",
+          "gdrive_id": "12TH3SjWpgWB2CNM2cbpIdsnzUcLMQ4Jv",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=12TH3SjWpgWB2CNM2cbpIdsnzUcLMQ4Jv"
+        }
+      ]
+    },
+    {
+      "appid": 2933620,
+      "title": "Call of Duty: Black Ops 6",
+      "publisher": "Activision",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2933620/hero_capsule.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "_BO6 Lightning Launcher_.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "co_6.part1.rar",
+          "gdrive_id": "1xPecHeeOwLSqLmGBYX38951jTv3UWzsy",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1xPecHeeOwLSqLmGBYX38951jTv3UWzsy"
+        },
+        {
+          "part": 2,
+          "filename": "co_6.part2.rar",
+          "gdrive_id": "1VN72E3uuNTDLQiMvQcTMoiNswdC4-Aal",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1VN72E3uuNTDLQiMvQcTMoiNswdC4-Aal"
+        }
+      ]
+    },
+    {
+      "appid": 3595230,
+      "title": "Call of Duty®: Modern Warfare® II",
+      "publisher": "Activision",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595230/89267cd5928eebbb7ec07562e912717eba09ebc2/library_capsule_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "_MWII Lightning Launcher_.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "co_ii.rar",
+          "gdrive_id": "10UJ3QhD7poPSFXMTy7zHVFoylq0cxDnc",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=10UJ3QhD7poPSFXMTy7zHVFoylq0cxDnc"
+        }
+      ]
+    },
+    {
+      "appid": 1692250,
+      "title": "F1® 22",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692250/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "f2_22.rar",
+          "gdrive_id": "1xBBfbruU5pKppnf4BFplbepHxtmAO2x5",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1xBBfbruU5pKppnf4BFplbepHxtmAO2x5"
+        }
+      ]
+    },
+    {
+      "appid": 1134570,
+      "title": "F1 2021",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1134570/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "f2_21.rar",
+          "gdrive_id": "1bh7CmcNgxKVELodU95R_jZp0C_MIwCO2",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1bh7CmcNgxKVELodU95R_jZp0C_MIwCO2"
+        }
+      ]
+    },
+    {
+      "appid": 3595270,
+      "title": "Call of Duty®: Modern Warfare® III",
+      "publisher": "Activision",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595270/a3070fe258d1e2a0232aad783d34f927629dbd21/library_capsule_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "_MWIII Lightning Launcher_.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "co_iii.rar",
+          "gdrive_id": "1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1iKq2Rn3w2XmK5apq-1NsupUE9dldSzeo"
+        }
+      ]
+    },
     {
       "appid": 2208920,
       "title": "Assassin's Creed Valhalla",
@@ -549,6 +561,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238820/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "bf3.exe",
       "files": [
         {
           "part": 1,
@@ -583,6 +597,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238840/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": false,
+      "use_shortcut": true,
+      "exe_hint": "bf1.exe",
       "files": [
         {
           "part": 1,
@@ -600,6 +616,8 @@
       "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa5zt.webp",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "SP/bf6.exe",
       "files": [
         {
           "part": 1,
@@ -651,6 +669,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238810/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "bfv.exe",
       "files": [
         {
           "part": 1,
@@ -668,6 +688,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1238860/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "bf4.exe",
       "files": [
         {
           "part": 1,
@@ -702,6 +724,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292730/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "iw7-mod.exe",
       "files": [
         {
           "part": 1,
@@ -787,6 +811,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1985810/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "BlackOpsColdWar.exe",
       "files": [
         {
           "part": 1,
@@ -855,6 +881,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313860/library_600x900_2x.jpg?t=1678115726",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "FIFA21.exe",
       "files": [
         {
           "part": 1,
@@ -1076,6 +1104,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": false,
+      "use_shortcut": true,
+      "exe_hint": "PlayGTAV.exe",
       "files": [
         {
           "part": 1,
@@ -1157,6 +1187,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "HogwartsLegacy.exe",
       "files": [
         {
           "part": 1,
@@ -1327,6 +1359,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/204100/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "Max Payne 3/MaxPayne3.exe",
       "files": [
         {
           "part": 1,
@@ -1446,6 +1480,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1233570/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "MirrorsEdgeCatalyst.exe",
       "files": [
         {
           "part": 1,
@@ -1480,6 +1516,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222680/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "NeedForSpeedHeat.exe",
       "files": [
         {
           "part": 1,
@@ -1514,6 +1552,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262560/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "NFS13.exe",
       "files": [
         {
           "part": 1,
@@ -1531,6 +1571,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1328660/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": false,
+      "use_shortcut": true,
+      "exe_hint": "NFS11.exe",
       "files": [
         {
           "part": 1,
@@ -1548,6 +1590,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262580/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "NeedForSpeedPayback.exe",
       "files": [
         {
           "part": 1,
@@ -1673,6 +1717,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262600/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "NFS14.exe",
       "files": [
         {
           "part": 1,
@@ -1696,23 +1742,6 @@
           "filename": "nm_sky.rar",
           "gdrive_id": "1avwuzvUAaxxIv4oJrHMvJOaplOGHnDSl",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1avwuzvUAaxxIv4oJrHMvJOaplOGHnDSl"
-        }
-      ]
-    },
-    {
-      "appid": 1113000,
-      "title": "Persona 4 Golden",
-      "publisher": "SEGA",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1113000/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "p4_gol.rar",
-          "gdrive_id": "1TWo6KuAKbV2vqiUhz6HIoZjkjveMVa1a",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1TWo6KuAKbV2vqiUhz6HIoZjkjveMVa1a"
         }
       ]
     },
@@ -1785,23 +1814,6 @@
       ]
     },
     {
-      "appid": "2050650",
-      "title": "Resident Evil 4",
-      "publisher": "Capcom",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900_japanese_2x.jpg",
-      "password": "gamehub",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "re_re4.rar",
-          "gdrive_id": "1nprfUECOm6P5Srw5pTxpQIOpUf_gcX2Y",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1nprfUECOm6P5Srw5pTxpQIOpUf_gcX2Y"
-        }
-      ]
-    },
-    {
       "appid": 1174180,
       "title": "Red Dead Redemption 2",
       "publisher": "Rockstar Games",
@@ -1809,6 +1821,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": false,
+      "use_shortcut": true,
+      "exe_hint": "Launcher.exe",
       "files": [
         {
           "part": 1,
@@ -1834,7 +1848,7 @@
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1OOfWzB9VHERv5L2MrWOT1NstJ6s6rtK-"
         }
       ]
-    }, 
+    },
     {
       "appid": 2000950,
       "title": "Call of Duty: Modern Warfare",
@@ -1894,6 +1908,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1237950/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "starwarsbattlefrontii.exe",
       "files": [
         {
           "part": 1,
@@ -1928,6 +1944,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172380/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "STAR WARS Jedi The Fallen Order™.exe",
       "files": [
         {
           "part": 1,
@@ -1945,6 +1963,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/460930/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "GRW.exe",
       "files": [
         {
           "part": 1,
@@ -2013,6 +2033,8 @@
       "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1225570/library_600x900_2x.jpg",
       "password": "adi83geel",
       "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "UnravelTwo.exe",
       "files": [
         {
           "part": 1,
@@ -2058,251 +2080,259 @@
     },
 
     {
-    "appid": 1222690,
-    "title": "Dragon Age™ Inquisition",
-    "publisher": "Electronic Arts",
-    "category": "ea",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222690/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "da_inq.rar",
-        "gdrive_id": "1HUDhznuLzEVJCRmqFZhm5XSWd--gkTiV",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1HUDhznuLzEVJCRmqFZhm5XSWd--gkTiV"
-      }
-    ]
-  },
-  {
-    "appid": 1250410,
-    "title": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
-    "publisher": "Xbox Game Studios",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1250410/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "mf_202.rar",
-        "gdrive_id": "1fkfMDyjbAQHkhfXQDlZj4tonkzoBREDs",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1fkfMDyjbAQHkhfXQDlZj4tonkzoBREDs"
-      }
-    ]
-  },
-  {
-    "appid": 1846380,
-    "title": "Need for Speed Unbound",
-    "publisher": "Electronic Arts",
-    "category": "ea",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846380/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "aktivasi_offline": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "nu_unb.rar",
-        "gdrive_id": "1Dm219JlO1vzySrjQwwo3NwhDZjZAbmp6",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1Dm219JlO1vzySrjQwwo3NwhDZjZAbmp6"
-      }
-    ]
-  },
-  {
-    "appid": 2399420,
-    "title": "Le Mans Ultimate",
-    "publisher": "Studio 397",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2399420/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "lm_ult.rar",
-        "gdrive_id": "1mXmH7JfoZ-0CHQ4LBGeQIPNRL47zdJxA",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1mXmH7JfoZ-0CHQ4LBGeQIPNRL47zdJxA"
-      }
-    ]
-  },
-  {
-    "appid": 3405690,
-    "title": "EA SPORTS FC 26",
-    "publisher": "Electronic Arts",
-    "category": "ea",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3405690/3e62e7456809a5cf182104711ed7465762d3b5fb/library_capsule_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "aktivasi_offline": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "FC_26.rar",
-        "gdrive_id": "1vJnr7BMbOaoVcE7UP_kRvd8UnSLIuzvl",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1vJnr7BMbOaoVcE7UP_kRvd8UnSLIuzvl"
-      }
-    ]
-  },
-  {
-    "appid": 1506830,
-    "title": "EA SPORTS FIFA 22",
-    "publisher": "Electronic Arts",
-    "category": "ea",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1506830/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "es_22.rar",
-        "gdrive_id": "1dUCqzxLsNzLmvtrcFJG27OxbMetEN2OR",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1dUCqzxLsNzLmvtrcFJG27OxbMetEN2OR"
-      }
-    ]
-  },
-  {
-    "appid": 1693980,
-    "title": "Dead Space",
-    "publisher": "Electronic Arts",
-    "category": "ea",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1693980/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "ds_spa.part1.rar",
-        "gdrive_id": "1AG111beAj1M14iXmrsEMTCPrs8H0YBUz",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1AG111beAj1M14iXmrsEMTCPrs8H0YBUz"
-      },
-      {
-        "part": 2,
-        "filename": "ds_spa.part2.rar",
-        "gdrive_id": "1UKnD3NIyRh5PfUzmtpwH9lSz9VRTDVd6",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1UKnD3NIyRh5PfUzmtpwH9lSz9VRTDVd6"
-      }
-    ]
-  },
-  {
-    "appid": 1401590,
-    "title": "Disney Dreamlight Valley",
-    "publisher": "Gameloft",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "dd_val.rar",
-        "gdrive_id": "1FZItVX97MBQYZwVWsJX-oNeOtYZAGdsb",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1FZItVX97MBQYZwVWsJX-oNeOtYZAGdsb"
-      }
-    ]
-  },
-  {
-    "appid": 782330,
-    "title": "DOOM Eternal",
-    "publisher": "Bethesda Softworks",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "de_ete.rar",
-        "gdrive_id": "1Qd6U6O9_Fu17HexLQpvJnPh9mG_I1oWo",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1Qd6U6O9_Fu17HexLQpvJnPh9mG_I1oWo"
-      }
-    ]
-  },
-  {
-    "appid": 1498570,
-    "title": "THE KING OF FIGHTERS XV",
-    "publisher": "SNK CORPORATION",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1498570/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "tk_xv.rar",
-        "gdrive_id": "1MC0ei1WenfUV0OqkUfjkH7nqsi1rGKNa",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1MC0ei1WenfUV0OqkUfjkH7nqsi1rGKNa"
-      }
-    ]
-  },
-  {
-    "appid": 1237320,
-    "title": "Sonic Frontiers",
-    "publisher": "SEGA",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1237320/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "sf_fro.rar",
-        "gdrive_id": "16-Uh23HCcJ7YWQdLNdro0UECUPchhyCN",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=16-Uh23HCcJ7YWQdLNdro0UECUPchhyCN"
-      }
-    ]
-  },
-  {
-    "appid": 214950,
-    "title": "Total War: ROME II - Emperor Edition",
-    "publisher": "SEGA",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/214950/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "tw_edi.rar",
-        "gdrive_id": "1Kmn6i10D0RaO8ivxzq2NizxLd-uGOFH0",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1Kmn6i10D0RaO8ivxzq2NizxLd-uGOFH0"
-      }
-    ]
-  },
-  {
-    "appid": 1466860,
-    "title": "Age of Empires IV: Anniversary Edition",
-    "publisher": "Xbox Game Studios",
-    "category": "other",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1466860/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "ao_edi.rar",
-        "gdrive_id": "1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO"
-      }
-    ]
-  },
-  {
-    "appid": 3159330,
-    "title": "Assassin's Creed Shadows",
-    "publisher": "Ubisoft",
-    "category": "ubisoft",
-    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3159330/library_600x900_2x.jpg",
-    "password": "gamehub",
-    "premium": true,
-    "aktivasi_offline": true,
-    "files": [
-      {
-        "part": 1,
-        "filename": "ac_shadow.rar",
-        "gdrive_id": "1PIny8Ak8TZVWmGQDq5UIWZVyZZbChizV",
-        "gdrive_url": "https://drive.google.com/uc?export=download&id=1PIny8Ak8TZVWmGQDq5UIWZVyZZbChizV"
-      }
-    ]
-  }
+      "appid": 1222690,
+      "title": "Dragon Age™ Inquisition",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222690/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "DragonAgeInquisition.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "da_inq.rar",
+          "gdrive_id": "1HUDhznuLzEVJCRmqFZhm5XSWd--gkTiV",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1HUDhznuLzEVJCRmqFZhm5XSWd--gkTiV"
+        }
+      ]
+    },
+    {
+      "appid": 1250410,
+      "title": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+      "publisher": "Xbox Game Studios",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1250410/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "mf_202.rar",
+          "gdrive_id": "1fkfMDyjbAQHkhfXQDlZj4tonkzoBREDs",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1fkfMDyjbAQHkhfXQDlZj4tonkzoBREDs"
+        }
+      ]
+    },
+    {
+      "appid": 1846380,
+      "title": "Need for Speed Unbound",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846380/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "aktivasi_offline": true,
+      "use_shortcut": true,
+      "exe_hint": "NeedForSpeedUnbound fixed.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "nu_unb.rar",
+          "gdrive_id": "1Dm219JlO1vzySrjQwwo3NwhDZjZAbmp6",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Dm219JlO1vzySrjQwwo3NwhDZjZAbmp6"
+        }
+      ]
+    },
+    {
+      "appid": 2399420,
+      "title": "Le Mans Ultimate",
+      "publisher": "Studio 397",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2399420/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "lm_ult.rar",
+          "gdrive_id": "1mXmH7JfoZ-0CHQ4LBGeQIPNRL47zdJxA",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1mXmH7JfoZ-0CHQ4LBGeQIPNRL47zdJxA"
+        }
+      ]
+    },
+    {
+      "appid": 3405690,
+      "title": "EA SPORTS FC 26",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3405690/3e62e7456809a5cf182104711ed7465762d3b5fb/library_capsule_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "aktivasi_offline": true,
+      "use_shortcut": true,
+      "exe_hint": "FC26.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "FC_26.rar",
+          "gdrive_id": "1vJnr7BMbOaoVcE7UP_kRvd8UnSLIuzvl",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1vJnr7BMbOaoVcE7UP_kRvd8UnSLIuzvl"
+        }
+      ]
+    },
+    {
+      "appid": 1506830,
+      "title": "EA SPORTS FIFA 22",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1506830/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "use_shortcut": true,
+      "exe_hint": "FIFA22.exe",
+      "files": [
+        {
+          "part": 1,
+          "filename": "es_22.rar",
+          "gdrive_id": "1dUCqzxLsNzLmvtrcFJG27OxbMetEN2OR",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1dUCqzxLsNzLmvtrcFJG27OxbMetEN2OR"
+        }
+      ]
+    },
+    {
+      "appid": 1693980,
+      "title": "Dead Space",
+      "publisher": "Electronic Arts",
+      "category": "ea",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1693980/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "ds_spa.part1.rar",
+          "gdrive_id": "1AG111beAj1M14iXmrsEMTCPrs8H0YBUz",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1AG111beAj1M14iXmrsEMTCPrs8H0YBUz"
+        },
+        {
+          "part": 2,
+          "filename": "ds_spa.part2.rar",
+          "gdrive_id": "1UKnD3NIyRh5PfUzmtpwH9lSz9VRTDVd6",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1UKnD3NIyRh5PfUzmtpwH9lSz9VRTDVd6"
+        }
+      ]
+    },
+    {
+      "appid": 1401590,
+      "title": "Disney Dreamlight Valley",
+      "publisher": "Gameloft",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "dd_val.rar",
+          "gdrive_id": "1FZItVX97MBQYZwVWsJX-oNeOtYZAGdsb",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1FZItVX97MBQYZwVWsJX-oNeOtYZAGdsb"
+        }
+      ]
+    },
+    {
+      "appid": 782330,
+      "title": "DOOM Eternal",
+      "publisher": "Bethesda Softworks",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "de_ete.rar",
+          "gdrive_id": "1Qd6U6O9_Fu17HexLQpvJnPh9mG_I1oWo",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Qd6U6O9_Fu17HexLQpvJnPh9mG_I1oWo"
+        }
+      ]
+    },
+    {
+      "appid": 1498570,
+      "title": "THE KING OF FIGHTERS XV",
+      "publisher": "SNK CORPORATION",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1498570/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "tk_xv.rar",
+          "gdrive_id": "1MC0ei1WenfUV0OqkUfjkH7nqsi1rGKNa",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1MC0ei1WenfUV0OqkUfjkH7nqsi1rGKNa"
+        }
+      ]
+    },
+    {
+      "appid": 1237320,
+      "title": "Sonic Frontiers",
+      "publisher": "SEGA",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1237320/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "sf_fro.rar",
+          "gdrive_id": "16-Uh23HCcJ7YWQdLNdro0UECUPchhyCN",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=16-Uh23HCcJ7YWQdLNdro0UECUPchhyCN"
+        }
+      ]
+    },
+    {
+      "appid": 214950,
+      "title": "Total War: ROME II - Emperor Edition",
+      "publisher": "SEGA",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/214950/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "tw_edi.rar",
+          "gdrive_id": "1Kmn6i10D0RaO8ivxzq2NizxLd-uGOFH0",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Kmn6i10D0RaO8ivxzq2NizxLd-uGOFH0"
+        }
+      ]
+    },
+    {
+      "appid": 1466860,
+      "title": "Age of Empires IV: Anniversary Edition",
+      "publisher": "Xbox Game Studios",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1466860/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "ao_edi.rar",
+          "gdrive_id": "1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO"
+        }
+      ]
+    },
+    {
+      "appid": 3159330,
+      "title": "Assassin's Creed Shadows",
+      "publisher": "Ubisoft",
+      "category": "ubisoft",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3159330/library_600x900_2x.jpg",
+      "password": "gamehub",
+      "premium": true,
+      "aktivasi_offline": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "ac_shadow.rar",
+          "gdrive_id": "1PIny8Ak8TZVWmGQDq5UIWZVyZZbChizV",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1PIny8Ak8TZVWmGQDq5UIWZVyZZbChizV"
+        }
+      ]
+    }
   ]
 }
