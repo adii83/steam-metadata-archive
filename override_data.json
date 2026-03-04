@@ -4194,7 +4194,7 @@
     "release_date": "20 Jan, 2022",
     "price_display": "Rp 525.999",
     "price_normalized": 525999,
-    "protection": true,
+    "protection": null,
     "last_update": "2025-11-30T17:40:34.916276+00:00"
   },
   "6850": {

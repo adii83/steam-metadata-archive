@@ -1063,23 +1063,6 @@
       ]
     },
     {
-      "appid": 1659040,
-      "title": "HITMAN World of Assassination",
-      "publisher": "IO Interactive A/S",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "hw_ass.rar",
-          "gdrive_id": "1ZkWIo1CubdeYthcg7f-UKTJESwBavEY7",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1ZkWIo1CubdeYthcg7f-UKTJESwBavEY7"
-        }
-      ]
-    },
-    {
       "appid": 1546990,
       "title": "Grand Theft Auto: Vice City – The Definitive Edition",
       "publisher": "Rockstar Games",
