@@ -8980,8 +8980,8 @@
     "publishers": ["Electronic Arts"],
     "release_date": "27 Jan, 2011",
     "price_display": "Rp 239.000",
-    "price_normalized": 239000,
-    "protection": true,
+    "price_normalized": 0,
+    "protection": null,
     "last_update": "2025-11-30T18:27:56.699488+00:00"
   },
   "65800": {
@@ -9459,7 +9459,7 @@
     "release_date": "18 Jun, 2020",
     "price_display": "Free",
     "price_normalized": 0,
-    "protection": true,
+    "protection": null,
     "last_update": "2025-11-30T18:41:21.089569+00:00"
   },
   "47730": {
