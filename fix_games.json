@@ -856,23 +856,7 @@
         }
       ]
     },
-    {
-      "appid": 476600,
-      "title": "Call of Duty®: WWII",
-      "publisher": "Activision",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/476600/library_600x900_2x.jpg",
-      "password": "adi83geel",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "co_wwi.rar",
-          "gdrive_id": "1wBZlPNKJrrZ_Oy1IdXw7hgZ5O_wgSFrm",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1wBZlPNKJrrZ_Oy1IdXw7hgZ5O_wgSFrm"
-        }
-      ]
-    },
+    
     {
       "appid": "1313860",
       "title": "EA Sports FIFA 21",
