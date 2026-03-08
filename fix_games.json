@@ -2197,23 +2197,6 @@
       ]
     },
     {
-      "appid": 782330,
-      "title": "DOOM Eternal",
-      "publisher": "Bethesda Softworks",
-      "category": "other",
-      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/library_600x900_2x.jpg",
-      "password": "gamehub",
-      "premium": true,
-      "files": [
-        {
-          "part": 1,
-          "filename": "de_ete.rar",
-          "gdrive_id": "1Qd6U6O9_Fu17HexLQpvJnPh9mG_I1oWo",
-          "gdrive_url": "https://drive.google.com/uc?export=download&id=1Qd6U6O9_Fu17HexLQpvJnPh9mG_I1oWo"
-        }
-      ]
-    },
-    {
       "appid": 1498570,
       "title": "THE KING OF FIGHTERS XV",
       "publisher": "SNK CORPORATION",
