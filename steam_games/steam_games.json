@@ -98,5 +98,35 @@
     "publisher": "PlayStation Publishing LLC",
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3489700/library_600x900_2x.jpg",
     "premium": true
+  },
+  {
+    "appid": 208650,
+    "title": "Batman™: Arkham Knight",
+    "accountId": "egor_pomidor91",
+    "username": "egor_pomidor91",
+    "password": "!UsEdRuGs3!",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/208650/library_600x900_2x.jpg",
+    "premium": true
+  },
+  {
+    "appid": 990080,
+    "title": "Hogwarts Legacy",
+    "accountId": "egor_pomidor91",
+    "username": "egor_pomidor91",
+    "password": "!UsEdRuGs3!",
+    "publisher": "Avalanche Software",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/library_600x900_2x.jpg",
+    "premium": true
+  },
+  {
+    "appid": 976310,
+    "title": "Mortal Kombat 11",
+    "accountId": "egor_pomidor91",
+    "username": "egor_pomidor91",
+    "password": "!UsEdRuGs3!",
+    "publisher": "Warner Bros. Games",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976310/library_600x900_2x.jpg",
+    "premium": true
   }
 ]
