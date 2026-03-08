@@ -856,7 +856,6 @@
         }
       ]
     },
-    
     {
       "appid": "1313860",
       "title": "EA Sports FIFA 21",
@@ -2045,7 +2044,6 @@
         }
       ]
     },
-
     {
       "appid": 1222690,
       "title": "Dragon Age™ Inquisition",
@@ -2280,6 +2278,24 @@
           "filename": "ao_edi.rar",
           "gdrive_id": "1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO",
           "gdrive_url": "https://drive.google.com/uc?export=download&id=1GRo_acq_Vd4WxBatiPHzkxEVjYHFImCO"
+        }
+      ]
+    },
+    {
+      "appid": 3764200,
+      "title": "Resident Evil Requiem",
+      "publisher": "CAPCOM",
+      "category": "other",
+      "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3764200/ed3b2cae7d15f598f41006f5f1e605ec5517b5e4/library_capsule_2x.jpg?t=1772587704",
+      "password": "gamehub",
+      "aktivasi_offline": true,
+      "premium": true,
+      "files": [
+        {
+          "part": 1,
+          "filename": "re_9.rar",
+          "gdrive_id": "1mCf9Fh1ycdPR9E9XfMhfKoKFeLQ9cBOP",
+          "gdrive_url": "https://drive.google.com/uc?export=download&id=1mCf9Fh1ycdPR9E9XfMhfKoKFeLQ9cBOP"
         }
       ]
     },
