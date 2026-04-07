@@ -128,5 +128,61 @@
     "publisher": "Warner Bros. Games",
     "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976310/library_600x900_2x.jpg",
     "premium": true
+  },
+  {
+    "appid": 3764200,
+    "title": "Resident Evil Requiem",
+    "category": "steam-sharing",
+    "accountId": "residentevil9833",
+    "username": "residentevil9833",
+    "password": "gamehub833re!",
+    "publisher": "Capcom",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3764200/ed3b2cae7d15f598f41006f5f1e605ec5517b5e4/library_capsule_2x.jpg?t=1772587704",
+    "premium": true,
+    "dapatkan_kode": true
+  },
+  {
+    "appid": 3321460,
+    "title": "Crimson Desert",
+    "accountId": "crimsondesert833",
+    "username": "crimsondesert833",
+    "password": "gamehub833cd!",
+    "publisher": "Pearl Abyss",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3321460/library_600x900_2x.jpg",
+    "premium": true,
+    "dapatkan_kode": true
+  },
+  {
+    "appid": 2928600,
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+    "accountId": "gamehubplus833",
+    "username": "gamehubplus833",
+    "password": "gamehub83geel!",
+    "publisher": "SEGA",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2928600/library_600x900_2x.jpg",
+    "premium": true,
+    "dapatkan_kode": true
+  },
+  {
+    "appid": 1490890,
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+    "accountId": "gamehubplus833",
+    "username": "gamehubplus833",
+    "password": "gamehub83geel!",
+    "publisher": "SEGA",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1490890/library_600x900_2x.jpg",
+    "premium": true,
+    "dapatkan_kode": true
+  },
+  {
+    "appid": 3059520,
+    "title": "F1® 25",
+    "accountId": "gamehubplus833",
+    "username": "gamehubplus833",
+    "password": "gamehub83geel!",
+    "publisher": "Electronic Arts",
+    "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3059520/647cb731676b04437c9a002bd5a5db2f0bb308d1/library_600x900_2x.jpg?t=1772707224",
+    "premium": true,
+    "dapatkan_kode": true
   }
 ]
