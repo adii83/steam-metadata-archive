@@ -1,20 +1,66 @@
 {
-    "33230": {
-        "appid": 33230,
-        "title": "Assassin's Creed 2",
-        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg?t=1682004272",
-        "genre": "Action, Adventure",
-        "short_description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!",
+    "1293830": {
+        "appid": 1293830,
+        "title": "Forza Horizon 4",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg?t=1734336342",
+        "genre": "Racing",
+        "short_description": "Dynamic seasons change everything at the world’s greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world.",
         "developers": [
-            "Ubisoft Montreal"
+            "Playground Games"
         ],
         "publishers": [
-            "Ubisoft"
+            "Xbox Game Studios"
         ],
-        "release_date": "4 Mar, 2010",
-        "price_display": "Rp 99.000",
-        "price_normalized": 99000,
-        "protection": true,
-        "last_update": "2026-02-20T18:46:34.705679+00:00"
+        "release_date": "9 Mar, 2021",
+        "price_display": "Free",
+        "price_normalized": 0,
+        "protection": null,
+        "last_update": "2026-08-17T02:51:32.511496+00:00"
+    },
+    "750920": {
+        "appid": 750920,
+        "title": "Shadow of the Tomb Raider: Definitive Edition",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1765239925",
+        "genre": "Action, Adventure",
+        "short_description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be.",
+        "developers": [
+            "Eidos-Montréal",
+            "Crystal Dynamics",
+            "Nixxes",
+            "Feral Interactive (Mac)",
+            "Feral interactive (Linux)"
+        ],
+        "publishers": [
+            "Crystal Dynamics",
+            "Feral Interactive (Mac)",
+            "Feral interactive (Linux)"
+        ],
+        "release_date": "14 Sep, 2018",
+        "price_display": "Rp 434.000",
+        "price_normalized": 434000,
+        "protection": null,
+        "last_update": "2026-08-17T02:51:35.369169+00:00"
+    },
+    "346110": {
+        "appid": 346110,
+        "title": "ARK: Survival Evolved",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
+        "genre": "Action, Adventure, Indie, Massively Multiplayer, RPG",
+        "short_description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
+        "developers": [
+            "Studio Wildcard",
+            "Instinct Games",
+            "Efecto Studios",
+            "Virtual Basement LLC"
+        ],
+        "publishers": [
+            "Studio Wildcard",
+            "Snail Games USA"
+        ],
+        "release_date": "27 Aug, 2017",
+        "price_display": "Rp 130.999",
+        "price_normalized": 130999,
+        "protection": null,
+        "last_update": "2026-08-17T02:51:38.001919+00:00"
     }
 }
