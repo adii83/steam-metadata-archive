@@ -5696,20 +5696,24 @@
     "protection": true,
     "last_update": "2025-11-30T17:48:30.069188+00:00"
   },
-  "33230": {
-    "appid": 33230,
-    "title": "Assassin's Creed 2",
-    "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg?t=1682004272",
-    "genre": "Action, Adventure",
-    "short_description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!",
-    "developers": ["Ubisoft Montreal"],
-    "publishers": ["Ubisoft"],
-    "release_date": "4 Mar, 2010",
-    "price_display": "Rp 99.000",
-    "price_normalized": 99000,
-    "protection": true,
-    "last_update": "2025-11-30T17:48:32.161308+00:00"
-  },
+    "3751950": {
+        "appid": 3751950,
+        "title": "Assassin's Creed Black Flag Resynced",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg?t=1786449132",
+        "genre": "Action, Adventure",
+        "short_description": "The iconic solo pirate adventure returns. Sail the Caribbean as Edward Kenway during the Golden Age of Piracy in this faithfully enhanced remake featuring stunning visuals, upgraded gameplay, and new content.",
+        "developers": [
+            "Ubisoft"
+        ],
+        "publishers": [
+            "Ubisoft"
+        ],
+        "release_date": "9 Jul, 2026",
+        "price_display": "Rp 679.000",
+        "price_normalized": 679000,
+        "protection": true,
+        "last_update": "2026-08-17T13:11:43.137601+00:00"
+    },
   "911400": {
     "appid": 911400,
     "title": "Assassin's Creed® III Remastered",

@@ -1,66 +1,32 @@
 {
-    "1293830": {
-        "appid": 1293830,
-        "title": "Forza Horizon 4",
-        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg?t=1734336342",
-        "genre": "Racing",
-        "short_description": "Dynamic seasons change everything at the world’s greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world.",
-        "developers": [
-            "Playground Games"
-        ],
-        "publishers": [
-            "Xbox Game Studios"
-        ],
-        "release_date": "9 Mar, 2021",
-        "price_display": "Free",
-        "price_normalized": 0,
-        "protection": null,
-        "last_update": "2026-08-17T02:51:32.511496+00:00"
-    },
-    "750920": {
-        "appid": 750920,
-        "title": "Shadow of the Tomb Raider: Definitive Edition",
-        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1765239925",
+    "3751950": {
+        "appid": 3751950,
+        "title": "Assassin's Creed Black Flag Resynced",
+        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg?t=1786449132",
         "genre": "Action, Adventure",
-        "short_description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be.",
+        "short_description": "The iconic solo pirate adventure returns. Sail the Caribbean as Edward Kenway during the Golden Age of Piracy in this faithfully enhanced remake featuring stunning visuals, upgraded gameplay, and new content.",
         "developers": [
-            "Eidos-Montréal",
-            "Crystal Dynamics",
-            "Nixxes",
-            "Feral Interactive (Mac)",
-            "Feral interactive (Linux)"
+            "Ubisoft Singapore",
+            "Ubisoft Barcelona",
+            "Ubisoft Bordeaux",
+            "Ubisoft Belgrade",
+            "Ubisoft Chengdu",
+            "Ubisoft India",
+            "Ubisoft Kyiv",
+            "Ubisoft Montpellier",
+            "Ubisoft Philippines",
+            "Ubisoft Quebec",
+            "Ubisoft Shanghai",
+            "Ubisoft Montreal",
+            "Ubisoft Romania"
         ],
         "publishers": [
-            "Crystal Dynamics",
-            "Feral Interactive (Mac)",
-            "Feral interactive (Linux)"
+            "Ubisoft"
         ],
-        "release_date": "14 Sep, 2018",
-        "price_display": "Rp 434.000",
-        "price_normalized": 434000,
-        "protection": null,
-        "last_update": "2026-08-17T02:51:35.369169+00:00"
-    },
-    "346110": {
-        "appid": 346110,
-        "title": "ARK: Survival Evolved",
-        "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
-        "genre": "Action, Adventure, Indie, Massively Multiplayer, RPG",
-        "short_description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
-        "developers": [
-            "Studio Wildcard",
-            "Instinct Games",
-            "Efecto Studios",
-            "Virtual Basement LLC"
-        ],
-        "publishers": [
-            "Studio Wildcard",
-            "Snail Games USA"
-        ],
-        "release_date": "27 Aug, 2017",
-        "price_display": "Rp 130.999",
-        "price_normalized": 130999,
-        "protection": null,
-        "last_update": "2026-08-17T02:51:38.001919+00:00"
+        "release_date": "9 Jul, 2026",
+        "price_display": "Rp 679.000",
+        "price_normalized": 679000,
+        "protection": true,
+        "last_update": "2026-08-17T13:11:43.137601+00:00"
     }
 }
